@@ -44,13 +44,17 @@ report and compare changes to the previous source snapshot. Update each affected
 Chinese translation manually, preserving exact values, conditions, and normative
 strength. Do not replace the translations with raw machine-translated Chinese.
 
-Run `python scripts/compile-content.py` after reviewed edits. Then run
-`python scripts/validate-content.py` to verify page coverage, local media, internal
-links, heading IDs, and specification numbers. Numeric review notes require human
-judgment; the check is not a substitute for semantic review. Build after updating
-compiled content. Then regenerate `content/parallel.json` with
-`python scripts/generate-parallel.py` and run
-`python scripts/check-reading-content.py`. These checks preserve both languages’
+After reviewed edits, run `python scripts/restore-source-layouts.py` to restore the
+official column, example and tab groups recorded in `design/source-layouts.json`.
+The script preserves all text and media positions and refuses stale content ranges;
+if the upstream text changes, review and update the affected layout mapping first.
+`python scripts/restore-source-layouts.py --check` verifies existing groups without writing.
+
+Then run `python scripts/compile-content.py`, `python scripts/validate-content.py`,
+`python scripts/generate-parallel.py`, and `python scripts/check-reading-content.py`,
+in that order, before building. The content checks verify page coverage, local media,
+internal links, heading IDs, and specification numbers. Numeric review notes require
+human judgment; the check is not a substitute for semantic review. These checks preserve both languages’
 complete text streams and the position of every illustration, caption, and table,
 including the offsets used by existing passage bookmarks. Source updates are not
 scheduled automatically.
@@ -77,7 +81,12 @@ and English, including on portrait phones. Comparison typography adjusts within
 readable limits to reduce height differences between corresponding text groups.
 Chinese and English translations are never stacked vertically.
 Shared illustrations remain in their original position, with one visible copy.
-The overview switches as a whole to preserve its hero and card layout; tables
-use a local language selector in comparison mode and their own horizontal viewport.
+Chinese, English and comparison use the same overall reading width and margins.
+Official image/text columns, paired examples and component variant tabs retain their
+original spatial groups. These complete groups use a local language selector in
+comparison mode; the original variant tabs remain keyboard accessible. Bookmark
+restoration and contents navigation reveal the relevant language and tab without
+replacing text nodes. The overview switches as a whole to preserve its hero and card
+layout; tables use a local language selector and their own horizontal viewport.
 Image placeholders reserve intrinsic dimensions, respect reduced-motion settings,
 and offer a retry control after a failed request without adding bookmark text.

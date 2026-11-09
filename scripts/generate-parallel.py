@@ -4,8 +4,8 @@ Run with html5lib 1.1 installed:
   python scripts/generate-parallel.py
 
 HTML5 fragment parsing matches the article.innerHTML context used by the reader.
-Rows are bounded by shared headings, ordered media occurrences, and tables. Text
-between these anchors stays together: paragraph counts are not translation maps.
+Rows are bounded by shared headings, ordered media occurrences, tables and source
+layouts. Text between anchors stays together: paragraph counts are not translation maps.
 """
 
 from __future__ import annotations
@@ -72,6 +72,16 @@ def in_element(node, names) -> bool:
     return any(p.nodeType == Node.ELEMENT_NODE and p.tagName in names for p in ancestors(node))
 
 
+def is_source_layout(node) -> bool:
+    return (node.nodeType == Node.ELEMENT_NODE
+            and node.tagName == "div"
+            and node.hasAttribute("data-source-layout"))
+
+
+def in_source_layout(node) -> bool:
+    return any(is_source_layout(parent) for parent in ancestors(node))
+
+
 def media_signature(node):
     return (
         node.tagName,
@@ -109,10 +119,29 @@ def mark_anchors(root, shared_heading_ids):
     marked = {}
     occurrence = Counter()
     table_index = 0
+    layout_ids = set()
     for node in elements(root):
-        if in_element(node, {"table", "video", "audio"}):
+        if in_source_layout(node) or in_element(node, {"table", "video", "audio"}):
             continue
-        if HEADING_RE.fullmatch(node.tagName) and normalized_id(node) in shared_heading_ids:
+        if is_source_layout(node):
+            layout_id = node.getAttribute("data-source-layout")
+            columns = node.getAttribute("data-columns")
+            is_tabs = node.getAttribute("data-layout-kind") == "tabs"
+            allowed_columns = {"2", "4", "5"} if is_tabs else {"2", "3"}
+            assert layout_id and columns in allowed_columns, "invalid source layout metadata"
+            assert layout_id not in layout_ids, (layout_id, "duplicate source layout ID")
+            layout_ids.add(layout_id)
+            column_nodes = [child for child in node.childNodes
+                            if child.nodeType == Node.ELEMENT_NODE
+                            and "source-column" in child.getAttribute("class").split()]
+            assert len(column_nodes) == int(columns), (layout_id, "source column count")
+            # A source-authored composition switches languages as one unit.
+            # Keep its headings, captions, tables and real media together.
+            detail = {"id": layout_id, "columns": int(columns)}
+            if is_tabs:
+                detail["kind"] = "tabs"
+            marked[id(node)] = ("layout", "layout:" + layout_id, detail)
+        elif HEADING_RE.fullmatch(node.tagName) and normalized_id(node) in shared_heading_ids:
             key = "heading:" + normalized_id(node)
             marked[id(node)] = ("heading", key, {
                 "id": normalized_id(node),
@@ -321,6 +350,13 @@ def build_page(page):
             # Tables switch languages as a whole. Keep controls in both versions;
             # only the selected table is visible, so its audio stays playable.
             extra["table"] = za.detail
+        elif za.kind == "layout":
+            assert za.detail == ea.detail, (page["slug"], za.key, "layout metadata")
+            assert media_inventory(parse(z_html)) == media_inventory(parse(e_html)), (
+                page["slug"], za.key, "layout media sequence")
+            # Do not create EN placeholders inside an atomic layout. Each
+            # language retains its original markup; exactly one is visible.
+            extra["layout"] = za.detail
         append(za.kind, z_html, e_html, **extra)
 
     if pending != ["", ""]:
@@ -340,10 +376,12 @@ def build_page(page):
         if lang == "zh":
             assert media_inventory(rendered) == media_inventory(source_root), (page["slug"], "Chinese media")
         else:
-            expected_table_media = [media_signature(n) for n in elements(source_root)
-                                    if n.tagName in MEDIA_TAGS and in_element(n, {"table"})]
-            assert media_inventory(rendered) == expected_table_media, (page["slug"], "English table media")
-            assert all(in_element(n, {"table"}) for n in elements(rendered)
+            expected_switchable_media = [media_signature(n) for n in elements(source_root)
+                                         if n.tagName in MEDIA_TAGS
+                                         and (in_element(n, {"table"}) or in_source_layout(n))]
+            assert media_inventory(rendered) == expected_switchable_media, (
+                page["slug"], "English switchable media")
+            assert all(in_element(n, {"table"}) or in_source_layout(n) for n in elements(rendered)
                        if n.tagName in MEDIA_TAGS), (page["slug"], "duplicate English shared media")
         validation[lang] = {
             "textSha256Utf8": sha_text(expected),
@@ -366,6 +404,8 @@ def build_page(page):
             "englishSharedMediaRows": 0,
             "englishMediaInSwitchableTables": sum(
                 n.tagName in MEDIA_TAGS and in_element(n, {"table"}) for n in elements(en_root)),
+            "englishMediaInSwitchableLayouts": sum(
+                n.tagName in MEDIA_TAGS and in_source_layout(n) for n in elements(en_root)),
         },
         "groupedIntervals": grouped,
     }
@@ -437,6 +477,8 @@ def main():
         "mediaOccurrences": sum(p["summary"]["mediaOccurrences"] for p in result.values()),
         "englishMediaInSwitchableTables": sum(p["summary"]["englishMediaInSwitchableTables"]
                                                for p in result.values()),
+        "englishMediaInSwitchableLayouts": sum(p["summary"]["englishMediaInSwitchableLayouts"]
+                                                for p in result.values()),
         "exactTextContentChecks": len(result) * 2,
         "parser": "html5lib 1.1, article fragment context",
         "bytes": len(payload.encode("utf-8")),

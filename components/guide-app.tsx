@@ -136,10 +136,10 @@ export default function GuideApp({view,slug}:{view:View;slug?:string}) {
   },[menuOpen]);
   useEffect(()=>{
     if(!page)return;
-    const observer=new IntersectionObserver(entries=>{const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);if(visible[0])setSection(visible[0].target.id);},{rootMargin:"-100px 0px -65% 0px",threshold:0});
-    document.querySelectorAll(".article-zh h2[id], .article-zh h3[id]").forEach(el=>observer.observe(el));
+    const observer=new IntersectionObserver(entries=>{const visible=entries.filter(e=>e.isIntersecting&&!e.target.closest("[hidden]")).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);if(visible[0])setSection(visible[0].target.id.replace(/^en-/,""));},{rootMargin:"-100px 0px -65% 0px",threshold:0});
+    document.querySelectorAll(".article-content h2[id], .article-content h3[id]").forEach(el=>observer.observe(el));
     return()=>observer.disconnect();
-  },[page,compare]);
+  },[page,compare,readingLanguage]);
   useEffect(()=>setActiveResult(0),[query]);
 
   const results=useMemo<SearchResult[]>(()=>{
@@ -226,7 +226,7 @@ export default function GuideApp({view,slug}:{view:View;slug?:string}) {
           <nav className="article-pagination" aria-label="前后章节">{currentIndex>0?<a href={`/guide/${guidePages[currentIndex-1].slug}`}><span><ArrowLeft size={14}/>上一篇</span><strong>{guidePages[currentIndex-1].title}</strong></a>:<div/>}{currentIndex<guidePages.length-1?<a className="next-page" href={`/guide/${guidePages[currentIndex+1].slug}`}><span>下一篇<ArrowRight size={14}/></span><strong>{guidePages[currentIndex+1].title}</strong></a>:<a className="next-page" href="/glossary"><span>继续阅读<ArrowRight size={14}/></span><strong>中英术语表</strong></a>}</nav>
           <SiteFooter/>
         </div>
-        <aside className="page-toc" aria-label="本页目录"><span className="toc-heading">本页内容</span><nav>{headings.map((h,i)=><a key={`${h.id}-${i}`} href={`#${h.id}`} className={`${section===h.id?"active":""} ${h.level>2?"nested":""}`} onClick={()=>setSection(h.id)}>{h.title}</a>)}</nav></aside>
+        <aside className="page-toc" aria-label="本页目录"><span className="toc-heading">本页内容</span><nav>{headings.map((h,i)=><a key={`${h.id}-${i}`} href={`#${h.id}`} className={`${section===h.id?"active":""} ${h.level>2?"nested":""}`} onClick={event=>{if(readingArticle.current?.navigateToHeading(h.id)){event.preventDefault();window.history.pushState(window.history.state,"",`#${h.id}`);}setSection(h.id);}}>{h.title}</a>)}</nav></aside>
       </div>}
       {view==="saved"&&<div className="utility-page saved-page"><SavedLibrary pages={pages} bookmarks={bookmarks} passages={passages.passages} hydrated={passages.hydrated} onRemovePassage={passages.removePassage} onRemoveBookmark={removePageBookmark}/><SiteFooter/></div>}
       {view==="glossary"&&<div className="utility-page"><h1>中英术语表</h1><div className="glossary-search"><Search size={20}/><input value={termQuery} onChange={e=>setTermQuery(e.target.value)} placeholder="查找中文、英文或含义…" aria-label="筛选术语"/>{termQuery&&<button className="icon-button" onClick={()=>setTermQuery("")} aria-label="清除术语筛选"><X size={16}/></button>}<span>{filteredTerms.length} 个术语</span></div><div className="term-grid">{filteredTerms.map(({t,i})=><article className="term-card" id={`term-${i}`} key={t.en}><div className="term-title"><h2>{t.zh}</h2></div><p className="term-english">{t.en}</p><p className="term-meaning">{t.meaning}</p><a href={`/guide/${t.page}`}>在指南中阅读<ArrowUpRight size={14}/></a></article>)}</div>{filteredTerms.length===0&&<div className="empty-state"><Search size={28}/><h2>没有找到这个术语</h2><p>试试更短的关键词，或用英文查找。</p><button className="button-secondary" onClick={()=>setTermQuery("")}>显示全部术语</button></div>}<SiteFooter/></div>}

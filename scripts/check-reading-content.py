@@ -12,6 +12,7 @@ from collections import Counter
 import hashlib
 import json
 from pathlib import Path
+import runpy
 import subprocess
 from xml.dom import Node
 
@@ -21,6 +22,7 @@ import html5lib
 ROOT = Path(__file__).resolve().parents[1]
 INPUTS = [ROOT / name for name in (
     "lib/parallel-content.ts", "content/library.json", "content/parallel.json",
+    "scripts/generate-parallel.py",
 )]
 MEDIA = {"img", "video", "audio"}
 HEADINGS = {f"h{i}" for i in range(1, 7)}
@@ -40,15 +42,18 @@ const rows = [
   make('intro-b', 'text', '<p>Before the second image.</p>'),
   make('image-b', 'media', '<figure><img src="same.png"></figure>'),
   make('table', 'table', '<table><tr><td rowspan="2">Cell</td></tr><tr></tr></table>'),
+  make('layout', 'layout', '<div class="source-layout" data-source-layout="fixture" data-columns="2"><div class="source-column"><p>Related explanation.</p></div><div class="source-column"><figure><img src="layout.png"><figcaption>Related image.</figcaption></figure></div></div>'),
   make('after', 'text', '<p>After the table.</p>'),
 ];
 const groups = readingGroups(rows, html => html);
 assert.deepEqual(groups.map(g => g.id),
-  ['heading-a', 'image-a', 'caption-a', 'heading-b', 'image-b', 'table', 'after']);
+  ['heading-a', 'image-a', 'caption-a', 'heading-b', 'image-b', 'table', 'layout', 'after']);
 assert.equal(groups[0].zh.__html, rows[0].zh + rows[1].zh);
 assert.equal(groups[2].caption, true);
 assert.equal(groups[3].zh.__html, rows[4].zh + rows[5].zh);
 assert.equal(groups.filter(g => g.kind === 'media').length, 2);
+assert.equal(groups.filter(g => g.kind === 'layout').length, 1);
+assert.equal(groups.find(g => g.id === 'layout').zh.__html, rows.find(r => r.id === 'layout').zh);
 
 const pages = JSON.parse(readFileSync('./content/library.json', 'utf8'));
 const parallel = JSON.parse(readFileSync('./content/parallel.json', 'utf8'));
@@ -160,8 +165,55 @@ def require_table_viewports(root, language, label):
     return len(tables)
 
 
+def check_layout_generation():
+    # Loading the module does not invoke main or write content/parallel.json.
+    build_page = runpy.run_path(str(ROOT / "scripts/generate-parallel.py"))["build_page"]
+
+    def body(prefix, title, caption):
+        return (
+            f'<h2 id="{prefix}before">{title}</h2>\n'
+            '<div class="source-layout" data-source-layout="layout-fixture" data-columns="2">'
+            f'<div class="source-column"><h3 id="{prefix}detail">{title}</h3>'
+            f'<p>{caption}</p></div>'
+            '<div class="source-column"><figure><img src="diagram.png">'
+            f'<figcaption>{caption}</figcaption></figure>'
+            '<table><tr><td><img src="table-icon.png"></td></tr></table></div></div>'
+            f'<p>{caption}</p><img src="shared.png">'
+        )
+
+    source = {"slug": "layout-fixture", "body": body("", "说明", "图文对应。"),
+              "bodyEn": body("en-", "Explanation", "Keep related content together.")}
+    generated = build_page(source)
+    rows = generated["rows"]
+    assert [row["kind"] for row in rows] == ["heading", "layout", "text", "media"]
+    layout = next(row for row in rows if row["kind"] == "layout")
+    assert layout["layout"] == {"id": "layout-fixture", "columns": 2}
+    assert len([n for n in elements(parse(layout["en"])) if n.tagName in MEDIA]) == 2
+    assert "data-parallel-media" not in layout["en"]
+    assert 'data-parallel-media="img"' in rows[-1]["en"]
+    for language, key in (("zh", "body"), ("en", "bodyEn")):
+        rendered = parse("".join('<div>' + row[language] + '</div>' for row in rows))
+        require_equivalent(parse(source[key]), rendered, f"layout fixture/{language}")
+
+    for count in (2, 4, 5):
+        def tabs(prefix):
+            panels = "".join(
+                f'<div class="source-column"><h3 id="{prefix}variant-{index}">Variant {index}</h3>'
+                f'<p>Keep panel {index} together.</p></div>' for index in range(count))
+            return (f'<div class="source-layout" data-source-layout="tabs-{count}" '
+                    f'data-layout-kind="tabs" data-columns="{count}">{panels}</div>')
+        tab_source = {"slug": f"tabs-{count}", "body": tabs(""), "bodyEn": tabs("en-")}
+        tab_rows = build_page(tab_source)["rows"]
+        assert len(tab_rows) == 1 and tab_rows[0]["kind"] == "layout"
+        assert tab_rows[0]["layout"] == {"id": f"tabs-{count}", "columns": count, "kind": "tabs"}
+        for language, key in (("zh", "body"), ("en", "bodyEn")):
+            require_equivalent(parse(tab_source[key]), parse(tab_rows[0][language]),
+                               f"tabs fixture/{count}/{language}")
+
+
 def main():
     snapshots = {path: path.read_bytes() for path in INPUTS}
+    check_layout_generation()
     pages = json.loads(snapshots[INPUTS[1]])
     parallel = json.loads(snapshots[INPUTS[2]])
     process = subprocess.run(["node", "--input-type=module", "--eval", NODE_CHECK],
@@ -182,12 +234,12 @@ def main():
         for group, start, stop in zip(groups, starts, stops):
             originals = rows[start:stop]
             group_counts[group["kind"]] += 1
-            if group["kind"] in {"media", "table"}:
+            if group["kind"] in {"media", "table", "layout"}:
                 assert len(originals) == 1 and originals[0]["kind"] == group["kind"], (
-                    slug, group["id"], "a media/table boundary moved")
+                    slug, group["id"], "an atomic media/table/layout boundary moved")
             else:
-                assert all(row["kind"] not in {"media", "table"} for row in originals), (
-                    slug, group["id"], "text crossed a media/table boundary")
+                assert all(row["kind"] not in {"media", "table", "layout"} for row in originals), (
+                    slug, group["id"], "text crossed an atomic boundary")
             for language in ("zh", "en"):
                 original = parse("".join(row[language] for row in originals))
                 result = parse(group[language]["__html"])
@@ -219,6 +271,7 @@ def main():
         "tableShapesAndAccessibleViewports": "passed, both languages",
         "headingWithExplanationAndList": "passed",
         "captionAfterImageAndRepeatedImageOrder": "passed",
+        "atomicSourceLayoutAndTwoFourFivePanelTabs": "passed, both languages",
         "overviewLayoutRenderer": "not covered; only generic helper output was checked",
         "helperSha256": hashlib.sha256(snapshots[INPUTS[0]]).hexdigest(),
     }, ensure_ascii=False, indent=2))

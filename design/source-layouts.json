@@ -1,0 +1,4185 @@
+{
+  "version": 1,
+  "reviewedOn": "2026-11-09",
+  "source": "Official Android Developers layout containers; token ranges are guarded by the complete original language token hash.",
+  "notes": [
+    "Only layout wrappers are added. Prose, whitespace textContent, headings, media and links are validated unchanged.",
+    "Source ranges refer to literal character offsets in the recorded official HTML, avoiding its invalid p/div nesting.",
+    "Columns preserve original source order and media membership. Examples preserve each image with its caption. Tabs preserve each full original section."
+  ],
+  "pages": [
+    {
+      "slug": "components-button-group",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/button-group",
+      "sourceHtmlSha256": "90931d6f0781ffd9ed076e8eef7a92737d7bd76f9d23ecd3e6bafffa56e15d65",
+      "baselineTokensSha256": {
+        "zh": "95796755ead8f5ee9a3fcca6d78a329ba7a01f7da9320cd5f89dbf4245849eb5",
+        "en": "64d5540b1e445badfdbd05a2d718153eeeb4d3d522f35d34f9b9cce84d89e59d"
+      },
+      "groups": [
+        {
+          "id": "components-button-group-examples-01",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            227072,
+            229056
+          ],
+          "precedingHeading": "usage-placement",
+          "items": [
+            {
+              "en": [
+                122,
+                134
+              ],
+              "zh": [
+                48,
+                53
+              ],
+              "sourceRange": [
+                227128,
+                228087
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/ab01b7af-glasses_components_button-group_height_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                134,
+                146
+              ],
+              "zh": [
+                53,
+                58
+              ],
+              "sourceRange": [
+                228094,
+                229049
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/241a53d7-glasses_components_button-group_height_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "components-button-group-examples-02",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            229164,
+            231124
+          ],
+          "precedingHeading": "dont",
+          "items": [
+            {
+              "en": [
+                166,
+                177
+              ],
+              "zh": [
+                62,
+                67
+              ],
+              "sourceRange": [
+                229220,
+                230168
+              ],
+              "sourceHeadings": [
+                "do_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/566dc775-glasses_components_button-group_layout_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                177,
+                187
+              ],
+              "zh": [
+                67,
+                72
+              ],
+              "sourceRange": [
+                230175,
+                231117
+              ],
+              "sourceHeadings": [
+                "dont_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/c2a5103c-glasses_components_button-group_layout_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "components-button-group-examples-03",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            231575,
+            233573
+          ],
+          "precedingHeading": "dont_1",
+          "items": [
+            {
+              "en": [
+                244,
+                259
+              ],
+              "zh": [
+                101,
+                112
+              ],
+              "sourceRange": [
+                231631,
+                232608
+              ],
+              "sourceHeadings": [
+                "do_2"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/c6cc66ea-glasses_components_button-group_amount_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                259,
+                272
+              ],
+              "zh": [
+                112,
+                119
+              ],
+              "sourceRange": [
+                232615,
+                233566
+              ],
+              "sourceHeadings": [
+                "dont_2"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/f00ec229-glasses_components_button-group_amount_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "components-button-group-examples-04",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            233758,
+            235801
+          ],
+          "precedingHeading": "focus",
+          "items": [
+            {
+              "en": [
+                295,
+                309
+              ],
+              "zh": [
+                127,
+                132
+              ],
+              "sourceRange": [
+                233814,
+                234796
+              ],
+              "sourceHeadings": [
+                "do_3"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/479e85c0-glasses_components_button-group_focus_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                309,
+                328
+              ],
+              "zh": [
+                132,
+                139
+              ],
+              "sourceRange": [
+                234803,
+                235794
+              ],
+              "sourceHeadings": [
+                "dont_3"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/928e2df4-glasses_components_button-group_focus_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "components-buttons",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/buttons",
+      "sourceHtmlSha256": "40277b96fd437f0034d10c127d0ddb1c1c532baa8193eddf8ccbd33b53b29731",
+      "baselineTokensSha256": {
+        "zh": "04cc3aeced09579104c3e5de38c6cd0deab002f53ef5a32301141015f4c90099",
+        "en": "259ed48f79c04172e85b4f7c250742b7fe8c938ca3cffe092a6ebb831d34b29a"
+      },
+      "groups": [
+        {
+          "id": "components-buttons-examples-01",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            226790,
+            228800
+          ],
+          "precedingHeading": "usage-placement",
+          "items": [
+            {
+              "en": [
+                124,
+                136
+              ],
+              "zh": [
+                49,
+                54
+              ],
+              "sourceRange": [
+                226846,
+                227807
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/19466b12-glasses_components_buttons_use_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                136,
+                158
+              ],
+              "zh": [
+                54,
+                61
+              ],
+              "sourceRange": [
+                227814,
+                228793
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/27f3409d-glasses_components_buttons_use_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "components-buttons-examples-02",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            228802,
+            230805
+          ],
+          "precedingHeading": "dont",
+          "items": [
+            {
+              "en": [
+                158,
+                178
+              ],
+              "zh": [
+                61,
+                68
+              ],
+              "sourceRange": [
+                228858,
+                229839
+              ],
+              "sourceHeadings": [
+                "do_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/0b70113f-glasses_components_buttons_action_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                178,
+                192
+              ],
+              "zh": [
+                68,
+                73
+              ],
+              "sourceRange": [
+                229846,
+                230798
+              ],
+              "sourceHeadings": [
+                "dont_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/d43c2ec3-glasses_components_buttons_action_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "components-buttons-examples-03",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            231045,
+            233028
+          ],
+          "precedingHeading": "icon-buttons",
+          "items": [
+            {
+              "en": [
+                221,
+                234
+              ],
+              "zh": [
+                85,
+                92
+              ],
+              "sourceRange": [
+                231101,
+                232064
+              ],
+              "sourceHeadings": [
+                "do_2"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/f8986ea3-glasses_components_buttons_icon_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                234,
+                248
+              ],
+              "zh": [
+                92,
+                99
+              ],
+              "sourceRange": [
+                232071,
+                233021
+              ],
+              "sourceHeadings": [
+                "dont_2"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/605fc190-glasses_components_buttons_icon_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "components-buttons-examples-04",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            233295,
+            235303
+          ],
+          "precedingHeading": "toggable",
+          "items": [
+            {
+              "en": [
+                282,
+                303
+              ],
+              "zh": [
+                111,
+                118
+              ],
+              "sourceRange": [
+                233351,
+                234338
+              ],
+              "sourceHeadings": [
+                "do_3"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/ebed84fd-glasses_components_buttons_toggle_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                303,
+                317
+              ],
+              "zh": [
+                118,
+                123
+              ],
+              "sourceRange": [
+                234345,
+                235296
+              ],
+              "sourceHeadings": [
+                "dont_3"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/d0c60c6e-glasses_components_buttons_toggle_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "components-buttons-tabs-05",
+          "kind": "tabs",
+          "columns": 4,
+          "sourceRange": [
+            235682,
+            237233
+          ],
+          "precedingHeading": "anatomy",
+          "items": [
+            {
+              "en": [
+                350,
+                370
+              ],
+              "zh": [
+                134,
+                157
+              ],
+              "sourceRange": [
+                235729,
+                236109
+              ],
+              "sourceHeadings": [
+                "default"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/7a9883ae-glasses_components_buttons_anatomy_default.png"
+                }
+              ]
+            },
+            {
+              "en": [
+                370,
+                390
+              ],
+              "zh": [
+                157,
+                180
+              ],
+              "sourceRange": [
+                236110,
+                236477
+              ],
+              "sourceHeadings": [
+                "large"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/d4f4cdf4-glasses_components_buttons_large.png"
+                }
+              ]
+            },
+            {
+              "en": [
+                390,
+                410
+              ],
+              "zh": [
+                180,
+                203
+              ],
+              "sourceRange": [
+                236478,
+                236843
+              ],
+              "sourceHeadings": [
+                "icon"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/def81615-glasses_components_buttons_anatomy_icon.png"
+                }
+              ]
+            },
+            {
+              "en": [
+                410,
+                430
+              ],
+              "zh": [
+                203,
+                226
+              ],
+              "sourceRange": [
+                236844,
+                237213
+              ],
+              "sourceHeadings": [
+                "icon_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/20c9e8c5-glasses_components_buttons_anatomy_toggle.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "components-buttons-tabs-06",
+          "kind": "tabs",
+          "columns": 5,
+          "sourceRange": [
+            237552,
+            240965
+          ],
+          "precedingHeading": "customization",
+          "items": [
+            {
+              "en": [
+                470,
+                528
+              ],
+              "zh": [
+                240,
+                292
+              ],
+              "sourceRange": [
+                237599,
+                238412
+              ],
+              "sourceHeadings": [
+                "default_1"
+              ],
+              "media": []
+            },
+            {
+              "en": [
+                528,
+                584
+              ],
+              "zh": [
+                292,
+                342
+              ],
+              "sourceRange": [
+                238413,
+                239212
+              ],
+              "sourceHeadings": [
+                "large_1"
+              ],
+              "media": []
+            },
+            {
+              "en": [
+                584,
+                620
+              ],
+              "zh": [
+                342,
+                379
+              ],
+              "sourceRange": [
+                239213,
+                239797
+              ],
+              "sourceHeadings": [
+                "icon_2"
+              ],
+              "media": []
+            },
+            {
+              "en": [
+                620,
+                653
+              ],
+              "zh": [
+                379,
+                407
+              ],
+              "sourceRange": [
+                239798,
+                240371
+              ],
+              "sourceHeadings": [
+                "toggable_1"
+              ],
+              "media": []
+            },
+            {
+              "en": [
+                653,
+                684
+              ],
+              "zh": [
+                407,
+                432
+              ],
+              "sourceRange": [
+                240372,
+                240945
+              ],
+              "sourceHeadings": [
+                "toggable-icon"
+              ],
+              "media": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "components-cards",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/cards",
+      "sourceHtmlSha256": "5aa8ff3798af60d065369e7d006c98cc3f54673015b6e863a58dbe30b0c9417a",
+      "baselineTokensSha256": {
+        "zh": "4a493490b93679110457ad19759336f4e56cddf347decd6b999e6578c54705d3",
+        "en": "ce55c30b20c0d9ee2520754ea75c653529a34693ac7a608b9a10262d52fcdcc7"
+      },
+      "groups": [
+        {
+          "id": "components-cards-examples-01",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            227139,
+            229173
+          ],
+          "precedingHeading": "usage-placement",
+          "items": [
+            {
+              "en": [
+                163,
+                180
+              ],
+              "zh": [
+                69,
+                76
+              ],
+              "sourceRange": [
+                227195,
+                228175
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/a3ca4e72-glasses_components_cards_content_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                180,
+                198
+              ],
+              "zh": [
+                76,
+                83
+              ],
+              "sourceRange": [
+                228182,
+                229166
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/200fcadb-glasses_components_cards_content_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "components-cards-examples-02",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            229247,
+            231272
+          ],
+          "precedingHeading": "dont",
+          "items": [
+            {
+              "en": [
+                212,
+                227
+              ],
+              "zh": [
+                87,
+                94
+              ],
+              "sourceRange": [
+                229303,
+                230268
+              ],
+              "sourceHeadings": [
+                "do_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/6e0a6ea8-glasses_components_cards_buttons_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                227,
+                250
+              ],
+              "zh": [
+                94,
+                101
+              ],
+              "sourceRange": [
+                230275,
+                231265
+              ],
+              "sourceHeadings": [
+                "dont_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/4f5fe9af-glasses_components_cards_buttons_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "components-icon-marker",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/icon-marker",
+      "sourceHtmlSha256": "c41eb5b815f4c83ec081060b82c6d29a0a8d254f645a95007341d279e4feb32f",
+      "baselineTokensSha256": {
+        "zh": "f8615d4a7901ee55f3c71f094cb88a5e187e4d4d000e01bbe7c9d4abf10b74a3",
+        "en": "a0893dc80e50b89e45f2988d08a4a14c94ccd4781291748cca34506a6b77af1f"
+      },
+      "groups": [
+        {
+          "id": "components-icon-marker-examples-01",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            227100,
+            229150
+          ],
+          "precedingHeading": "usage-placement",
+          "items": [
+            {
+              "en": [
+                93,
+                106
+              ],
+              "zh": [
+                25,
+                30
+              ],
+              "sourceRange": [
+                227156,
+                228113
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/c881f8ee-glasses_components_ic_marker_decor_do.webp"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                106,
+                133
+              ],
+              "zh": [
+                30,
+                39
+              ],
+              "sourceRange": [
+                228120,
+                229143
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/3e61aacc-glasses_components_ic_marker_decor_dont.webp"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "components-icon-marker-examples-02",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            229673,
+            231759
+          ],
+          "precedingHeading": "dont",
+          "items": [
+            {
+              "en": [
+                189,
+                206
+              ],
+              "zh": [
+                57,
+                64
+              ],
+              "sourceRange": [
+                229729,
+                230730
+              ],
+              "sourceHeadings": [
+                "do_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/3ca02ab7-glasses_components_ic_marker_overload_do.webp"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                206,
+                229
+              ],
+              "zh": [
+                64,
+                71
+              ],
+              "sourceRange": [
+                230737,
+                231752
+              ],
+              "sourceHeadings": [
+                "dont_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/413ae0e0-glasses_components_ic_marker_overload_dont.webp"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "components-lists",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/lists",
+      "sourceHtmlSha256": "018c354e4d3c2ed0d3e698175b97c489ffa1becd44be73b0707e32c7f1cc9552",
+      "baselineTokensSha256": {
+        "zh": "be1ede6f8a49c20f072a725a40b62494e84f3e3d0c9f8da2316c9fa2160e5323",
+        "en": "23db397849c687917eefd69fc351ae3114f615d005eb17b22be8ca11dc6ef8df"
+      },
+      "groups": [
+        {
+          "id": "components-lists-examples-01",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            229422,
+            231484
+          ],
+          "precedingHeading": "actionable-items",
+          "items": [
+            {
+              "en": [
+                269,
+                287
+              ],
+              "zh": [
+                90,
+                97
+              ],
+              "sourceRange": [
+                229478,
+                230475
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/d8900a40-glasses_components_lists_focus_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                287,
+                308
+              ],
+              "zh": [
+                97,
+                104
+              ],
+              "sourceRange": [
+                230482,
+                231477
+              ],
+              "sourceHeadings": [
+                "dont_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/18ee1f07-glasses_components_lists_focus_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "components-overview",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/overview",
+      "sourceHtmlSha256": "afb1e64def8e60ea3342a5c0b684f05a7afe6560382ae75f30a0a8b4b327fb63",
+      "baselineTokensSha256": {
+        "zh": "7095d720e42bc4c6a2f6210afa37ec8899341650b55984b13db3d76791eb39fa",
+        "en": "6e2df438af27252209bc67f7cd477a9a57b619896b8b62b8ac0cb7d5b4d89636"
+      },
+      "groups": [
+        {
+          "id": "components-overview-columns-01",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            226191,
+            227674
+          ],
+          "precedingHeading": "optimized-components",
+          "items": [
+            {
+              "en": [
+                40,
+                204
+              ],
+              "zh": [
+                17,
+                110
+              ],
+              "sourceRange": [
+                226303,
+                227370
+              ],
+              "sourceHeadings": [],
+              "media": []
+            },
+            {
+              "en": [
+                204,
+                205
+              ],
+              "zh": [
+                110,
+                111
+              ],
+              "sourceRange": [
+                227382,
+                227664
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/7edfe2c1-glasses_foundation_getstarted_step2_optimized.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "components-pager",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/pager",
+      "sourceHtmlSha256": "b7347310bcb367c5f2cde978f5bc97cd04672ad2b04c4921f238007f2f81f01f",
+      "baselineTokensSha256": {
+        "zh": "0a5a5831ddbb9cd3172d1ce477ce41fdc78ba76baf86822930794e8d27ac7c6b",
+        "en": "dc533cb0b9f81a6de9389d8525b8df9dcc64f324692493367d664f933d8a9c61"
+      },
+      "groups": [
+        {
+          "id": "components-pager-examples-01",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            228085,
+            230070
+          ],
+          "precedingHeading": "usage-placement",
+          "items": [
+            {
+              "en": [
+                196,
+                208
+              ],
+              "zh": [
+                65,
+                72
+              ],
+              "sourceRange": [
+                228141,
+                229090
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/c734819d-glasses_components_pagers_overlap_do.webp"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                208,
+                227
+              ],
+              "zh": [
+                72,
+                77
+              ],
+              "sourceRange": [
+                229097,
+                230063
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/e5495d06-glasses_components_pagers_overlap_dont.webp"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "components-progress",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/progress",
+      "sourceHtmlSha256": "b7b4e6fe1a0570468ae865a9572c42a0fd340c2e79ea16cd4087400f5ac303c6",
+      "baselineTokensSha256": {
+        "zh": "fd6a69bc2131780735ffe76b2ec77e80cc17c1fda2ec95a6aefafd865978a333",
+        "en": "6928bc35f1ad8f9390ef278642d9c14db5e5b13a69394ff6a05c8db3ea32ef04"
+      },
+      "groups": [
+        {
+          "id": "components-progress-examples-01",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            226761,
+            228830
+          ],
+          "precedingHeading": "usage-placement",
+          "items": [
+            {
+              "en": [
+                101,
+                118
+              ],
+              "zh": [
+                39,
+                46
+              ],
+              "sourceRange": [
+                226817,
+                227804
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/87fe151f-glasses_components_progress_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                118,
+                144
+              ],
+              "zh": [
+                46,
+                53
+              ],
+              "sourceRange": [
+                227811,
+                228823
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/01773b80-glasses_components_progress_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "components-progress-examples-02",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            228832,
+            230912
+          ],
+          "precedingHeading": "dont",
+          "items": [
+            {
+              "en": [
+                144,
+                165
+              ],
+              "zh": [
+                53,
+                60
+              ],
+              "sourceRange": [
+                228888,
+                229891
+              ],
+              "sourceHeadings": [
+                "do_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/b6ac6b04-glasses_components_progress_use_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                165,
+                188
+              ],
+              "zh": [
+                60,
+                69
+              ],
+              "sourceRange": [
+                229898,
+                230905
+              ],
+              "sourceHeadings": [
+                "dont_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/a7348965-glasses_components_progress_use_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "components-progress-tabs-03",
+          "kind": "tabs",
+          "columns": 2,
+          "sourceRange": [
+            231950,
+            232911
+          ],
+          "precedingHeading": "customization",
+          "items": [
+            {
+              "en": [
+                275,
+                296
+              ],
+              "zh": [
+                121,
+                140
+              ],
+              "sourceRange": [
+                231997,
+                232441
+              ],
+              "sourceHeadings": [
+                "linear"
+              ],
+              "media": []
+            },
+            {
+              "en": [
+                296,
+                317
+              ],
+              "zh": [
+                140,
+                159
+              ],
+              "sourceRange": [
+                232442,
+                232891
+              ],
+              "sourceHeadings": [
+                "circular"
+              ],
+              "media": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "components-stack",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/stack",
+      "sourceHtmlSha256": "4591b0479efaa6f109bf28650dba9b6ae74859cffac99908547986f137d90a05",
+      "baselineTokensSha256": {
+        "zh": "34fbc4bb1fcfd82f547c5bbdba17440ffe2f58e853d06bc51223f116979c80c4",
+        "en": "f58910f1d204ad4b14ff7390e1a6ed6043361acb96b3fe631c6f0b586e7364cb"
+      },
+      "groups": [
+        {
+          "id": "components-stack-examples-01",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            228876,
+            230863
+          ],
+          "precedingHeading": "customization",
+          "items": [
+            {
+              "en": [
+                373,
+                389
+              ],
+              "zh": [
+                115,
+                122
+              ],
+              "sourceRange": [
+                228932,
+                229904
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/f42e0371-glasses_components_stack_opacity_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                389,
+                402
+              ],
+              "zh": [
+                122,
+                127
+              ],
+              "sourceRange": [
+                229911,
+                230856
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/13ef66f1-glasses_components_stack_opacity_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "components-title-chip",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/title-chip",
+      "sourceHtmlSha256": "4172e4c33739c0386562b4e4577123fa7b4e390dc1b8e9975a395ee4f17eda5f",
+      "baselineTokensSha256": {
+        "zh": "e6c3e565624de54331675fb7863b443f7fe4fef23f56f8e5237f3dedd34b0cc6",
+        "en": "291356fdc1ba3018b69036647a20badf3d1a9ab158bfe70997f1c26e4fc225e6"
+      },
+      "groups": [
+        {
+          "id": "components-title-chip-examples-01",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            227119,
+            229191
+          ],
+          "precedingHeading": "usage-placement",
+          "items": [
+            {
+              "en": [
+                103,
+                124
+              ],
+              "zh": [
+                33,
+                40
+              ],
+              "sourceRange": [
+                227175,
+                228166
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/e26b4bc3-glasses_components_titlechips_use_static.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                124,
+                152
+              ],
+              "zh": [
+                40,
+                49
+              ],
+              "sourceRange": [
+                228173,
+                229184
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/fe59e6c9-glasses_components_titlechips_use_action.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "components-title-chip-columns-02",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            229666,
+            230836
+          ],
+          "precedingHeading": "within-layout",
+          "items": [
+            {
+              "en": [
+                191,
+                229
+              ],
+              "zh": [
+                64,
+                74
+              ],
+              "sourceRange": [
+                229778,
+                230285
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "video",
+                  "src": ""
+                }
+              ]
+            },
+            {
+              "en": [
+                229,
+                271
+              ],
+              "zh": [
+                74,
+                84
+              ],
+              "sourceRange": [
+                230297,
+                230826
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "video",
+                  "src": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "components-voice-indicator",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/voice-indicator",
+      "sourceHtmlSha256": "1b73edd52b4da651558566e481cf2522f4a86be8622b597415377fad7f13a5b1",
+      "baselineTokensSha256": {
+        "zh": "57defc535db0fccfcecf797e7b747ba2bd2f032779809d92ce58beb5b32fc52b",
+        "en": "4673f68ddbe7a31be60f88c35328376c1eac06f4d28bd5911258c25bb12c5a85"
+      },
+      "groups": [
+        {
+          "id": "components-voice-indicator-examples-01",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            226797,
+            228774
+          ],
+          "precedingHeading": "usage-placement",
+          "items": [
+            {
+              "en": [
+                91,
+                103
+              ],
+              "zh": [
+                27,
+                32
+              ],
+              "sourceRange": [
+                226853,
+                227805
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/0f31d4fd-glasses_components_voice_container_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                103,
+                116
+              ],
+              "zh": [
+                32,
+                37
+              ],
+              "sourceRange": [
+                227812,
+                228767
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/b4b6d003-glasses_components_voice_container_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "components-voice-indicator-columns-02",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            228832,
+            229610
+          ],
+          "precedingHeading": "dont",
+          "items": [
+            {
+              "en": [
+                121,
+                140
+              ],
+              "zh": [
+                39,
+                48
+              ],
+              "sourceRange": [
+                228944,
+                229259
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/93f600a1-glasses_components_voice-indicator_align-center.png"
+                }
+              ]
+            },
+            {
+              "en": [
+                140,
+                163
+              ],
+              "zh": [
+                48,
+                55
+              ],
+              "sourceRange": [
+                229271,
+                229600
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/4aae89bd-glasses_components_voice-indicator_align-top.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "components-voice-indicator-examples-03",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            229616,
+            231670
+          ],
+          "precedingHeading": "dont",
+          "items": [
+            {
+              "en": [
+                163,
+                179
+              ],
+              "zh": [
+                66,
+                71
+              ],
+              "sourceRange": [
+                229672,
+                230629
+              ],
+              "sourceHeadings": [
+                "do_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/b74e65c1-glasses_components_voice_color_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                179,
+                205
+              ],
+              "zh": [
+                71,
+                80
+              ],
+              "sourceRange": [
+                230636,
+                231663
+              ],
+              "sourceHeadings": [
+                "warning"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/a5434199-glasses_components_voice_color_warning.png"
+                }
+              ],
+              "tone": "warning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "foundations-get-started",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/foundations/get-started",
+      "sourceHtmlSha256": "9d26f9dc66fb96e8f5013812420446265e52917c9f369c602ec2f2d9f07ed7a6",
+      "baselineTokensSha256": {
+        "zh": "c5c13f115ce039744df0e9ae8b2f047caf8575418e7e076351ed5182dfce6a14",
+        "en": "1428f9a56d4a99a2ea52a73581df8de1a99d61261920982418120b1b87db1c79"
+      },
+      "groups": [
+        {
+          "id": "foundations-get-started-examples-01",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            227027,
+            229119
+          ],
+          "precedingHeading": "user-journeys",
+          "items": [
+            {
+              "en": [
+                186,
+                209
+              ],
+              "zh": [
+                53,
+                60
+              ],
+              "sourceRange": [
+                227083,
+                228113
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/6945cf94-glasses_foundation_getstarted_step1_dont.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                209,
+                232
+              ],
+              "zh": [
+                60,
+                67
+              ],
+              "sourceRange": [
+                228120,
+                229112
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/a307d8c1-glasses_foundation_getstarted_step1_do.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "foundations-get-started-columns-02",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            231943,
+            232743
+          ],
+          "precedingHeading": "map-input",
+          "items": [
+            {
+              "en": [
+                520,
+                560
+              ],
+              "zh": [
+                172,
+                187
+              ],
+              "sourceRange": [
+                232055,
+                232459
+              ],
+              "sourceHeadings": [
+                "consider-sysui"
+              ],
+              "media": []
+            },
+            {
+              "en": [
+                560,
+                561
+              ],
+              "zh": [
+                187,
+                188
+              ],
+              "sourceRange": [
+                232471,
+                232733
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/82c0f9a3-glasses_foundation_getstarted_step5.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "interaction-inputs",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/inputs",
+      "sourceHtmlSha256": "1f2a72acadad09a2921436916d1018a4d37680432a1ae9ec31a5b5ad4fb5ae9e",
+      "baselineTokensSha256": {
+        "zh": "db43c5b8da28edd6ebdcfa7614ecd138978f37c843b5363af39616b0468cf43c",
+        "en": "363817651c0827bbfb9e7ff710d99054508b80caa528ab46e4d9a11dbf7f29e0"
+      },
+      "groups": [
+        {
+          "id": "interaction-inputs-tabs-01",
+          "kind": "tabs",
+          "columns": 2,
+          "sourceRange": [
+            227223,
+            229023
+          ],
+          "precedingHeading": "hardware-controls",
+          "items": [
+            {
+              "en": [
+                215,
+                280
+              ],
+              "zh": [
+                80,
+                150
+              ],
+              "sourceRange": [
+                227270,
+                228133
+              ],
+              "sourceHeadings": [
+                "audio-glasses"
+              ],
+              "media": []
+            },
+            {
+              "en": [
+                280,
+                340
+              ],
+              "zh": [
+                150,
+                218
+              ],
+              "sourceRange": [
+                228134,
+                229003
+              ],
+              "sourceHeadings": [
+                "display-glasses"
+              ],
+              "media": []
+            }
+          ]
+        },
+        {
+          "id": "interaction-inputs-examples-02",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            229676,
+            231691
+          ],
+          "precedingHeading": "quick-discreet",
+          "items": [
+            {
+              "en": [
+                388,
+                411
+              ],
+              "zh": [
+                241,
+                248
+              ],
+              "sourceRange": [
+                229732,
+                230713
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/66421196-glasses_input_complex_do.webp"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                411,
+                428
+              ],
+              "zh": [
+                248,
+                255
+              ],
+              "sourceRange": [
+                230720,
+                231684
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/c948022a-glasses_input_complex_dont.webp"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "interaction-inputs-examples-03",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            231976,
+            233997
+          ],
+          "precedingHeading": "recognition-recall",
+          "items": [
+            {
+              "en": [
+                457,
+                474
+              ],
+              "zh": [
+                265,
+                274
+              ],
+              "sourceRange": [
+                232032,
+                233012
+              ],
+              "sourceHeadings": [
+                "do_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/e4a900cd-glasses_input_recognition_do.webp"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                474,
+                491
+              ],
+              "zh": [
+                274,
+                281
+              ],
+              "sourceRange": [
+                233019,
+                233990
+              ],
+              "sourceHeadings": [
+                "dont_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/ee018073-glasses_input_recognition_dont.webp"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "interaction-inputs-examples-04",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            235078,
+            237063
+          ],
+          "precedingHeading": "error-prevention",
+          "items": [
+            {
+              "en": [
+                605,
+                623
+              ],
+              "zh": [
+                317,
+                324
+              ],
+              "sourceRange": [
+                235134,
+                236092
+              ],
+              "sourceHeadings": [
+                "do_2"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/6724a6e9-glasses_input_error_do.webp"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                623,
+                642
+              ],
+              "zh": [
+                324,
+                331
+              ],
+              "sourceRange": [
+                236099,
+                237056
+              ],
+              "sourceHeadings": [
+                "dont_2"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/0657ee1b-glasses_input_error_dont.webp"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "interaction-onboarding",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/onboarding",
+      "sourceHtmlSha256": "0dea050e8b7a1765b124bd54f57ee3fece276891070e3033221c869270bccc45",
+      "baselineTokensSha256": {
+        "zh": "88618184a194a0c8414629ac83157055357478089641301d9d5c0530608627e8",
+        "en": "f61416d3231fa1a2a708062fa88a397041de21a16d888fb085df35cfcc1e38d4"
+      },
+      "groups": [
+        {
+          "id": "interaction-onboarding-examples-01",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            228740,
+            230776
+          ],
+          "precedingHeading": "onboard-ai-glasses",
+          "items": [
+            {
+              "en": [
+                382,
+                398
+              ],
+              "zh": [
+                109,
+                116
+              ],
+              "sourceRange": [
+                228796,
+                229762
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/27e87e80-onboarding_on-glasses_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                398,
+                423
+              ],
+              "zh": [
+                116,
+                123
+              ],
+              "sourceRange": [
+                229769,
+                230769
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/84781011-onboarding_on-glasses_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sound-earcons",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/earcons",
+      "sourceHtmlSha256": "ffe13dd8c90c71c84b03cd3fd8dce706ab9168075dc519ff345516f9bdcf136a",
+      "baselineTokensSha256": {
+        "zh": "759a8b6a1147de4aabbedb4ec93ac3f2bdc1d7eccadc89edf72d828d815cd71e",
+        "en": "13944a3f5e462fe26f27b464d7bf390589c36d80758d5b80bf982cd6e9793a11"
+      },
+      "groups": [
+        {
+          "id": "sound-earcons-columns-01",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            227166,
+            227845
+          ],
+          "precedingHeading": "system-earcons",
+          "items": [
+            {
+              "en": [
+                180,
+                188
+              ],
+              "zh": [
+                66,
+                69
+              ],
+              "sourceRange": [
+                227278,
+                227546
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/6670bfe7-glasses_earcon_touch.webp"
+                }
+              ]
+            },
+            {
+              "en": [
+                188,
+                199
+              ],
+              "zh": [
+                69,
+                72
+              ],
+              "sourceRange": [
+                227558,
+                227835
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/013bfd82-glasses_earcon_notification.webp"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sound-overview",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/overview",
+      "sourceHtmlSha256": "71aa84c3f04e76319bcab1f359aec59d46ffa51bc8bff9edc32b70b7afc1d98f",
+      "baselineTokensSha256": {
+        "zh": "9def79732a4ad51b1c81b8cad19ac7f8b9e43fb8dd722d035bf9337288382355",
+        "en": "f7f0596406334763141d2fd2bde2a26c163a5fadbfccca2334691c50ec5d9b55"
+      },
+      "groups": [
+        {
+          "id": "sound-overview-columns-01",
+          "kind": "columns",
+          "columns": 3,
+          "sourceRange": [
+            223746,
+            224782
+          ],
+          "precedingHeading": "sound-purpose",
+          "items": [
+            {
+              "en": [
+                259,
+                282
+              ],
+              "zh": [
+                71,
+                80
+              ],
+              "sourceRange": [
+                223820,
+                224147
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/ebe800dd-glasses_sound_use_communicate.webp"
+                }
+              ]
+            },
+            {
+              "en": [
+                282,
+                304
+              ],
+              "zh": [
+                80,
+                89
+              ],
+              "sourceRange": [
+                224159,
+                224466
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/51fa14d9-glasses_earcon_volume.webp"
+                }
+              ]
+            },
+            {
+              "en": [
+                304,
+                324
+              ],
+              "zh": [
+                89,
+                98
+              ],
+              "sourceRange": [
+                224478,
+                224772
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/013bfd82-glasses_earcon_notification.webp"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sound-overview-examples-02",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            225540,
+            226853
+          ],
+          "precedingHeading": "straightforward-design",
+          "items": [
+            {
+              "en": [
+                435,
+                445
+              ],
+              "zh": [
+                130,
+                140
+              ],
+              "sourceRange": [
+                225596,
+                226225
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [],
+              "tone": "good"
+            },
+            {
+              "en": [
+                445,
+                457
+              ],
+              "zh": [
+                140,
+                148
+              ],
+              "sourceRange": [
+                226232,
+                226846
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "sound-overview-examples-03",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            226855,
+            228192
+          ],
+          "precedingHeading": "dont",
+          "items": [
+            {
+              "en": [
+                457,
+                469
+              ],
+              "zh": [
+                148,
+                156
+              ],
+              "sourceRange": [
+                226911,
+                227545
+              ],
+              "sourceHeadings": [
+                "do_1"
+              ],
+              "media": [],
+              "tone": "good"
+            },
+            {
+              "en": [
+                469,
+                482
+              ],
+              "zh": [
+                156,
+                162
+              ],
+              "sourceRange": [
+                227552,
+                228185
+              ],
+              "sourceHeadings": [
+                "dont_1"
+              ],
+              "media": [],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "sound-overview-examples-04",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            228194,
+            229567
+          ],
+          "precedingHeading": "dont_1",
+          "items": [
+            {
+              "en": [
+                482,
+                499
+              ],
+              "zh": [
+                162,
+                170
+              ],
+              "sourceRange": [
+                228250,
+                228901
+              ],
+              "sourceHeadings": [
+                "do_2"
+              ],
+              "media": [],
+              "tone": "good"
+            },
+            {
+              "en": [
+                499,
+                516
+              ],
+              "zh": [
+                170,
+                176
+              ],
+              "sourceRange": [
+                228908,
+                229560
+              ],
+              "sourceHeadings": [
+                "dont_2"
+              ],
+              "media": [],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sound-voice-alerts",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts",
+      "sourceHtmlSha256": "6517f0273e7a0bfbe75518009e8ed237dbcbf54c518cd83a720e0567a124a4cb",
+      "baselineTokensSha256": {
+        "zh": "e9ebed2697e4986ead4bcfdfa36dd42968e901d5ee9177f4455d5984d0791f86",
+        "en": "bf82730c8f8905559e0e45e9338d04b7ccc4056d1b2f644823d48ce790e2f651"
+      },
+      "groups": [
+        {
+          "id": "sound-voice-alerts-columns-01",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            228854,
+            229559
+          ],
+          "precedingHeading": "generic",
+          "items": [
+            {
+              "en": [
+                286,
+                294
+              ],
+              "zh": [
+                102,
+                105
+              ],
+              "sourceRange": [
+                228966,
+                229249
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/ce771db4-glasses_sound_use_connect.webp"
+                }
+              ]
+            },
+            {
+              "en": [
+                294,
+                306
+              ],
+              "zh": [
+                105,
+                108
+              ],
+              "sourceRange": [
+                229261,
+                229549
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/476381ae-glasses_sound_use_educate.webp"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sound-voice-alerts-columns-02",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            229573,
+            230278
+          ],
+          "precedingHeading": "generic",
+          "items": [
+            {
+              "en": [
+                306,
+                319
+              ],
+              "zh": [
+                108,
+                113
+              ],
+              "sourceRange": [
+                229685,
+                229976
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/907eeb00-glasses_sound_use_resume.webp"
+                }
+              ]
+            },
+            {
+              "en": [
+                319,
+                331
+              ],
+              "zh": [
+                113,
+                116
+              ],
+              "sourceRange": [
+                229988,
+                230268
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/9bb5c7ab-glasses_sound_use_start.webp"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sound-voice-alerts-columns-03",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            230708,
+            231452
+          ],
+          "precedingHeading": "bespoke",
+          "items": [
+            {
+              "en": [
+                396,
+                402
+              ],
+              "zh": [
+                132,
+                135
+              ],
+              "sourceRange": [
+                230820,
+                231110
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/6d98ddb3-glasses_sound_use_bespoke_translate.webp"
+                }
+              ]
+            },
+            {
+              "en": [
+                402,
+                408
+              ],
+              "zh": [
+                135,
+                138
+              ],
+              "sourceRange": [
+                231122,
+                231442
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/ba3afcb4-glasses_sound_use_bespoke_meditation.webp"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sound-voice-alerts-examples-04",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            232105,
+            234063
+          ],
+          "precedingHeading": "non-technical-personal-style",
+          "items": [
+            {
+              "en": [
+                493,
+                502
+              ],
+              "zh": [
+                177,
+                186
+              ],
+              "sourceRange": [
+                232161,
+                233094
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/177894f6-glasses_sound_principle_technical_do.webp"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                502,
+                517
+              ],
+              "zh": [
+                186,
+                195
+              ],
+              "sourceRange": [
+                233101,
+                234056
+              ],
+              "sourceHeadings": [
+                "dont_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/59050acb-glasses_sound_principle_technical_dont.webp"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "sound-voice-alerts-examples-05",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            234065,
+            236070
+          ],
+          "precedingHeading": "dont_1",
+          "items": [
+            {
+              "en": [
+                517,
+                533
+              ],
+              "zh": [
+                195,
+                208
+              ],
+              "sourceRange": [
+                234121,
+                235079
+              ],
+              "sourceHeadings": [
+                "do_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/30b26635-glasses_sound_principle_direct_do.webp"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                533,
+                556
+              ],
+              "zh": [
+                208,
+                225
+              ],
+              "sourceRange": [
+                235086,
+                236063
+              ],
+              "sourceHeadings": [
+                "dont_2"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/a1106e67-glasses_sound_principle_direct_dont.webp"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "sound-voice-alerts-columns-06",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            236545,
+            237289
+          ],
+          "precedingHeading": "balance-brevity-with-clarity",
+          "items": [
+            {
+              "en": [
+                622,
+                628
+              ],
+              "zh": [
+                266,
+                269
+              ],
+              "sourceRange": [
+                236657,
+                236947
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/6d98ddb3-glasses_sound_use_bespoke_translate.webp"
+                }
+              ]
+            },
+            {
+              "en": [
+                628,
+                634
+              ],
+              "zh": [
+                269,
+                272
+              ],
+              "sourceRange": [
+                236959,
+                237279
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/ba3afcb4-glasses_sound_use_bespoke_meditation.webp"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sound-voice-alerts-columns-07",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            237303,
+            238169
+          ],
+          "precedingHeading": "balance-brevity-with-clarity",
+          "items": [
+            {
+              "en": [
+                634,
+                647
+              ],
+              "zh": [
+                272,
+                277
+              ],
+              "sourceRange": [
+                237415,
+                237738
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/66a46f5a-glasses_sound_principle_frequent.webp"
+                }
+              ]
+            },
+            {
+              "en": [
+                647,
+                657
+              ],
+              "zh": [
+                277,
+                284
+              ],
+              "sourceRange": [
+                237750,
+                238159
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/5fcb6d88-glasses_sound_principle_infrequent.webp"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sound-voice-alerts-examples-08",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            238175,
+            240195
+          ],
+          "precedingHeading": "balance-brevity-with-clarity",
+          "items": [
+            {
+              "en": [
+                657,
+                671
+              ],
+              "zh": [
+                284,
+                291
+              ],
+              "sourceRange": [
+                238231,
+                239188
+              ],
+              "sourceHeadings": [
+                "do_2"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/f0a7e40e-glasses_sound_principle_info_do.webp"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                671,
+                694
+              ],
+              "zh": [
+                291,
+                300
+              ],
+              "sourceRange": [
+                239195,
+                240188
+              ],
+              "sourceHeadings": [
+                "dont_3"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/4dd95786-glasses_sound_principle_info_dont.webp"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "sound-voice-alerts-examples-09",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            240531,
+            242578
+          ],
+          "precedingHeading": "consider-the-users-environment",
+          "items": [
+            {
+              "en": [
+                739,
+                757
+              ],
+              "zh": [
+                310,
+                319
+              ],
+              "sourceRange": [
+                240587,
+                241587
+              ],
+              "sourceHeadings": [
+                "do_3"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/0e1bb1b0-glasses_sound_principle_device_do.webp"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                757,
+                775
+              ],
+              "zh": [
+                319,
+                328
+              ],
+              "sourceRange": [
+                241594,
+                242571
+              ],
+              "sourceHeadings": [
+                "dont_4"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/76ff28ff-glasses_sound_principle_device_dont.webp"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "styles-color",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/color",
+      "sourceHtmlSha256": "7d5c442948627e36e31759c1b401b82245a388dd241e157dbe457290bb1d574c",
+      "baselineTokensSha256": {
+        "zh": "2c1f88682d73bffa477b5898b18857743871afd218e1cc4b224c37619edaa36c",
+        "en": "2405cc444d8c61b8d1ae6056c5b813bf5031682fba8ee422be3c7f88a647268c"
+      },
+      "groups": [
+        {
+          "id": "styles-color-examples-01",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            226721,
+            228706
+          ],
+          "precedingHeading": "color-scheme",
+          "items": [
+            {
+              "en": [
+                172,
+                194
+              ],
+              "zh": [
+                58,
+                67
+              ],
+              "sourceRange": [
+                226777,
+                227763
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/b7fa2aa6-glasses_styles_color_font_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                194,
+                206
+              ],
+              "zh": [
+                67,
+                74
+              ],
+              "sourceRange": [
+                227770,
+                228699
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/6140ec43-glasses_styles_color_font_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "styles-color-columns-02",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            229771,
+            230728
+          ],
+          "precedingHeading": "customize-color",
+          "items": [
+            {
+              "en": [
+                310,
+                311
+              ],
+              "zh": [
+                117,
+                118
+              ],
+              "sourceRange": [
+                229883,
+                230094
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/ff572b19-glasses_styles_color_customize.png"
+                }
+              ]
+            },
+            {
+              "en": [
+                311,
+                369
+              ],
+              "zh": [
+                118,
+                178
+              ],
+              "sourceRange": [
+                230106,
+                230718
+              ],
+              "sourceHeadings": [
+                "optimized-brand-semantic"
+              ],
+              "media": []
+            }
+          ]
+        },
+        {
+          "id": "styles-color-columns-03",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            230742,
+            231569
+          ],
+          "precedingHeading": "optimized-brand-semantic",
+          "items": [
+            {
+              "en": [
+                369,
+                445
+              ],
+              "zh": [
+                178,
+                200
+              ],
+              "sourceRange": [
+                230854,
+                231340
+              ],
+              "sourceHeadings": [
+                "power-usage"
+              ],
+              "media": []
+            },
+            {
+              "en": [
+                445,
+                446
+              ],
+              "zh": [
+                200,
+                201
+              ],
+              "sourceRange": [
+                231352,
+                231559
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/3bb2044c-glasses_styles_color_power.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "styles-color-examples-04",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            231575,
+            233633
+          ],
+          "precedingHeading": "power-usage",
+          "items": [
+            {
+              "en": [
+                446,
+                461
+              ],
+              "zh": [
+                201,
+                210
+              ],
+              "sourceRange": [
+                231631,
+                232609
+              ],
+              "sourceHeadings": [
+                "do_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/56e54f83-glasses_styles_color_screen_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                461,
+                484
+              ],
+              "zh": [
+                210,
+                219
+              ],
+              "sourceRange": [
+                232616,
+                233626
+              ],
+              "sourceHeadings": [
+                "dont_1"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/024c78c0-glasses_styles_color_screen_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "styles-color-examples-05",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            233862,
+            235846
+          ],
+          "precedingHeading": "dont_1",
+          "items": [
+            {
+              "en": [
+                531,
+                538
+              ],
+              "zh": [
+                238,
+                245
+              ],
+              "sourceRange": [
+                233918,
+                234845
+              ],
+              "sourceHeadings": [
+                "do_2"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/db10db0e-glasses_styles_color_saturated_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                538,
+                557
+              ],
+              "zh": [
+                245,
+                254
+              ],
+              "sourceRange": [
+                234852,
+                235839
+              ],
+              "sourceHeadings": [
+                "dont_2"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/a7adaace-glasses_styles_color_saturated_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "styles-color-columns-06",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            235920,
+            236776
+          ],
+          "precedingHeading": "dont_2",
+          "items": [
+            {
+              "en": [
+                563,
+                564
+              ],
+              "zh": [
+                256,
+                257
+              ],
+              "sourceRange": [
+                236032,
+                236243
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/f72b3b6f-glasses_styles_color_container.png"
+                }
+              ]
+            },
+            {
+              "en": [
+                564,
+                619
+              ],
+              "zh": [
+                257,
+                279
+              ],
+              "sourceRange": [
+                236255,
+                236766
+              ],
+              "sourceHeadings": [
+                "dark-container-colors"
+              ],
+              "media": []
+            }
+          ]
+        },
+        {
+          "id": "styles-color-examples-07",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            236782,
+            238724
+          ],
+          "precedingHeading": "dark-container-colors",
+          "items": [
+            {
+              "en": [
+                619,
+                629
+              ],
+              "zh": [
+                279,
+                288
+              ],
+              "sourceRange": [
+                236838,
+                237777
+              ],
+              "sourceHeadings": [
+                "do_3"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/8ca4c881-glasses_styles_color_surface_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                629,
+                640
+              ],
+              "zh": [
+                288,
+                295
+              ],
+              "sourceRange": [
+                237784,
+                238717
+              ],
+              "sourceHeadings": [
+                "dont_3"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/ccf52911-glasses_styles_color_surface_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "styles-color-examples-08",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            238726,
+            240765
+          ],
+          "precedingHeading": "dont_3",
+          "items": [
+            {
+              "en": [
+                640,
+                660
+              ],
+              "zh": [
+                295,
+                305
+              ],
+              "sourceRange": [
+                238782,
+                239792
+              ],
+              "sourceHeadings": [
+                "do_4"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/783e7bf8-glasses_styles_color_surfacecontrast_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                660,
+                675
+              ],
+              "zh": [
+                305,
+                314
+              ],
+              "sourceRange": [
+                239799,
+                240758
+              ],
+              "sourceHeadings": [
+                "dont_4"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/29f964e6-glasses_styles_color_surfacecontrast_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "styles-color-examples-09",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            240767,
+            242838
+          ],
+          "precedingHeading": "dont_4",
+          "items": [
+            {
+              "en": [
+                675,
+                695
+              ],
+              "zh": [
+                314,
+                328
+              ],
+              "sourceRange": [
+                240823,
+                241840
+              ],
+              "sourceHeadings": [
+                "do_5"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/824bd3ec-glasses_styles_color_surfacevariant_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                695,
+                715
+              ],
+              "zh": [
+                328,
+                344
+              ],
+              "sourceRange": [
+                241847,
+                242831
+              ],
+              "sourceHeadings": [
+                "dont_5"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/99612e2c-glasses_styles_color_surfacevariant_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "styles-color-examples-10",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            242933,
+            244913
+          ],
+          "precedingHeading": "dont_5",
+          "items": [
+            {
+              "en": [
+                726,
+                743
+              ],
+              "zh": [
+                357,
+                364
+              ],
+              "sourceRange": [
+                242989,
+                243968
+              ],
+              "sourceHeadings": [
+                "do_6"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/bfa08f27-glasses_styles_color_outline_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                743,
+                753
+              ],
+              "zh": [
+                364,
+                371
+              ],
+              "sourceRange": [
+                243975,
+                244906
+              ],
+              "sourceHeadings": [
+                "dont_6"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/549026a0-glasses_styles_color_outline_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        },
+        {
+          "id": "styles-color-examples-11",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            246226,
+            248226
+          ],
+          "precedingHeading": "warning",
+          "items": [
+            {
+              "en": [
+                799,
+                813
+              ],
+              "zh": [
+                393,
+                400
+              ],
+              "sourceRange": [
+                246282,
+                247248
+              ],
+              "sourceHeadings": [
+                "do_7"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/786c9c31-glasses_styles_color_states_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                813,
+                828
+              ],
+              "zh": [
+                400,
+                407
+              ],
+              "sourceRange": [
+                247255,
+                248219
+              ],
+              "sourceHeadings": [
+                "dont_7"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/22534bb2-glasses_styles_color_states_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "styles-icons",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/icons",
+      "sourceHtmlSha256": "8307c1f9b9f852efaa2b6c617971f8e711b2f4ef0772bd180a3cb1a37fffd09d",
+      "baselineTokensSha256": {
+        "zh": "7c977f121b51f6eaeafa259f0f4fb30e315f1aedd1b24f8690ccbf5e71c9c6cd",
+        "en": "58cabd4213a633d0dd72e6361f520c9003a24877d7cab9604c2aeec8ff3d6d68"
+      },
+      "groups": [
+        {
+          "id": "styles-icons-columns-01",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            225866,
+            226727
+          ],
+          "precedingHeading": null,
+          "items": [
+            {
+              "en": [
+                42,
+                56
+              ],
+              "zh": [
+                17,
+                26
+              ],
+              "sourceRange": [
+                225978,
+                226307
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/33544b1a-glasses_style_icon_unfilled.png"
+                }
+              ]
+            },
+            {
+              "en": [
+                56,
+                79
+              ],
+              "zh": [
+                26,
+                35
+              ],
+              "sourceRange": [
+                226319,
+                226717
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/33544b1a-glasses_style_icon_unfilled.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "styles-overview",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/overview",
+      "sourceHtmlSha256": "97738569c5b0cf0d2bf9468e8b6036744c57103cf5bb11163cb07f71142404c5",
+      "baselineTokensSha256": {
+        "zh": "ef5b83ce70c1d45a927145bdffae0c4217fd3d60451d85ae4d135b4d404facca",
+        "en": "62822d19585cc6c9ed15d2956af5ef7159bb9707523e2c172287ddeaca7f6721"
+      },
+      "groups": [
+        {
+          "id": "styles-overview-columns-01",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            225714,
+            226560
+          ],
+          "precedingHeading": null,
+          "items": [
+            {
+              "en": [
+                0,
+                82
+              ],
+              "zh": [
+                0,
+                24
+              ],
+              "sourceRange": [
+                225826,
+                226331
+              ],
+              "sourceHeadings": [],
+              "media": []
+            },
+            {
+              "en": [
+                82,
+                83
+              ],
+              "zh": [
+                24,
+                25
+              ],
+              "sourceRange": [
+                226343,
+                226550
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/63e1b1f2-glasses_style_visualdesign.png"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "styles-overview-examples-02",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            227466,
+            229574
+          ],
+          "precedingHeading": null,
+          "items": [
+            {
+              "en": [
+                141,
+                159
+              ],
+              "zh": [
+                53,
+                62
+              ],
+              "sourceRange": [
+                227522,
+                228498
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/ba438304-glasses_style_shape_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                159,
+                195
+              ],
+              "zh": [
+                62,
+                73
+              ],
+              "sourceRange": [
+                228505,
+                229567
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/02e144eb-glasses_style_shape_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "styles-surfaces",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/surfaces",
+      "sourceHtmlSha256": "b39140a4ee68826951492a01d6e25e49aeace56066a6d40d9b70680e69fb5c80",
+      "baselineTokensSha256": {
+        "zh": "556a26e5842a7ade20e9118b36e1b7ab3c04ff472c8b4f12648fe704a6ddc964",
+        "en": "ef9451fc872ed8f1d1c0f0cff37d4301c4039d80b5b6cf0636313cc83946fb4b"
+      },
+      "groups": [
+        {
+          "id": "styles-surfaces-columns-01",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            226271,
+            226985
+          ],
+          "precedingHeading": "depth-comfort",
+          "items": [
+            {
+              "en": [
+                61,
+                62
+              ],
+              "zh": [
+                16,
+                17
+              ],
+              "sourceRange": [
+                226383,
+                226593
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/88785ee5-glasses_styles_surface_colors.png"
+                }
+              ]
+            },
+            {
+              "en": [
+                62,
+                98
+              ],
+              "zh": [
+                17,
+                31
+              ],
+              "sourceRange": [
+                226605,
+                226975
+              ],
+              "sourceHeadings": [
+                "surface-color-depth"
+              ],
+              "media": []
+            }
+          ]
+        },
+        {
+          "id": "styles-surfaces-columns-02",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            226999,
+            227482
+          ],
+          "precedingHeading": "surface-color-depth",
+          "items": [
+            {
+              "en": [
+                98,
+                99
+              ],
+              "zh": [
+                31,
+                32
+              ],
+              "sourceRange": [
+                227111,
+                227315
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/80d9e415-glasses_styles_surfaces.png"
+                }
+              ]
+            },
+            {
+              "en": [
+                99,
+                111
+              ],
+              "zh": [
+                32,
+                36
+              ],
+              "sourceRange": [
+                227327,
+                227472
+              ],
+              "sourceHeadings": [],
+              "media": []
+            }
+          ]
+        },
+        {
+          "id": "styles-surfaces-examples-03",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            227488,
+            229540
+          ],
+          "precedingHeading": "surface-color-depth",
+          "items": [
+            {
+              "en": [
+                111,
+                133
+              ],
+              "zh": [
+                36,
+                49
+              ],
+              "sourceRange": [
+                227544,
+                228545
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/56e54f83-glasses_styles_color_screen_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                133,
+                153
+              ],
+              "zh": [
+                49,
+                63
+              ],
+              "sourceRange": [
+                228552,
+                229533
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/024c78c0-glasses_styles_color_screen_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "styles-type",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/type",
+      "sourceHtmlSha256": "047d2a4c25814c783000569a561eac2f9185673ec0760027ed37bd83e2e8061e",
+      "baselineTokensSha256": {
+        "zh": "744354267fc03e18dd15e3bbcb9ceb2c0d2e7bbbe8dd65c8e3eda03a187ac790",
+        "en": "08b284062c87215300b86e7c656f56406612f5cccceb4daa03d930821657d72d"
+      },
+      "groups": [
+        {
+          "id": "styles-type-columns-01",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            226798,
+            227588
+          ],
+          "precedingHeading": "degrees",
+          "items": [
+            {
+              "en": [
+                145,
+                146
+              ],
+              "zh": [
+                54,
+                55
+              ],
+              "sourceRange": [
+                226910,
+                227120
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/793c2b0f-glasses_styles_type_size.png"
+                }
+              ]
+            },
+            {
+              "en": [
+                146,
+                223
+              ],
+              "zh": [
+                55,
+                104
+              ],
+              "sourceRange": [
+                227132,
+                227578
+              ],
+              "sourceHeadings": [
+                "min-size-text-0-6"
+              ],
+              "media": []
+            }
+          ]
+        },
+        {
+          "id": "styles-type-examples-02",
+          "kind": "examples",
+          "columns": 2,
+          "sourceRange": [
+            228851,
+            230806
+          ],
+          "precedingHeading": "customize-fonts",
+          "items": [
+            {
+              "en": [
+                387,
+                401
+              ],
+              "zh": [
+                168,
+                181
+              ],
+              "sourceRange": [
+                228907,
+                229864
+              ],
+              "sourceHeadings": [
+                "do"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/85970ced-glasses_style_type_rounded_do.png"
+                }
+              ],
+              "tone": "good"
+            },
+            {
+              "en": [
+                401,
+                411
+              ],
+              "zh": [
+                181,
+                190
+              ],
+              "sourceRange": [
+                229871,
+                230799
+              ],
+              "sourceHeadings": [
+                "dont"
+              ],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/012a042c-glasses_style_type_rounded_dont.png"
+                }
+              ],
+              "tone": "bad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "surfaces-sysui",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/sysui",
+      "sourceHtmlSha256": "e3bea965ac1482606135ba9b94e153744c343945fe7112e147455e540a0c5c59",
+      "baselineTokensSha256": {
+        "zh": "12732d84e946796c093b724be07d6db4e1dff78b51a41c124895d747297b8de4",
+        "en": "585dc0cb0e6bbab427bebd1b5ec9fc07daa4a11b777b2c453a1d41e926d15bda"
+      },
+      "groups": [
+        {
+          "id": "surfaces-sysui-columns-01",
+          "kind": "columns",
+          "columns": 2,
+          "sourceRange": [
+            227613,
+            228362
+          ],
+          "precedingHeading": "notifications",
+          "items": [
+            {
+              "en": [
+                258,
+                273
+              ],
+              "zh": [
+                109,
+                114
+              ],
+              "sourceRange": [
+                227725,
+                228052
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/5ff593b7-glasses_surface_sysUI_notifications.png"
+                }
+              ]
+            },
+            {
+              "en": [
+                273,
+                280
+              ],
+              "zh": [
+                114,
+                117
+              ],
+              "sourceRange": [
+                228064,
+                228352
+              ],
+              "sourceHeadings": [],
+              "media": [
+                {
+                  "tag": "img",
+                  "src": "/assets/original/3971e738-glasses_surface_sysUI_notifications_expanded.png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,20 +1,24 @@
 export type ReadingLanguage = "zh" | "en";
 
+export type SourceLayout = {id: string; columns: 2 | 3 | 4 | 5; kind?: "tabs"};
+
 export type ParallelRow = {
   id: string;
-  kind: "heading" | "text" | "media" | "table" | "note";
+  kind: "heading" | "text" | "media" | "table" | "layout" | "note";
   zh: string;
   en: string;
   sectionId?: string | null;
   heading?: {id: string; level: number; zh: string; en: string};
+  layout?: SourceLayout;
 };
 
 export type ReadingGroup = {
   id: string;
-  kind: "text" | "media" | "table";
+  kind: "text" | "media" | "table" | "layout";
   zh: {__html: string};
   en: {__html: string};
   caption: boolean;
+  layout?: SourceLayout;
 };
 
 /** Keep the native table intact; only its viewport scrolls on a small screen. */
@@ -25,7 +29,7 @@ export function wrapTables(html: string, language: ReadingLanguage): string {
 }
 
 /** A heading and its explanation/list form one comparison group. Media and
- * tables are shared boundaries, never arbitrary paragraph-count matches. */
+ * tables and source layouts are boundaries, never arbitrary paragraph-count matches. */
 export function readingGroups(rows: readonly ParallelRow[], localize: (html: string) => string): ReadingGroup[] {
   const result: ReadingGroup[] = [];
   let pending: ParallelRow[] = [];
@@ -40,9 +44,9 @@ export function readingGroups(rows: readonly ParallelRow[], localize: (html: str
     hasBody = false;
   };
   for (const row of rows) {
-    if (row.kind === "media" || row.kind === "table") {
+    if (row.kind === "media" || row.kind === "table" || row.kind === "layout") {
       flush();
-      result.push({id: row.id, kind: row.kind, caption: false,
+      result.push({id: row.id, kind: row.kind, caption: false, layout: row.layout,
         zh: {__html: wrapTables(localize(row.zh), "zh")},
         en: {__html: wrapTables(localize(row.en), "en")}});
     } else {
