@@ -1,0 +1,10 @@
+{
+  "slug": "sound-audio-input",
+  "group": "sound",
+  "englishTitle": "Audio focus and concurrency",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/audio-input",
+  "sourceUpdated": "2026-10-28",
+  "title": "音频焦点与多路声音",
+  "description": "根据内容的重要性，安排多路声音的混合、压低音量、暂停与优先级。",
+  "body": "<p>无屏眼镜和带屏眼镜都通过同一组扬声器播放声音，由 Android 的音频焦点系统统一管理。应用开始播放时，会请求音频焦点。其他同时播放的音频会在后台平滑地降低音量、暂停或停止；这些调整不会额外播放提示音，也不会播报状态变化。了解<a href=\"https://developer.android.com/develop/xr/jetpack-xr-sdk/glasses/input-routing-audio\" target=\"_blank\" rel=\"noopener noreferrer\">无屏眼镜的音频与实体输入路由</a>。</p>\n<h2 id=\"choose-behavior\">根据内容选择合适的处理方式</h2>\n<p>选择哪种方式，取决于用户错过一部分声音会损失什么。几秒钟的音乐被通知声盖过，不会丢失重要信息；但如果有声书里的一句话被盖过，用户就会错过情节。</p>\n<ul><li><strong>音乐和环境音：</strong>降低音量并继续播放，因为这样不会让用户错过信息。</li><li><strong>有声书等语音内容：</strong>暂停并回退播放位置，让用户不漏听信息。</li><li><strong>通话、实时翻译和智能体播报：</strong>需要用户集中注意力，因此其他可能打断它们的音频会暂停。</li><li><strong>简短而重要的更新，例如导航提示：</strong>遇到新传入的声音时，会短暂降低音量。</li></ul>\n<aside class=\"translator-note\">译者注：原文未说明这一步具体降低哪一路声音的音量。</aside>\n<p>系统会根据指定的内容类型分配处理方式。进一步了解<a href=\"https://developer.android.com/media/optimize/audio-focus\" target=\"_blank\" rel=\"noopener noreferrer\">音频焦点的优化方法</a>。</p>\n<h3 id=\"playing-earcons\">提示音如何与其他声音同时播放</h3>\n<p>提示音与其他音频如何共存，取决于它承担的作用。用于确认用户自身操作的提示音即时且频繁，因此会直接叠加在正在播放的声音上。其他提示音携带用户需要听到的信息，会先短暂压低其他音频的音量，播放后再让其恢复。</p>\n<h3 id=\"designing-for-behavior\">针对不同处理方式设计提示音</h3>\n<ul><li><p>如果提示音采用<strong>混音叠加</strong>方式，它需要凭自身特征被听清：起音干净明确、时长紧凑、音色鲜明。其他声音不会主动让位，因此提示音本身必须有足够的辨识度。</p></li><li><p>如果提示音会<strong>压低其他音频</strong>，设计时应考虑音量下降的曲线。其他声音降低音量需要一点时间；提示音应有清晰的起音，让用户在音量尚未降完时就能察觉。</p></li></ul>\n<h2 id=\"system-overrides\">系统优先级覆盖</h2>\n<p>隐私提示、通话和关键硬件警报等系统事件，始终优先于其他音频和应用音频焦点。这些事件也有相应的<a href=\"https://developer.android.com/design/ui/ai-glasses/sound/earcon\" target=\"_blank\" rel=\"noopener noreferrer\">提示音与 LED 灯行为</a>。</p>\n<figure><img src=\"/assets/original/169b6d1a-glasses_ixd_audio_override.png\" alt=\"系统事件覆盖其他音频的流程图\" loading=\"lazy\"/></figure>"
+}

@@ -1,0 +1,12 @@
+Creative Commons Attribution 2.5 Generic (CC BY 2.5)
+
+Canonical license: https://creativecommons.org/licenses/by/2.5/
+Legal code: https://creativecommons.org/licenses/by/2.5/legalcode
+
+This reference accompanies the original non-documentation assets where the Android
+Developers content license identifies CC BY 2.5 as applicable. It is not a replacement
+for the license text. Documentation is separately licensed under Apache 2.0 unless
+otherwise noted by the source.
+
+Source attribution and adaptation notice: see ../NOTICE and the original source URL
+attached to each page in content/source and content/zh.

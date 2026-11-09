@@ -1,0 +1,10 @@
+{
+  "slug": "surfaces-overview",
+  "group": "surfaces",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/overview",
+  "sourceUpdated": "2026-10-28",
+  "title": "界面呈现概览",
+  "englishTitle": "Surfaces",
+  "description": "理解主界面、应用界面和系统栏各自的职责，以及它们与手机之间的衔接。",
+  "body": "<p>为带屏眼镜设计界面，需要考虑不同的界面呈现形式和使用情境：眼镜的系统界面（主界面与通知）、投射到眼镜上的应用，以及手机应用中与眼镜顺畅衔接的体验。</p>\n<p>这些界面可分为三种形态：主界面、应用界面和系统栏。</p>\n<h3 id=\"home\">主界面</h3>\n<p><a href=\"https://developer.android.com/design/ui/ai-glasses/guides/surfaces/sysui\">主界面</a>借鉴手机锁屏，是用户熟悉的起点。它只提供少量与当前情境相关的信息和操作。</p>\n<figure><img src=\"/assets/original/1929ff9d-glasses_surfaces_overview_home.webp\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"></figure>\n<h3 id=\"app-view\">应用界面</h3>\n<p><a href=\"https://developer.android.com/design/ui/ai-glasses/guides/surfaces/app\">应用界面</a>是呈现应用内容的画布。系统栏默认留空，以便系统提醒出现时尽量少干扰用户视线。</p>\n<figure><img src=\"/assets/original/4e8338ce-glasses_surfaces_overview_nonhome.png\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"></figure>\n<h3 id=\"system-bar\">系统栏</h3>\n<p><a href=\"https://developer.android.com/design/ui/ai-glasses/guides/surfaces/sysui\">系统栏</a>的元素只在需要时短暂出现，例如 Gemini、通知、系统提醒和设备控制。</p>\n<figure><img src=\"/assets/original/9940af45-glasses_surfaces_overview_anytime.png\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"></figure>\n<h2 id=\"customize-surfaces\">定制系统界面</h2>\n<p>系统相关界面的定制空间有限。系统界面采用模板化 API，以保持视觉一致、减少用户在现实环境中受到的打扰，并简化开发。通知扩展内容必须遵循系统定义的模板，只允许少量品牌点缀，以维持一致性。</p>\n<p>可以通过系统中的图标颜色表达品牌。</p>\n<figure><img src=\"/assets/original/783f43d8-glasses_surfaces_overview_customize.png\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"></figure>"
+}

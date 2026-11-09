@@ -1,0 +1,20 @@
+{
+  "slug": "components-overview",
+  "group": "components",
+  "englishTitle": "Components",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/overview",
+  "sourceUpdated": "2026-03-05",
+  "fetchedAt": "2026-11-09",
+  "bodyEn": "<p>Components are purpose-built building blocks for building your UI. Your app\nshould utilize Jetpack Compose Glimmer for components as they are optimized for\nthe unique use cases of displays on AI glasses.</p>\n<p><img alt=\"Design elements should be anchored to the bottom of the\nframe.\" loading=\"lazy\" src=\"/assets/original/6aa66621-glasses_components_overview.png\"/></p>\n<h2 id=\"optimized-components\">Optimized components</h2>\n<p>\n\n\n      \nGlimmer components are optimized for transparent displays in a variety of ways:</p>\n<p><strong>A. Surface color</strong>: Surfaces need to have transparency, so the opaque\nsurface color here would be changed to black to make it transparent.</p>\n<p><strong>B. Outline &amp; Highlight</strong>: The Outline color is optimized for contrast. The use\nof a highlight provides visual expression and might be used to indicate some\ntypes of input.</p>\n<p><strong>C. Shape</strong>: A softer shape system is used to improve glanceability by reducing\nthe sharpness of corners and improving comfort. On Surface color: The On Surface\ncolor of content is white to maximize contrast against the world.</p>\n<p><strong>D. Typography</strong>: Glimmer's typography scale uses a small set of refined Body\nand Title styles that optimize kerning, size and weight for optimal readability\n&amp; legibility.</p>\n<p><strong>E. Iconography</strong>: The use of rounded Material Symbols coheres with the rounded\ntypography scale.\n\n    </p>\n\n<figure>\n<img alt=\"Glimmer components are optimized for transparent display.\" loading=\"lazy\" src=\"/assets/original/7edfe2c1-glasses_foundation_getstarted_step2_optimized.png\"/>\n<figcaption></figcaption>\n</figure>\n\n\n<h2 id=\"get-started\">Get started</h2>\n<p>Ready to implement components? Check out the <a href=\"https://developer.android.com/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer\" rel=\"noopener noreferrer\" target=\"_blank\">Jetpack Compose Glimmer\ndocumentation</a>.</p>",
+  "textEn": "Components are purpose-built building blocks for building your UI. Your app\nshould utilize Jetpack Compose Glimmer for components as they are optimized for\nthe unique use cases of displays on AI glasses.\nOptimized components\nGlimmer components are optimized for transparent displays in a variety of ways:\nA. Surface color\n: Surfaces need to have transparency, so the opaque\nsurface color here would be changed to black to make it transparent.\nB. Outline & Highlight\n: The Outline color is optimized for contrast. The use\nof a highlight provides visual expression and might be used to indicate some\ntypes of input.\nC. Shape\n: A softer shape system is used to improve glanceability by reducing\nthe sharpness of corners and improving comfort. On Surface color: The On Surface\ncolor of content is white to maximize contrast against the world.\nD. Typography\n: Glimmer's typography scale uses a small set of refined Body\nand Title styles that optimize kerning, size and weight for optimal readability\n& legibility.\nE. Iconography\n: The use of rounded Material Symbols coheres with the rounded\ntypography scale.\nGet started\nReady to implement components? Check out the\nJetpack Compose Glimmer\ndocumentation\n.",
+  "assets": [
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_components_overview.png",
+      "local": "/assets/original/6aa66621-glasses_components_overview.png"
+    },
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_foundation_getstarted_step2_optimized.png",
+      "local": "/assets/original/7edfe2c1-glasses_foundation_getstarted_step2_optimized.png"
+    }
+  ]
+}

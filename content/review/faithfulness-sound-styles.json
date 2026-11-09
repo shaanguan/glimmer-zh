@@ -1,0 +1,1018 @@
+{
+  "review": "Faithfulness audit: Sound and Styles",
+  "sourcePolicy": "Only the committed local content/source/*.json bodyEn and textEn were used. No refreshed sources or external subject-matter material.",
+  "baselineHead": "7e4a1e312fc91aadc827d87f1a1f65c885fb6370",
+  "status": "complete",
+  "semanticChangeCount": 52,
+  "pages": [
+    {
+      "slug": "sound-audio-input",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/audio-input",
+      "sourceUpdated": "2026-10-28",
+      "sourceSha256": "177c755cb0c5916c0dff9c7c0c11347b5053b91f5440b2994c901a7d22d76f21",
+      "originalChineseSha256": "0352aa7b3a50018661a9fad122f6b8e3ca0b0a1e913c1c7bdb74436c89075072",
+      "reviewed": true,
+      "checks": [
+        "已逐段核对完整 bodyEn 与 textEn",
+        "已核对主语、否定、条件、范围、指令强度与因果关系",
+        "已核对正文、列表、表格、图注与全部数值和单位",
+        "已检查译者补充与原文边界、歧义标注",
+        "标题锚点 ID 全部保留",
+        "原始图片、音频及重复出现次数全部保留",
+        "正文链接全部保留，仅排除 Previous/Next 导航",
+        "源 JSON SHA-256 与审查前一致",
+        "所有中文变更均可由逐条审查记录精确复原",
+        "修订后中文已逐条复读，未见未记录的新增解释或条件"
+      ],
+      "changes": [
+        {
+          "id": "sound-audio-input-01",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "If a few seconds of music sit under a notification, nothing important is lost. If a sentence of an audiobook gets talked over, the user loses the story.",
+          "oldChinese": "几秒钟的音乐被通知声盖过，通常不会丢失重要信息；但如果有声书里的一句话被盖过，用户就可能错过情节。",
+          "newChinese": "几秒钟的音乐被通知声盖过，不会丢失重要信息；但如果有声书里的一句话被盖过，用户就会错过情节。",
+          "reason": "去掉原文没有的“通常”和“可能”，保留条件句给出的确定结果。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/audio-input"
+        },
+        {
+          "id": "sound-audio-input-02",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Music and ambient audio will duck and keep playing because there's no missed information.",
+          "oldChinese": "降低音量并继续播放，因为这样不会让用户错过必要信息。",
+          "newChinese": "降低音量并继续播放，因为这样不会让用户错过信息。",
+          "reason": "原文没有将未丢失的信息限为“必要信息”。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/audio-input"
+        },
+        {
+          "id": "sound-audio-input-03",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Spoken content, like audiobooks, will pause and rewind the audio, so the user doesn't miss information.",
+          "oldChinese": "<strong>有声书等口语内容：</strong>暂停并回退一小段，让用户不漏听内容。",
+          "newChinese": "<strong>有声书等语音内容：</strong>暂停并回退播放位置，让用户不漏听信息。",
+          "reason": "spoken content 是语音内容；原文未规定回退时长，删除“一小段”。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/audio-input"
+        },
+        {
+          "id": "sound-audio-input-04",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "The system assigns behavior based on the content type assigned.",
+          "oldChinese": "系统会根据应用声明的内容类型分配处理方式。",
+          "newChinese": "系统会根据指定的内容类型分配处理方式。",
+          "reason": "原文未明确由应用声明，去掉新增的责任主体。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/audio-input"
+        },
+        {
+          "id": "sound-audio-input-05",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Earcons that confirm the user's own action are instant and frequent, so they mix on top of whatever is playing.",
+          "oldChinese": "用于确认用户操作的提示音通常即时、频繁，因此会直接叠加在正在播放的声音上。",
+          "newChinese": "用于确认用户自身操作的提示音即时且频繁，因此会直接叠加在正在播放的声音上。",
+          "reason": "去掉原文没有的“通常”，并保留用户自身操作的范围。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/audio-input"
+        },
+        {
+          "id": "sound-audio-input-06",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Certain system events—like privacy indicators, calls, and critical hardware alerts—always override other audio and app focus. They also have a set of earcon and LED behaviors.",
+          "oldChinese": "隐私提示、来电和关键硬件警报等系统事件，始终优先于其他音频和应用音频焦点。这些事件也有固定的",
+          "newChinese": "隐私提示、通话和关键硬件警报等系统事件，始终优先于其他音频和应用音频焦点。这些事件也有相应的",
+          "reason": "calls 不限于来电；a set of 没有“固定不变”的含义。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/audio-input"
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "englishOriginal": "Short, important updates, like a navigation update, will duck briefly to the incoming sound.",
+          "handling": "保留原文主句并保留既有译者注：未明确压低哪一路声音，不补入新的音频优先级规则。"
+        }
+      ],
+      "verification": {
+        "headingIds": 4,
+        "mediaItems": 1,
+        "bodyLinks": 3,
+        "sourceUnchanged": true,
+        "changesFullyRecorded": true,
+        "bodyTextMatchesTextEn": true,
+        "numericTokensOnlyInSource": {},
+        "numericTokensOnlyInChinese": {},
+        "numericEquivalentsConfirmed": [],
+        "numericValuesPreserved": true
+      },
+      "semanticChangeCount": 6,
+      "changeCount": 6,
+      "finalChineseSha256": "7c555f6fb5a24f5ef67d5da40213384685ff721ae415a86429be3daa932b8035"
+    },
+    {
+      "slug": "sound-bespoke-earcon",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/bespoke-earcon",
+      "sourceUpdated": "2026-10-28",
+      "sourceSha256": "db97ef6874a54d97e4669c2fb3d3e0f2f7d56c144a847db30fa402c3e8055523",
+      "originalChineseSha256": "61e8cb69540d2e2ba8b241163b13b43012e0d6adb0c0a90b380e5cbca55cfe50",
+      "reviewed": true,
+      "checks": [
+        "已逐段核对完整 bodyEn 与 textEn",
+        "已核对主语、否定、条件、范围、指令强度与因果关系",
+        "已核对正文、列表、表格、图注与全部数值和单位",
+        "已检查译者补充与原文边界、歧义标注",
+        "标题锚点 ID 全部保留",
+        "原始图片、音频及重复出现次数全部保留",
+        "正文链接全部保留，仅排除 Previous/Next 导航",
+        "源 JSON SHA-256 与审查前一致",
+        "所有中文变更均可由逐条审查记录精确复原",
+        "修订后中文已逐条复读，未见未记录的新增解释或条件"
+      ],
+      "changes": [
+        {
+          "id": "sound-bespoke-earcon-01",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Ear fatigue is the primary failure mode of wearable audio.",
+          "oldChinese": "听觉疲劳是可穿戴音频最常见的体验问题。",
+          "newChinese": "听觉疲劳是可穿戴音频体验的主要问题。",
+          "reason": "primary 表示主要问题，原文没有出现频率统计或“最常见”的判断。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/bespoke-earcon"
+        },
+        {
+          "id": "sound-bespoke-earcon-02",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Because there are no visual indicators, users rely entirely on auditory intuition to construct mental models of the operating system.",
+          "oldChinese": "在没有视觉提示的情况下，用户完全依赖听觉直觉来理解操作系统。",
+          "newChinese": "由于没有视觉提示，用户完全依赖听觉直觉来建立对操作系统的心智模型。",
+          "reason": "保留原文因果陈述和 mental models 的确切含义，不改写为假设条件。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/bespoke-earcon"
+        },
+        {
+          "id": "sound-bespoke-earcon-03",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Similarly, a descending trajectory evokes finality, which can pair with negative, decreasing, or dismissal actions.",
+          "oldChinese": "类似地，音高下行会带来结束感，适合与否定、减少或关闭等操作搭配。",
+          "newChinese": "类似地，音高下行会带来结束感，可以与负向、减少或关闭等操作搭配。",
+          "reason": "can pair 表示可搭配；negative 比“否定”操作范围更广。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/bespoke-earcon"
+        },
+        {
+          "id": "sound-bespoke-earcon-04",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "While pitch trajectories are powerful, you should use caution when solely relying on them when conveying critical state changes as they can be lost in a noisy environment.",
+          "oldChinese": "音高变化虽然有很强的表达力，但在传达关键状态变化时，应谨慎避免只依赖音高，因为它可能被嘈杂环境掩盖。",
+          "newChinese": "音高变化虽然有很强的表达力，但在传达关键状态变化时，如果仅依赖音高变化，就应格外谨慎，因为它们可能被嘈杂环境掩盖。",
+          "reason": "原文要求谨慎使用，不是绝对避免仅依赖音高。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/bespoke-earcon"
+        },
+        {
+          "id": "sound-bespoke-earcon-05",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "To ensure clear communication in diverse auditory environments without causing cognitive overload or physical discomfort, we recommend aligning earcon frequency distribution across three primary spectral bands:",
+          "oldChinese": "同时避免认知负担和身体不适",
+          "newChinese": "同时避免认知过载和身体不适",
+          "reason": "cognitive overload 指认知过载，不是避免一切认知负担。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/bespoke-earcon"
+        },
+        {
+          "id": "sound-bespoke-earcon-06",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Use synthetic, intentional waveforms (sine, clean FM, crystalline bells) rather than naturalistic or organic samples (wood, paper, snaps).",
+          "oldChinese": "使用带有明确设计感的合成波形",
+          "newChinese": "使用有明确设计意图的合成波形",
+          "reason": "intentional 指有意设计，不是具有某种视觉式的“设计感”。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/bespoke-earcon"
+        },
+        {
+          "id": "sound-bespoke-earcon-07",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Starting with clean, pure fundamentals (sine waves or low-order harmonics) ensures clean, pristine output on physical hardware.",
+          "oldChinese": "以干净、纯粹的基频作为起点，例如正弦波或低阶谐波，有助于在实际硬件上获得清晰、纯净的输出。",
+          "newChinese": "以干净、纯粹的基音作为起点，例如正弦波或低阶谐波，能确保在实际硬件上获得清晰、纯净的输出。",
+          "reason": "fundamentals 指基音而非频率数值；恢复 ensures 的确定性。保留原文对正弦波和低阶谐波的举例。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/bespoke-earcon"
+        },
+        {
+          "id": "sound-bespoke-earcon-08",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Duration targets",
+          "oldChinese": "<h2 id=\"duration-targets\">建议时长</h2>",
+          "newChinese": "<h2 id=\"duration-targets\">目标时长</h2>",
+          "reason": "targets 是目标值，表格也按目标时长表述。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/bespoke-earcon"
+        }
+      ],
+      "sourceAmbiguities": [],
+      "verification": {
+        "headingIds": 5,
+        "mediaItems": 1,
+        "bodyLinks": 0,
+        "sourceUnchanged": true,
+        "changesFullyRecorded": true,
+        "bodyTextMatchesTextEn": true,
+        "numericTokensOnlyInSource": {},
+        "numericTokensOnlyInChinese": {},
+        "numericEquivalentsConfirmed": [],
+        "numericValuesPreserved": true
+      },
+      "semanticChangeCount": 8,
+      "changeCount": 8,
+      "finalChineseSha256": "97fd2b9b5b4c3bb7e022e226659979b5d1951a5db54da126f2e33761c68aa3e2"
+    },
+    {
+      "slug": "sound-earcons",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/earcons",
+      "sourceUpdated": "2026-10-28",
+      "sourceSha256": "dcb535657ed633fbb2af531b5599f290b1d98cbade61ce0053ea8353bd6d2c1a",
+      "originalChineseSha256": "88c92eb17dd04cf14c98b90aaf8a2ffa35ce9de422a1ef65571ab6c195d1452f",
+      "reviewed": true,
+      "checks": [
+        "已逐段核对完整 bodyEn 与 textEn",
+        "已核对主语、否定、条件、范围、指令强度与因果关系",
+        "已核对正文、列表、表格、图注与全部数值和单位",
+        "已检查译者补充与原文边界、歧义标注",
+        "标题锚点 ID 全部保留",
+        "原始图片、音频及重复出现次数全部保留",
+        "正文链接全部保留，仅排除 Previous/Next 导航",
+        "源 JSON SHA-256 与审查前一致",
+        "所有中文变更均可由逐条审查记录精确复原",
+        "修订后中文已逐条复读，未见未记录的新增解释或条件"
+      ],
+      "changes": [
+        {
+          "id": "sound-earcons-01",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Earcons, short for audio icons, provide brief audio cues or feedback to the user. Glasses provide earcons for common interactions.",
+          "oldChinese": "<p><em>Earcon</em> 是“声音图标”的简称，本译本统一称为“提示音”：它用简短的声音向用户传递提示或反馈。眼镜为常见交互提供了系统提示音。</p>",
+          "newChinese": "<p>提示音（<em>Earcon</em>，audio icon“声音图标”的简称）用简短的声音向用户传递提示或反馈。眼镜为常见交互提供了提示音。</p>",
+          "reason": "删除夹在正文中的译本命名说明，以及原句未限定的“系统”。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/earcons"
+        },
+        {
+          "id": "sound-earcons-02",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Earcons are less descriptive compared to audio alerts.",
+          "oldChinese": "与语音提示相比，提示音能描述的信息更少。",
+          "newChinese": "与音频提示（audio alerts）相比，提示音能描述的信息更少。",
+          "reason": "原文写 audio alerts，不能无说明地收窄为 voice alerts（语音提示）。保留英文以区分两个术语。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/earcons"
+        },
+        {
+          "id": "sound-earcons-03",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Audible 3-second countdown indicator before the camera stream turns on, giving the user time to dismiss or cancel camera access if needed.",
+          "oldChinese": "在视频流开启前，播放可听见的 3 秒倒计时，让用户有时间关闭提示或取消相机访问。",
+          "newChinese": "在视频流开启前，播放可听见的 3 秒倒计时，让用户有时间在需要时取消倒计时或取消相机访问。",
+          "reason": "结合下一项明确的 dismisses the countdown，避免把取消访问流程误写为仅关闭提示声；保留 if needed。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/earcons"
+        },
+        {
+          "id": "sound-earcons-04",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Consider including sounds for these, as they aren't provided by default:",
+          "oldChinese": "以下功能的提示音不会默认自动提供，设计时可以考虑为它们加入声音反馈：",
+          "newChinese": "以下功能的提示音不会默认提供，设计时可以考虑为它们加入声音反馈：",
+          "reason": "删除自动化行为的额外限定；原文仅说不默认提供。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/earcons"
+        },
+        {
+          "id": "sound-earcons-05",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "A verbal greeting is appropriate if your app is primarily conversational.",
+          "oldChinese": "如果应用以对话为核心，也可以使用语音问候。",
+          "newChinese": "如果应用以对话为核心，使用语音问候也很合适。",
+          "reason": "appropriate 是适宜性判断，不只是能力许可。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/earcons"
+        },
+        {
+          "id": "sound-earcons-06",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Apps don't play exit earcons; keep exit signals limited to optional, spoken activity wrap-ups.",
+          "oldChinese": "应用退出时不播放退出提示音；如有必要，可用一句语音总结刚结束的活动。",
+          "newChinese": "应用不播放退出提示音；可以在退出时用语音总结刚结束的活动，退出反馈应仅限于这种形式。",
+          "reason": "补回 limited to 的明确限制，保留可选性，去掉原文没有的“一句”。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/earcons"
+        },
+        {
+          "id": "sound-earcons-07",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "If an experience, like Maps, has semi-frequent voice alerts which are core to the experience forego earcons to reduce auditory clutter.",
+          "oldChinese": "如果导航等体验本身就需要较频繁地播放语音提示，而且这些提示是核心体验的一部分，应省去额外的提示音，减少声音干扰。",
+          "newChinese": "如果地图等体验会不时播放语音提示，且这些提示构成体验的核心，就应省去提示音，减少声音干扰。",
+          "reason": "保留 semi-frequent 的适中频率和事实条件，不另加“需要”或将禁止范围限为“额外”提示音。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/earcons"
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "englishOriginal": "Earcons are less descriptive compared to audio alerts.",
+          "handling": "audio alerts 按音频提示保留英文，不直接等同于 voice alerts。两幅系统提示音配图的原始 alt 与图注不同；原图、图注和既有可读的图片描述均保留。"
+        }
+      ],
+      "verification": {
+        "headingIds": 7,
+        "mediaItems": 7,
+        "bodyLinks": 6,
+        "sourceUnchanged": true,
+        "changesFullyRecorded": true,
+        "bodyTextMatchesTextEn": true,
+        "numericTokensOnlyInSource": {},
+        "numericTokensOnlyInChinese": {},
+        "numericEquivalentsConfirmed": [],
+        "numericValuesPreserved": true
+      },
+      "semanticChangeCount": 7,
+      "changeCount": 7,
+      "finalChineseSha256": "1228b1debe37d79757e0508aa8725d2a2820ec9155c14886880c316cdad75aab"
+    },
+    {
+      "slug": "sound-overview",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/overview",
+      "sourceUpdated": "2026-10-28",
+      "sourceSha256": "66b7acb138a68e5b2a941d9e9be2a624fc834ec0e8de15987919941d8a48e17f",
+      "originalChineseSha256": "eda7410e5cc2773dfe4b7d5301d16fe168535bb84c9632c1de6cac07f856d376",
+      "reviewed": true,
+      "checks": [
+        "已逐段核对完整 bodyEn 与 textEn",
+        "已核对主语、否定、条件、范围、指令强度与因果关系",
+        "已核对正文、列表、表格、图注与全部数值和单位",
+        "已检查译者补充与原文边界、歧义标注",
+        "标题锚点 ID 全部保留",
+        "原始图片、音频及重复出现次数全部保留",
+        "正文链接全部保留，仅排除 Previous/Next 导航",
+        "源 JSON SHA-256 与审查前一致",
+        "所有中文变更均可由逐条审查记录精确复原",
+        "修订后中文已逐条复读，未见未记录的新增解释或条件"
+      ],
+      "changes": [
+        {
+          "id": "sound-overview-01",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Sound doesn't have to travel far to reach the user, so the experience is far more personal.",
+          "oldChinese": "声音无需传播很远，体验也更私密。",
+          "newChinese": "声音无需传播很远，带来的聆听体验也更贴近个人。",
+          "reason": "personal 表达体验贴近个人，不构成私密性或隐私保障的判断。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/overview"
+        },
+        {
+          "id": "sound-overview-02",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Use uplifting sounds for positive moments and negative sounds for failed interactions to match emotional tone.",
+          "oldChinese": "积极时刻使用轻快的声音，操作失败使用带有否定意味的声音。",
+          "newChinese": "积极时刻使用轻快的声音，操作失败使用带有负面情绪的声音，让声音与事件的情绪基调一致。",
+          "reason": "negative sounds 指情绪基调，不只是表示否定；补回声音与情绪相匹配的目的。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/overview"
+        },
+        {
+          "id": "sound-overview-03",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Use a cheerful sound for an error.",
+          "oldChinese": "发生错误时，不要播放令人愉快的成功式声音。",
+          "newChinese": "发生错误时，不要播放欢快的声音。",
+          "reason": "去掉原文没有的“成功式”范围限制。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/overview"
+        },
+        {
+          "id": "sound-overview-04",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Interrupting at an inappropriate moment undermines user trust far more than a delayed update.",
+          "oldChinese": "不合时宜的打断，比稍晚一点的更新更容易损害用户信任。",
+          "newChinese": "相比更新稍有延迟，不合时宜的打断对用户信任的伤害要大得多。",
+          "reason": "原文比较伤害程度（far more），不是发生伤害的概率。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/overview"
+        },
+        {
+          "id": "sound-overview-05",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "If an app loses audio focus and regains it, it's often useful to trigger a voice alert to inform users that their experience has resumed.",
+          "oldChinese": "应用失去音频焦点后又重新获得焦点时，通常可以用一句语音提示，告知用户此前的体验已经恢复。",
+          "newChinese": "应用失去音频焦点后又重新获得焦点时，用语音提示告知用户此前的体验已经恢复，通常会有帮助。",
+          "reason": "恢复 often useful 的价值判断，去掉未规定的“一句”。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/overview"
+        }
+      ],
+      "sourceAmbiguities": [],
+      "verification": {
+        "headingIds": 15,
+        "mediaItems": 7,
+        "bodyLinks": 0,
+        "sourceUnchanged": true,
+        "changesFullyRecorded": true,
+        "bodyTextMatchesTextEn": true,
+        "numericTokensOnlyInSource": {},
+        "numericTokensOnlyInChinese": {},
+        "numericEquivalentsConfirmed": [],
+        "numericValuesPreserved": true
+      },
+      "semanticChangeCount": 5,
+      "changeCount": 5,
+      "finalChineseSha256": "1f13e07da08cbbf04327b803530e705ece7205eae0a3deee1585d3a8cd65b211"
+    },
+    {
+      "slug": "sound-voice-alerts",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts",
+      "sourceUpdated": "2026-10-28",
+      "sourceSha256": "696000cb3e75a784c601bda3319ff432d28ecaee011830a1ec35200b9ca2a47c",
+      "originalChineseSha256": "fcb91455b01291a1dfb3b2b1053a250612d52563bad9a7f24216fe4ed5c6f8bf",
+      "reviewed": true,
+      "checks": [
+        "已逐段核对完整 bodyEn 与 textEn",
+        "已核对主语、否定、条件、范围、指令强度与因果关系",
+        "已核对正文、列表、表格、图注与全部数值和单位",
+        "已检查译者补充与原文边界、歧义标注",
+        "标题锚点 ID 全部保留",
+        "原始图片、音频及重复出现次数全部保留",
+        "正文链接全部保留，仅排除 Previous/Next 导航",
+        "源 JSON SHA-256 与审查前一致",
+        "所有中文变更均可由逐条审查记录精确复原",
+        "修订后中文已逐条复读，未见未记录的新增解释或条件"
+      ],
+      "changes": [
+        {
+          "id": "sound-voice-alerts-01",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Voice alerts provide clarity that can't be provided by an earcon alone, like a unique interaction or state change. For example, a lost connection or closing translation.",
+          "oldChinese": "对于特殊交互或状态变化，例如连接丢失、结束翻译，单靠提示音可能说不清；语音提示可以补充明确的说明。",
+          "newChinese": "对于特殊交互或状态变化，例如连接丢失、结束翻译，语音提示能提供单靠提示音无法传达的明确说明。",
+          "reason": "恢复 can't be provided 的否定强度，删除无来源的“可能”。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts"
+        },
+        {
+          "id": "sound-voice-alerts-02",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "If an interaction is performed on mobile and affects the glasses experience, like mute, play an earcon but forgo the voice alert.",
+          "oldChinese": "如果用户在手机上进行的操作会影响眼镜体验，例如关闭麦克风，只需播放提示音，无需再播报语音。",
+          "newChinese": "如果用户在手机上进行的操作会影响眼镜体验，例如静音，就播放提示音，但省去语音提示。",
+          "reason": "原文 mute 未限定为关闭麦克风硬件；保持一般静音操作和 play / forgo 指令。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts"
+        },
+        {
+          "id": "sound-voice-alerts-03",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "If an app is paused or lacks frequent audio output, an Information readout updates users when tapping the glasses.",
+          "oldChinese": "如果应用已暂停，或者长时间没有声音输出，可以在用户轻点眼镜时播报当前状态。",
+          "newChinese": "如果应用已暂停，或者声音输出并不频繁，信息播报会在用户轻点眼镜时告知最新状态。",
+          "reason": "不频繁输出不等于长时间无输出；原文陈述信息播报的行为，不是提出可选实现。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts"
+        },
+        {
+          "id": "sound-voice-alerts-04",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Generic voice alerts don't benefit from a unique voice, they exist purely to help the user understand the state of the audio app.",
+          "oldChinese": "通用语音提示只为帮助用户理解音频应用的当前状态，不需要独特的音色。",
+          "newChinese": "使用独特的声音并不会让通用语音提示获得额外益处；它们只为帮助用户理解音频应用的当前状态。",
+          "reason": "don't benefit 描述无额外益处，不是不可用或无需求；保留原句论断。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts"
+        },
+        {
+          "id": "sound-voice-alerts-05",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Use the standard system voice for consistency when possible to reduce cognitive load and feel more premium and considered.",
+          "oldChinese": "在条件允许时，使用标准系统声音，保持一致，降低认知负担，也让体验显得更完整、周到。",
+          "newChinese": "在条件允许时，使用标准系统语音，保持一致，降低认知负担，也让体验更精致、周到。",
+          "reason": "system voice 明确是语音；premium 是品质感，不是完整性。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts"
+        },
+        {
+          "id": "sound-voice-alerts-06",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "These voices are unique and core to the audio experience. It's important to allow these to be custom and branded to heighten the audio experience.",
+          "oldChinese": "有些声音本身就是音频体验的核心，需要独特的表现力。允许它们使用定制、具有品牌特征的声音，有助于提升体验。",
+          "newChinese": "这类声音具有独特性，也是音频体验的核心。允许对它们进行定制并融入品牌特征，对提升音频体验很重要。",
+          "reason": "保留本节这类声音的明确主体，以及 important 的重要性判断。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts"
+        },
+        {
+          "id": "sound-voice-alerts-07",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Consider starting with an active verb for actions to help direct users clearly.",
+          "oldChinese": "说明操作时，可以考虑用主动动词开头，让用户清楚知道正在做什么。",
+          "newChinese": "说明操作时，可以考虑用主动动词开头，清楚地引导用户。",
+          "reason": "原文目的为引导用户行动，不只是告知正在发生的事。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts"
+        },
+        {
+          "id": "sound-voice-alerts-08",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Use technical terms, even for sake of brevity.",
+          "oldChinese": "即使为了缩短提示，也不要改用用户不熟悉的技术术语。",
+          "newChinese": "即使为了缩短提示，也不要使用技术术语。",
+          "reason": "删除“不熟悉”的新增条件；原文不区分用户是否熟悉技术术语。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts"
+        },
+        {
+          "id": "sound-voice-alerts-09",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Common voice alerts shouldn't disrupt the user's experience, meaning a good brief message is better than a perfect and exact, but long message.",
+          "oldChinese": "一条简短而有效的信息，通常优于准确到面面俱到却很冗长的说明。",
+          "newChinese": "一条简短而有效的信息，优于准确到面面俱到却很冗长的说明。",
+          "reason": "删除原文没有的“通常”，保留源文明确的比较。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts"
+        },
+        {
+          "id": "sound-voice-alerts-10",
+          "field": "body",
+          "kind": "source-ambiguity",
+          "englishOriginal": "More uncommon use cases can benefit from more explanation to help avoid cognitive overload or to leave the user guessing a solution. Consider what information is needed to proceed.",
+          "oldChinese": "对于不常见的情况，多一点解释有助于减少理解负担，避免让用户自己猜解决办法。判断标准是：用户需要知道什么，才能继续下一步？</p>",
+          "newChinese": "对于不常见的情况，多一点解释有助于避免认知过载，避免让用户自己猜解决办法。应考虑用户需要哪些信息，才能继续下一步。</p>\n<aside class=\"translator-note\">译者注：原文写作“to help avoid cognitive overload or to leave the user guessing a solution”。后半句按字面会成为“让用户猜测解决办法”，与本节上下文不一致。此处按其意在避免让用户猜测的语境理解；保留原句供对照，原文含义仍需澄清。</aside>",
+          "reason": "恢复 cognitive overload 的精确含义；原文疑似语法遗漏须明确标注，不能默默将其修顺。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts"
+        },
+        {
+          "id": "sound-voice-alerts-11",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Get in the user's way with too much explanation or try to troubleshoot lengthy processes.",
+          "oldChinese": "不要用过多说明打断用户，也不要试图在一段语音中讲完冗长的故障排查流程。",
+          "newChinese": "不要用过多说明妨碍用户，也不要试图通过语音提示完成冗长的故障排查。",
+          "reason": "删除“一段语音中讲完”的新增限制；原文并未允许拆成多段进行冗长排查。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts"
+        },
+        {
+          "id": "sound-voice-alerts-12",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Consider multidevice experiences. Call out when something happens on the phone versus wearable.",
+          "oldChinese": "考虑多设备体验。当操作发生在手机而非眼镜上时，应明确告诉用户。",
+          "newChinese": "考虑多设备体验，明确说明操作发生在手机上还是可穿戴设备上。",
+          "reason": "恢复对两类设备的区分，避免将告知义务限于发生在手机上的操作。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts"
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "englishOriginal": "On audio glasses, tapping the touchpad triggers a status readout or play and pause instead of holding Gemini or agents.",
+          "handling": "保留明确的轻点行为及既有译者注，并在注中保留 holding Gemini or agents，不推导未明确的手势规则。"
+        },
+        {
+          "englishOriginal": "More uncommon use cases can benefit from more explanation to help avoid cognitive overload or to leave the user guessing a solution.",
+          "handling": "新增译者注明确保留语法冲突及译者采用的语境理解，不将解释伪装成无歧义原文。"
+        }
+      ],
+      "verification": {
+        "headingIds": 17,
+        "mediaItems": 20,
+        "bodyLinks": 3,
+        "sourceUnchanged": true,
+        "changesFullyRecorded": true,
+        "bodyTextMatchesTextEn": true,
+        "numericTokensOnlyInSource": {},
+        "numericTokensOnlyInChinese": {},
+        "numericEquivalentsConfirmed": [],
+        "numericValuesPreserved": true
+      },
+      "semanticChangeCount": 12,
+      "changeCount": 12,
+      "finalChineseSha256": "40a711f40c5dac0180cb7c44f312bbb0e760516bff8f3e05cb5f03d47407e113"
+    },
+    {
+      "slug": "styles-color",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/color",
+      "sourceUpdated": "2026-05-19",
+      "sourceSha256": "ad63af5801812eb8044c0f3ce3fc4ed1bc329c76464f426ee299cfce746519ec",
+      "originalChineseSha256": "73d9781d17b4aa8bd6573ec281256ea622bb9baca556260a4c1bd68a31d6ac22",
+      "reviewed": true,
+      "checks": [
+        "已逐段核对完整 bodyEn 与 textEn",
+        "已核对主语、否定、条件、范围、指令强度与因果关系",
+        "已核对正文、列表、图注与全部数值和单位",
+        "已检查 HCT Tone、视角、PPD、px、point 的术语与单位",
+        "已检查译者补充与原文边界、歧义标注",
+        "标题锚点 ID 全部保留",
+        "原始图片、音频及重复出现次数全部保留",
+        "正文链接全部保留，仅排除 Previous/Next 导航",
+        "源 JSON SHA-256 与审查前一致",
+        "所有中文变更均可由逐条审查记录精确复原",
+        "修订后中文已逐条复读，未见未记录的新增解释或条件"
+      ],
+      "changes": [
+        {
+          "id": "styles-color-01",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Keep this in mind when designing as darker color will appear dull or transparent, but this can also be used to create depth.",
+          "oldChinese": "深色可能显得暗淡，甚至近乎透明；也可以利用这一特性营造深度感。",
+          "newChinese": "深色会显得暗淡或透明；也可以利用这一特性营造深度感。",
+          "reason": "保留 will 与 or，不改成可能发生的程度递进，也不将 transparent 改成近乎透明。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/color"
+        },
+        {
+          "id": "styles-color-02",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Saturated enough to be discernible as a color",
+          "oldChinese": "具有足够的饱和度，能被辨认为特定颜色。",
+          "newChinese": "具有足够的饱和度，使其呈现出可辨识的色彩。",
+          "reason": "原文要求看得出色彩，没有另加识别某个特定色相的要求。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/color"
+        },
+        {
+          "id": "styles-color-03",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Have too little contrast for UI elements on various backgrounds, this can create eyestrain and illegibility.",
+          "oldChinese": "对比度不足会导致阅读困难和视觉疲劳。",
+          "newChinese": "对比度不足可能造成视觉疲劳，让内容难以辨读。",
+          "reason": "保留 can 的可能性，不将潜在后果改为必然结果。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/color"
+        },
+        {
+          "id": "styles-color-04",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Use desaturated colors.",
+          "oldChinese": "<h3 id=\"do_2\">建议：使用较低饱和度的颜色</h3><p>适当降低颜色饱和度。</p>",
+          "newChinese": "<h3 id=\"do_2\">建议：使用较低饱和度的颜色</h3><p>使用较低饱和度的颜色。</p>",
+          "reason": "原文描述要使用的颜色属性，不是要求对任意现有颜色执行进一步降饱和操作。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/color"
+        },
+        {
+          "id": "styles-color-05",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Use bright or filled surfaces.",
+          "oldChinese": "<h3 id=\"dont_3\">避免：明亮或实色填充的底板</h3><p>不要使用明亮或大面积填充颜色的界面底板。</p>",
+          "newChinese": "<h3 id=\"dont_3\">避免：明亮或填色的底板</h3><p>不要使用明亮或填色的界面底板。</p>",
+          "reason": "删除原文没有的“大面积”和“实色”限制，保留 filled 的完整范围。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/color"
+        },
+        {
+          "id": "styles-color-06",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Change the contrast on interaction states to minimal contrast.",
+          "oldChinese": "<h3 id=\"dont_7\">避免：状态变化后对比过低</h3><p>不要在改变交互状态时，把对比度降到难以辨认的程度。</p>",
+          "newChinese": "<h3 id=\"dont_7\">避免：交互状态对比度过低</h3><p>不要把交互状态的对比度降得过低。</p>",
+          "reason": "原文针对交互状态的对比度，不限于切换状态时；删除额外的难以辨认阈值。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/color"
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "englishOriginal": "Ensure at least a 66% tone difference between foreground and background using the HCT color space.",
+          "handling": "保留 66% 原始写法；Tone 译为明度。保留既有译者注，说明其与后文数字不直接合并。"
+        },
+        {
+          "englishOriginal": "In order to have enough contrast over every background you need to have a contrast difference of 70 (7:1) in the tone of the foreground and background colors.",
+          "handling": "完整保留 70（7:1）。既有译者注明确说明 HCT 明度差与对比度比值不是同一指标，不将两者当作数学等价关系。"
+        },
+        {
+          "englishOriginal": "Provide contrast between surface and text. Approximate 66 tone difference is suggested to check for.",
+          "handling": "保留约 66 及建议强度，没有改成至少 66 或 66%。"
+        },
+        {
+          "englishOriginal": "Make Surface and Surface variant too close in tone (around 20 difference).",
+          "handling": "保留约 20，并保留既有译者注：原文未明示它是建议值还是反例，不扩写成上下限。"
+        }
+      ],
+      "verification": {
+        "headingIds": 22,
+        "mediaItems": 22,
+        "bodyLinks": 3,
+        "sourceUnchanged": true,
+        "changesFullyRecorded": true,
+        "bodyTextMatchesTextEn": true,
+        "numericTokensOnlyInSource": {
+          "2": 1
+        },
+        "numericTokensOnlyInChinese": {},
+        "numericEquivalentsConfirmed": [
+          {
+            "source": "2 outlines",
+            "chinese": "两层描边",
+            "result": "语义和数量一致；layer 2 同时保留为第 2 层。"
+          }
+        ],
+        "numericValuesPreserved": true
+      },
+      "semanticChangeCount": 6,
+      "changeCount": 6,
+      "finalChineseSha256": "3dbe9b761cdfd5fde3a4b48667ed9188efe2e4e443acadd4479304a6864a3407"
+    },
+    {
+      "slug": "styles-icons",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/icons",
+      "sourceUpdated": "2026-01-07",
+      "sourceSha256": "b9f41a6830aae07352961e39bf35903f1a212d42345bcba5b0b4973bafa378b1",
+      "originalChineseSha256": "fec31621ebb95e3402391f345095e72ac27c451a906d91f8731438d3be8ee7a9",
+      "reviewed": true,
+      "checks": [
+        "已逐段核对完整 bodyEn 与 textEn",
+        "已核对主语、否定、条件、范围、指令强度与因果关系",
+        "已核对正文、列表、图注与全部数值和单位",
+        "已检查 HCT Tone、视角、PPD、px、point 的术语与单位",
+        "已检查译者补充与原文边界、歧义标注",
+        "标题锚点 ID 全部保留",
+        "原始图片、音频及重复出现次数全部保留",
+        "正文链接全部保留，仅排除 Previous/Next 导航",
+        "源 JSON SHA-256 与审查前一致",
+        "所有中文变更均可由逐条审查记录精确复原",
+        "修订后中文已逐条复读，未见未记录的新增解释或条件"
+      ],
+      "changes": [
+        {
+          "id": "styles-icons-01",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "If you don't need custom iconography, use Material Symbols Rounded.",
+          "oldChinese": "如果不需要自定义图标，可以使用 Material Symbols Rounded。",
+          "newChinese": "如果不需要自定义图标，请使用 Material Symbols Rounded。",
+          "reason": "保留条件成立后的直接建议，不将 use 弱化为一般可用性说明。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/icons"
+        },
+        {
+          "id": "styles-icons-02",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Use a heavier stroke weight and rounded icon variants for greater readability and harmonize with system typography, avoid thin strokes.",
+          "oldChinese": "提高可读性，并与系统字体保持协调；避免过细的笔画。",
+          "newChinese": "提高可读性，并与系统字体保持协调；避免细笔画。",
+          "reason": "删除额外的“过细”阈值，保留原文对 thin strokes 的限制。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/icons"
+        }
+      ],
+      "sourceAmbiguities": [],
+      "verification": {
+        "headingIds": 0,
+        "mediaItems": 2,
+        "bodyLinks": 1,
+        "sourceUnchanged": true,
+        "changesFullyRecorded": true,
+        "bodyTextMatchesTextEn": true,
+        "numericTokensOnlyInSource": {},
+        "numericTokensOnlyInChinese": {},
+        "numericEquivalentsConfirmed": [],
+        "numericValuesPreserved": true
+      },
+      "semanticChangeCount": 2,
+      "changeCount": 2,
+      "finalChineseSha256": "95ab7d7c2a0c02979ca91407912b56b6c0231a525b6484c0f5797dbc2a14ab6a"
+    },
+    {
+      "slug": "styles-overview",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/overview",
+      "sourceUpdated": "2026-10-28",
+      "sourceSha256": "c8c48a9ae997dcb4027fb9f0a7bb7adf1180368932d56bb3225dd7a13c5c129e",
+      "originalChineseSha256": "a27ca8b1c5553e4a86b2ff462d364eca4e4da03bec0c1a3cd5ddfcaeea71f351",
+      "reviewed": true,
+      "checks": [
+        "已逐段核对完整 bodyEn 与 textEn",
+        "已核对主语、否定、条件、范围、指令强度与因果关系",
+        "已核对正文、列表、图注与全部数值和单位",
+        "已检查 HCT Tone、视角、PPD、px、point 的术语与单位",
+        "已检查译者补充与原文边界、歧义标注",
+        "标题锚点 ID 全部保留",
+        "原始图片、音频及重复出现次数全部保留",
+        "正文链接全部保留，仅排除 Previous/Next 导航",
+        "源 JSON SHA-256 与审查前一致",
+        "所有中文变更均可由逐条审查记录精确复原",
+        "修订后中文已逐条复读，未见未记录的新增解释或条件"
+      ],
+      "changes": [
+        {
+          "id": "styles-overview-01",
+          "field": "body",
+          "kind": "accessibility-text",
+          "englishOriginal": "Design elements should be anchored to the bottom of the\nframe.",
+          "oldChinese": "alt=\"Glimmer 视觉设计示例\"",
+          "newChinese": "alt=\"设计元素应固定在画面底部。\"",
+          "reason": "补回原文首幅配图替代文字中的底部定位信息；不将其另行扩写为正文规则。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/overview"
+        }
+      ],
+      "sourceAmbiguities": [],
+      "verification": {
+        "headingIds": 2,
+        "mediaItems": 6,
+        "bodyLinks": 0,
+        "sourceUnchanged": true,
+        "changesFullyRecorded": true,
+        "bodyTextMatchesTextEn": true,
+        "numericTokensOnlyInSource": {},
+        "numericTokensOnlyInChinese": {},
+        "numericEquivalentsConfirmed": [],
+        "numericValuesPreserved": true
+      },
+      "semanticChangeCount": 0,
+      "changeCount": 1,
+      "finalChineseSha256": "54c6aa0e0ef355bc2a4c395db6e7699266e0ee7bfb25a11379a47256dbeab450"
+    },
+    {
+      "slug": "styles-surfaces",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/surfaces",
+      "sourceUpdated": "2026-01-07",
+      "sourceSha256": "83c92b3e24144b61b76db38ac2e33c9c73748684a450b3ee4d0970ad1362793b",
+      "originalChineseSha256": "09da89d74ffe4edf27d5a99221a70ee1a1f1d064253362d2f1475177016bb37b",
+      "reviewed": true,
+      "checks": [
+        "已逐段核对完整 bodyEn 与 textEn",
+        "已核对主语、否定、条件、范围、指令强度与因果关系",
+        "已核对正文、列表、图注与全部数值和单位",
+        "已检查 HCT Tone、视角、PPD、px、point 的术语与单位",
+        "已检查译者补充与原文边界、歧义标注",
+        "标题锚点 ID 全部保留",
+        "原始图片、音频及重复出现次数全部保留",
+        "正文链接全部保留，仅排除 Previous/Next 导航",
+        "源 JSON SHA-256 与审查前一致",
+        "所有中文变更均可由逐条审查记录精确复原",
+        "修订后中文已逐条复读，未见未记录的新增解释或条件"
+      ],
+      "changes": [
+        {
+          "id": "styles-surfaces-01",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Use normal blend mode while designing as it will not give a realistic perception.",
+          "oldChinese": "设计时不要使用 Normal（正常）混合模式来判断透视显示效果，因为它无法呈现真实的视觉观感。",
+          "newChinese": "设计时不要使用 Normal（正常）混合模式，因为它无法呈现真实的视觉观感。",
+          "reason": "原文限定在设计过程中，不额外缩小到“用它判断效果”这一用途。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/surfaces"
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "englishOriginal": "Surfaces should always be transparent to maximize contrast in most environments.",
+          "handling": "按原文保留始终透明与大多数环境两个范围，不以其他页面的黑色、明度等表述擅自替换。"
+        }
+      ],
+      "verification": {
+        "headingIds": 4,
+        "mediaItems": 5,
+        "bodyLinks": 0,
+        "sourceUnchanged": true,
+        "changesFullyRecorded": true,
+        "bodyTextMatchesTextEn": true,
+        "numericTokensOnlyInSource": {},
+        "numericTokensOnlyInChinese": {},
+        "numericEquivalentsConfirmed": [],
+        "numericValuesPreserved": true
+      },
+      "semanticChangeCount": 1,
+      "changeCount": 1,
+      "finalChineseSha256": "2aad73a5069f4d267aa009ee2537bca4f6518d23aa7c4275df41124224840a74"
+    },
+    {
+      "slug": "styles-type",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/type",
+      "sourceUpdated": "2026-10-28",
+      "sourceSha256": "9010f1edf29a404cbf421da7a85d421f72cf54c5e02c7caebbdfec3d5296b06d",
+      "originalChineseSha256": "da2f7493db2dc9c5f83f74dcca556b923fc9d6ac00bd9ea7af24220cfc212b59",
+      "reviewed": true,
+      "checks": [
+        "已逐段核对完整 bodyEn 与 textEn",
+        "已核对主语、否定、条件、范围、指令强度与因果关系",
+        "已核对正文、列表、图注与全部数值和单位",
+        "已检查 HCT Tone、视角、PPD、px、point 的术语与单位",
+        "已检查译者补充与原文边界、歧义标注",
+        "标题锚点 ID 全部保留",
+        "原始图片、音频及重复出现次数全部保留",
+        "正文链接全部保留，仅排除 Previous/Next 导航",
+        "源 JSON SHA-256 与审查前一致",
+        "所有中文变更均可由逐条审查记录精确复原",
+        "修订后中文已逐条复读，未见未记录的新增解释或条件"
+      ],
+      "changes": [
+        {
+          "id": "styles-type-01",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Type is optimized for comfort and glanceability for display glasses this includes an optimized typescale and font family characteristics.",
+          "oldChinese": "带屏眼镜上的字体需要围绕舒适阅读和一眼可读来优化，包括字号层级以及字体本身的字形特征。",
+          "newChinese": "字体已针对带屏眼镜上的舒适阅读和一眼可读进行了优化，包括字号层级以及字体本身的字形特征。",
+          "reason": "源文陈述现有优化，不是把优化任务另行交给读者。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/type"
+        },
+        {
+          "id": "styles-type-02",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "To meet the minimum legibility metric, text must be at least 18px in size. 30 PPD × 0.6° minimum = 18px text size.",
+          "oldChinese": "原文以 30 PPD 为例：30 PPD × 最小视角 0.6° = 18 px，因此在这一条件下，文字至少需要 18 px 才能达到最低可读性指标。",
+          "newChinese": "要达到最低可读性指标，文字大小必须至少为 18 px。30 PPD × 最小视角 0.6° = 18 px（文字大小）。",
+          "reason": "正文恢复源文的 must 和计算式；30 PPD 是例子及其他显示屏的适用范围属于译者分析，已留在明确标注的译者注中。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/type"
+        },
+        {
+          "id": "styles-type-03",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Optical size, optimizes letterforms for each point size",
+          "oldChinese": "<strong>光学字号：</strong>针对不同字号优化字形。",
+          "newChinese": "<strong>光学字号：</strong>针对不同字号（以点计）优化字形。",
+          "reason": "保留 point size 的计量单位，避免与本节角度或 px 无说明混同。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/type"
+        },
+        {
+          "id": "styles-type-04",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Halation and chromatic aberration in glasses displays spreads light in all directions, causing the boundaries of the letters to disappear.",
+          "oldChinese": "眼镜显示中的光晕和色差会使光线向四周扩散，让文字边界变得模糊。",
+          "newChinese": "眼镜显示中的光晕和色差会使光线向四周扩散，让字形边界消失。",
+          "reason": "disappear 是消失，不只是变得模糊。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/type"
+        },
+        {
+          "id": "styles-type-05",
+          "field": "body",
+          "kind": "semantic",
+          "englishOriginal": "Use condensed thin typefaces.",
+          "oldChinese": "<h3 id=\"dont\">避免：过窄、过细的字体</h3><p>不要使用压缩字宽且笔画很细的字体。</p>",
+          "newChinese": "<h3 id=\"dont\">避免：窄体、细字重的字体</h3><p>不要使用窄体且字重较细的字体。</p>",
+          "reason": "删除“过窄、过细”的额外程度阈值，保持 condensed thin 的字体类型范围。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/type"
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "englishOriginal": "To meet the minimum legibility metric, text must be at least 18px in size. 30 PPD × 0.6° minimum = 18px text size.",
+          "handling": "正文保持必须至少 18 px 的源文和公式；PPD 定义、18 px 来自 30 PPD 换算及不宜普遍套用的解释仍在明确标注的译者注中。"
+        }
+      ],
+      "verification": {
+        "headingIds": 5,
+        "mediaItems": 5,
+        "bodyLinks": 2,
+        "sourceUnchanged": true,
+        "changesFullyRecorded": true,
+        "bodyTextMatchesTextEn": true,
+        "numericTokensOnlyInSource": {
+          "3": 1
+        },
+        "numericTokensOnlyInChinese": {},
+        "numericEquivalentsConfirmed": [
+          {
+            "source": "3 styles each",
+            "chinese": "每种角色各有三种样式",
+            "result": "阿拉伯数字以中文数字表达，数量一致。"
+          }
+        ],
+        "numericValuesPreserved": true
+      },
+      "semanticChangeCount": 5,
+      "changeCount": 5,
+      "finalChineseSha256": "e0af3a9526632ffbf5098584ebfac04bb9de39a047822e554c6e8e5e5d716342"
+    }
+  ],
+  "reviewedPageCount": 10,
+  "changeCount": 53,
+  "accessibilityTextRestorationCount": 1,
+  "terminologyRecommendations": [
+    {
+      "english": "audio alerts",
+      "chinese": "音频提示（保留英文）",
+      "reason": "在 sound-earcons 源文中未明确等同 voice alerts；不要自动替换为语音提示。"
+    },
+    {
+      "english": "cognitive overload / cognitive load",
+      "chinese": "认知过载 / 认知负担",
+      "reason": "两者范围不同；正文已按原文区分。"
+    },
+    {
+      "english": "fundamentals",
+      "chinese": "基音",
+      "reason": "sound-bespoke-earcon 此处不是 frequency 频率数值，已将基频修为基音。"
+    }
+  ],
+  "validationSummary": {
+    "reviewedPages": 10,
+    "sourceFilesUnchanged": true,
+    "allSourceBodyTextMatchesTextEn": true,
+    "allHeadingIdsPreserved": true,
+    "allOriginalMediaPreserved": true,
+    "allNonNavigationLinksPreserved": true,
+    "allChangesHaveEnglishOldChineseNewChineseSourceUrl": true,
+    "allChangesReversibleToOriginalHash": true,
+    "allNumbersAndUnitsManuallyConfirmed": true,
+    "noBuildCommitOrDeployment": true
+  }
+}

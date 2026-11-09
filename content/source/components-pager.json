@@ -1,0 +1,48 @@
+{
+  "slug": "components-pager",
+  "group": "components",
+  "englishTitle": "Pagers",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/pager",
+  "sourceUpdated": "2026-08-19",
+  "fetchedAt": "2026-11-09",
+  "bodyEn": "<p>The page indicator represents the currently active page and total pages of an\noverlay that lets you navigate horizontally between content.</p>\n<p><img alt=\"Design elements should be anchored to the bottom of the\nframe.\" loading=\"lazy\" src=\"/assets/original/3917952e-glasses_components_pagers.webp\"/></p>\n<h3 id=\"principles\">Principles</h3>\n<p>Stack are a container component, so they share design principles with cards and\nlists:</p>\n<p><strong>Clear Feedback</strong>: Pagers communicate where the user is within a carousel of\ncontent.</p>\n<p><strong>Contextual</strong>: The primary purpose of a pager is to provide clear and\nimmediate context for the content it's associated with.</p>\n<p><strong>Concise</strong>: Pagers are small and precise in visual language.</p>\n<h2 id=\"usage-placement\">Usage &amp; Placement</h2>\n<p>Pagers show the user their current position within a linear sequence of content.</p>\n<p><video controls=\"\" preload=\"none\">\n<source src=\"/assets/original/453e4443-glasses_components_pagers.mp4\" type=\"video/mp4\"/>\n      Alas, your browser doesn't support HTML5 video. That's OK! You can still\n      <a href=\"https://developer.android.com/static/images/design/ui/glasses/guides/glasses_components_pagers.mp4\" rel=\"noopener noreferrer\" target=\"_blank\">download the video</a> and watch it with a video player.\n    </video></p>\n<p><video controls=\"\" preload=\"none\">\n<source src=\"/assets/original/de4c28e9-glasses_components_pagers_swipe.mp4\" type=\"video/mp4\"/>\n      Alas, your browser doesn't support HTML5 video. That's OK! You can still\n      <a href=\"https://developer.android.com/static/images/design/ui/glasses/guides/glasses_components_pagers_swipe.mp4\" rel=\"noopener noreferrer\" target=\"_blank\">download the video</a> and watch it with a video player.\n    </video>\n<figcaption>A user can quickly swipe through pagers.</figcaption></p>\n<p><img alt=\"Design elements should be anchored to the bottom of the\nframe.\" loading=\"lazy\" src=\"/assets/original/0355429a-glasses_components_pagers_placement.webp\"/>\nThey are placed above the system bar area and under the content area.</p>\n\n\n\n<picture>\n<img alt=\"Android Developers 原始示意图\" loading=\"lazy\" src=\"/assets/original/c734819d-glasses_components_pagers_overlap_do.webp\"/>\n</picture>\n\n\n\n<h3 id=\"do\">Do</h3>\n\nCards are arranged in a row with no overlap\n\n\n\n<picture>\n<img alt=\"Android Developers 原始示意图\" loading=\"lazy\" src=\"/assets/original/e5495d06-glasses_components_pagers_overlap_dont.webp\"/>\n</picture>\n\n\n\n<h3 id=\"dont\">Don't</h3>\n\nAllow cards to overlap. Only one card is visible at a time.\n\n\n<h2 id=\"anatomy\">Anatomy</h2>\n<p>A pager is composed of a row of indication dots in active and inactive states.</p>\n<p><img alt=\"pager is composed of a row of indication dots in active and inactive\nstates.\" loading=\"lazy\" src=\"/assets/original/569cb869-glasses_components_pagers_anatomy.webp\"/>\n<strong>A.</strong> Active (Current page)</p>\n<p><strong>B.</strong> Inactive page</p>\n<p><video controls=\"\" preload=\"none\">\n<source src=\"/assets/original/959ebe41-glasses_components_pagers_wrong.mp4\" type=\"video/mp4\"/>\n      Alas, your browser doesn't support HTML5 video. That's OK! You can still\n      <a href=\"https://developer.android.com/static/images/design/ui/glasses/guides/glasses_components_pagers_wrong.mp4\" rel=\"noopener noreferrer\" target=\"_blank\">download the video</a> and watch it with a video player.\n    </video>\n<figcaption>Pager indicating swiping in the wrong direction.</figcaption></p>\n<p><img alt=\"pager is composed of a row of indication dots in active and inactive\nstates.\" loading=\"lazy\" src=\"/assets/original/c004624e-glasses_components_pagers_more.webp\"/></p>\n<p>When five or more dots are present, the additional dots are indicated with a\nsmaller first dot and slide the entire row until the end is reached.</p>\n<h2 id=\"customization\">Customization</h2>\n<p>Pagers have built-in scrim, paging, and animations that can't be customized.\nRather the content within the stacks pager is customized.</p>\n\n\n\n\n<a href=\"https://developer.android.com/design/ui/ai-glasses/guides/components/lists\" rel=\"noopener noreferrer\" target=\"_blank\">\nPrevious\n\n\n        Lists\n      \n</a>\n\n\n<a href=\"https://developer.android.com/design/ui/ai-glasses/guides/components/progress\" rel=\"noopener noreferrer\" target=\"_blank\">\nNext\n\n        Progress indicators\n      \n\n</a>",
+  "textEn": "The page indicator represents the currently active page and total pages of an\noverlay that lets you navigate horizontally between content.\nPrinciples\nStack are a container component, so they share design principles with cards and\nlists:\nClear Feedback\n: Pagers communicate where the user is within a carousel of\ncontent.\nContextual\n: The primary purpose of a pager is to provide clear and\nimmediate context for the content it's associated with.\nConcise\n: Pagers are small and precise in visual language.\nUsage & Placement\nPagers show the user their current position within a linear sequence of content.\nAlas, your browser doesn't support HTML5 video. That's OK! You can still\ndownload the video\nand watch it with a video player.\nAlas, your browser doesn't support HTML5 video. That's OK! You can still\ndownload the video\nand watch it with a video player.\nA user can quickly swipe through pagers.\nThey are placed above the system bar area and under the content area.\nDo\nCards are arranged in a row with no overlap\nDon't\nAllow cards to overlap. Only one card is visible at a time.\nAnatomy\nA pager is composed of a row of indication dots in active and inactive states.\nA.\nActive (Current page)\nB.\nInactive page\nAlas, your browser doesn't support HTML5 video. That's OK! You can still\ndownload the video\nand watch it with a video player.\nPager indicating swiping in the wrong direction.\nWhen five or more dots are present, the additional dots are indicated with a\nsmaller first dot and slide the entire row until the end is reached.\nCustomization\nPagers have built-in scrim, paging, and animations that can't be customized.\nRather the content within the stacks pager is customized.\nPrevious\nLists\nNext\nProgress indicators",
+  "assets": [
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_components_pagers.webp",
+      "local": "/assets/original/3917952e-glasses_components_pagers.webp"
+    },
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_components_pagers.mp4",
+      "local": "/assets/original/453e4443-glasses_components_pagers.mp4"
+    },
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_components_pagers_swipe.mp4",
+      "local": "/assets/original/de4c28e9-glasses_components_pagers_swipe.mp4"
+    },
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_components_pagers_placement.webp",
+      "local": "/assets/original/0355429a-glasses_components_pagers_placement.webp"
+    },
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_components_pagers_overlap_do.webp",
+      "local": "/assets/original/c734819d-glasses_components_pagers_overlap_do.webp"
+    },
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_components_pagers_overlap_dont.webp",
+      "local": "/assets/original/e5495d06-glasses_components_pagers_overlap_dont.webp"
+    },
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_components_pagers_anatomy.webp",
+      "local": "/assets/original/569cb869-glasses_components_pagers_anatomy.webp"
+    },
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_components_pagers_wrong.mp4",
+      "local": "/assets/original/959ebe41-glasses_components_pagers_wrong.mp4"
+    },
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_components_pagers_more.webp",
+      "local": "/assets/original/c004624e-glasses_components_pagers_more.webp"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "surfaces-sysui",
+  "group": "surfaces",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/sysui",
+  "sourceUpdated": "2026-10-28",
+  "title": "系统界面",
+  "englishTitle": "System UI",
+  "description": "了解主界面、系统栏、通知与指示灯如何共同构成完整的眼镜体验。",
+  "body": "<p>带屏眼镜的系统界面与应用界面、硬件共同构成用户体验。设计时，需要了解以下系统界面元素。</p>\n<h3 id=\"home\">主界面</h3>\n<p>主界面是用户熟悉的起点，可以包含时钟、天气、通知，以及 Gemini 的视觉反馈。它位于系统的最底层，借鉴手机锁屏，只提供少量与当前情境有关的信息和操作。</p>\n<ul><li>唤醒设备或返回时，回到熟悉的界面。</li><li>无需操作，就能看到与当前情境有关、一眼可读的信息。</li><li>提供用户接下来可能需要的操作入口。</li><li>多个活动同时运行时，支持多任务处理。</li></ul>\n<figure><img src=\"/assets/original/1f920a87-glasses_sysui_home.png\" alt=\"眼镜主界面。\" loading=\"lazy\"></figure>\n<h3 id=\"system-bar\">系统栏</h3>\n<p>系统栏承载 Gemini 的视觉反馈，以及通知、提醒、胶囊提示、时钟等次要但一眼可读的信息。除通知胶囊外，应用不能占用这一区域。不使用时，系统栏不可见，主界面除外。系统栏显示什么内容，取决于用户当前所处的位置：</p>\n<ul><li>主界面。</li><li>应用界面。</li></ul>\n<figure><img src=\"/assets/original/e8577088-glasses_sysui_systembar.png\" alt=\"系统栏显示设备提醒和通知。\" loading=\"lazy\"></figure>\n<p>此外，还有一些短暂呈现的内容，可以不受当前位置限制，随时出现，例如悬浮通知（HUN）。</p>\n\n<h3 id=\"notifications\">通知</h3>\n<p>眼镜通知与<a href=\"https://developer.android.com/design/ui/mobile/guides/home-screen/notifications\">手机通知</a>类似，内容应简短、及时且与用户相关。通知采用系统模板，并根据是否获得焦点、屏幕是否可用，呈现不同状态。</p>\n<figure><img src=\"/assets/original/5ff593b7-glasses_surface_sysUI_notifications.png\" alt=\"通知初次出现时采用收起状态。\" loading=\"lazy\"><figcaption>通知先以胶囊形式出现，避免遮挡用户视线。</figcaption></figure>\n<figure><img src=\"/assets/original/3971e738-glasses_surface_sysUI_notifications_expanded.png\" alt=\"通知获得焦点后展开。\" loading=\"lazy\"><figcaption>通知获得焦点后展开。</figcaption></figure>\n<h3 id=\"leds\">LED 指示灯</h3>\n<p>所有带屏眼镜均配有两枚 LED 指示灯，一枚面向佩戴者，一枚面向周围的人。指示灯通过视觉反馈说明功能和设备状态，设计完整体验时也应将它们纳入考虑。这些都是系统界面指示，无法更改。</p>\n<figure><img src=\"/assets/original/1397f658-glasses_surface_sysui_led.png\" alt=\"带屏眼镜上的两枚 LED 指示灯。\" loading=\"lazy\"></figure>"
+}

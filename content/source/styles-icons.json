@@ -1,0 +1,20 @@
+{
+  "slug": "styles-icons",
+  "group": "styles",
+  "englishTitle": "Icons on glasses",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/icons",
+  "sourceUpdated": "2026-01-07",
+  "fetchedAt": "2026-11-09",
+  "bodyEn": "<p>Icons must be considered to be glanceable and discernible on glasses displays.\nUse rounded icon styles with a heavier weight to prevent halation effects.</p>\n<aside class=\"source-note\"><strong>Note:</strong> If you don't need custom iconography, use Material Symbols Rounded.</aside>\n<p>\n\n\n<figure>\n<img alt=\"Design elements should be anchored to the bottom of the frame.\" loading=\"lazy\" src=\"/assets/original/33544b1a-glasses_style_icon_unfilled.png\"/>\n<figcaption><b>Use unfilled</b> icons to avoid halation, or \"light bleed\".</figcaption>\n</figure>\n\n\n<figure>\n<img alt=\"Design elements should be anchored to the bottom of the frame.\" loading=\"lazy\" src=\"/assets/original/33544b1a-glasses_style_icon_unfilled.png\"/>\n<figcaption><b>Use a heavier stroke weight and rounded icon variants</b>for greater readability and harmonize with system typography, avoid thin strokes.</figcaption>\n</figure>\n\n</p>\n<aside class=\"source-note\"><strong>Note:</strong> For icons, check out Material Symbols. Available on <a href=\"https://fonts.google.com/icons\" rel=\"noopener noreferrer\" target=\"_blank\">Google Fonts</a>.</aside>\n\n\n\n\n<a href=\"https://developer.android.com/design/ui/ai-glasses/guides/styles/surfaces\" rel=\"noopener noreferrer\" target=\"_blank\">\nPrevious\n\n\n        Surfaces &amp; Depth\n      \n</a>\n\n\n<a href=\"https://developer.android.com/design/ui/ai-glasses/guides/components/buttons\" rel=\"noopener noreferrer\" target=\"_blank\">\nNext\n\n        Buttons\n      \n\n</a>",
+  "textEn": "Icons must be considered to be glanceable and discernible on glasses displays.\nUse rounded icon styles with a heavier weight to prevent halation effects.\nNote:\nIf you don't need custom iconography, use Material Symbols Rounded.\nUse unfilled\nicons to avoid halation, or \"light bleed\".\nUse a heavier stroke weight and rounded icon variants\nfor greater readability and harmonize with system typography, avoid thin strokes.\nNote:\nFor icons, check out Material Symbols. Available on\nGoogle Fonts\n.\nPrevious\nSurfaces & Depth\nNext\nButtons",
+  "assets": [
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_style_icon_unfilled.png",
+      "local": "/assets/original/33544b1a-glasses_style_icon_unfilled.png"
+    },
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_style_icon_unfilled.png",
+      "local": "/assets/original/33544b1a-glasses_style_icon_unfilled.png"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "foundations-design-principles",
+  "group": "foundations",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/foundations/design-principles",
+  "sourceUpdated": "2026-10-28",
+  "title": "设计原则",
+  "englishTitle": "Design principles",
+  "description": "让眼镜自然融入日常生活，以舒适、一眼可读和恰到好处的交互为出发点。",
+  "body": "<p>为搭载 Android XR 的智能眼镜设计应用，需要认真考虑用户体验，把使用舒适和融入日常生活放在首位。眼镜上的应用应像用户感知能力的自然延伸，让人方便地获取信息，又不造成打扰。</p>\n<h2 id=\"audio-display\">无屏眼镜与带屏眼镜</h2>\n<p>无屏眼镜轻巧便携，适合全天佩戴。借助内置扬声器、摄像头和麦克风，设计师与开发者可以打造无需动手、能够辅助现实活动的智能体验。</p>\n<p>带屏眼镜在此基础上增加了一块小型显示屏，让用户在私人视野中看到更多信息，并与声音输出相互配合。</p>\n<p>设计这类增强体验时，应同时考虑无屏和带屏两种眼镜形态。</p>\n<h2 id=\"glasses-multimodal\">以多模态交互为先</h2>\n<p>界面应适应语音、手势等能够解放双手的交互方式。设计交互时，要充分考虑间接控制，以及部分输入方式精度有限所带来的约束。</p>\n<figure><img src=\"/assets/original/61046a59-glasses_principle_hands-free.png\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"></figure>\n<h2 id=\"prioritize-glanceable\">一眼可读，按需出现</h2>\n<p>带屏眼镜上的交互通常很短暂。界面应便于扫一眼就理解，元素也应短暂呈现。</p>\n<p>只在需要时显示界面，任务完成后及时退去，尽量减少一直停留在视野中的干扰。</p>\n<figure><img src=\"/assets/original/82e0230a-glasses_foundations_principle_glance.gif\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"></figure>\n<h2 id=\"transparent-ui-realworld\">透明界面始终与真实世界争夺注意力</h2>\n<p>眼镜的显示视野有限，对焦距离可能变化，现实背景也可能持续变化。信息呈现应简洁，并能适应这些变化。</p>\n<p>优化文字排版，让内容清晰易读，避免过多信息给用户造成负担。</p>\n<figure><img src=\"/assets/original/7118334b-glasses_principle_optimize_depth.png\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"></figure>\n<h2 id=\"optimize-focus\">让用户专注于关键内容</h2>\n<p>布局应突出必要信息，减少操作项和视觉元素，帮助用户保持专注。</p>\n<p>根据有限的显示视野控制内容密度，避免认知过载，让阅读更舒适。</p>\n<figure><img src=\"/assets/original/147a8141-glasses_principle_optimize_focus.png\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"></figure>\n<h2 id=\"comfort\">以舒适为先</h2>\n<p>用户的舒适感最重要。避免过多视觉信息或声音提醒造成负担。优先采用清晰、简洁的表达与交互，避免分散用户对现实活动的注意力，尤其是在用户正在移动，或需要全神贯注地留意周围环境时。眼镜独特的形态与硬件能力，需要专门的设计考量。</p>\n<ul><li>清楚说明收集哪些数据、为什么收集，以及如何存储。</li><li>避免突兀、分散注意力的视觉通知，以免在关键时刻遮挡用户视线。</li><li>如果应用有声音输出，音量不应盖过环境声。用户必须始终能够感知周围环境。</li><li>避免可能引发晕动不适的界面和动效，例如要求用户边走路边阅读大量文字。</li><li>遵循 Jetpack Compose Glimmer 的界面最佳实践，兼顾各种可能环境下的阅读体验与清晰可辨性。</li></ul>"
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "surfaces-ai-in-your-app",
+  "group": "surfaces",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/ai-in-your-app",
+  "sourceUpdated": "2026-10-28",
+  "title": "在应用中使用 AI",
+  "englishTitle": "AI in your app",
+  "description": "在充分尊重用户意愿的前提下，让多模态情境信息帮助 AI 更自然地完成任务。",
+  "body": "<p>无屏眼镜和带屏眼镜能以第一人称视角、多模态信息呈现用户与环境的互动。结合语音输入和硬件传感器，这有望为应用提供前所未有的丰富情境信息。要利用这些信息，可以在应用中集成智能体，把多模态输入交给大语言模型。你可以使用 Gemini Live API，也可以集成自定义 AI 智能体。</p>\n<h2 id=\"use-ai-responsibly\">负责任地使用 AI</h2>\n<p>设计应照顾用户各方面的舒适感，包括感官、认知、社交，以及与 AI 相处时的自在程度。</p>\n<p>应用应遵循“先征得同意，再采取行动”的原则：</p>\n<ul><li>不要因为应用已经打开，就默认可以开始录制。</li><li>启用传感器前，应有明确触发，例如用户做出实体手势。</li><li>如果智能体认为当前任务需要摄像头，应先询问用户是否开启。</li><li>只收集提供价值所必需的最少数据，完成处理后及时丢弃。</li></ul>\n<h2 id=\"design-agent\">智能体的设计考量</h2>\n<p>在无屏眼镜和带屏眼镜上，AI 可以高效完成文字转语音、图像识别等任务，并让用户通过自然语言交流，无需沿固定的对话分支逐步操作。</p>\n<p>自然的声音提示和轻量的视觉信息，可以帮助用户更顺畅地在手机与眼镜之间完成任务。</p>\n<p>在应用中集成智能体时，应考虑：</p>\n<ul><li>表达方式与语气。</li><li>用户日常生活中的具体情境。</li><li>用户安全。</li><li>避免信息或交互过多，给用户造成负担。</li><li>让用户在社交场合也能自在地使用。</li></ul>\n<p>AI 智能体应简洁、少打扰，遵循对话体验的最佳实践和<a href=\"https://developer.android.com/design/ui/ai-glasses/guides/interaction/ai-patterns\">AI 交互模式</a>。</p>"
+}

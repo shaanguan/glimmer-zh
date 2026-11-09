@@ -1,0 +1,149 @@
+{
+  "purpose": "Fit overview artwork to its containers while preserving the original subjects, UI, typography, color and composition. Only extend canvas/background where needed; do not redesign original artwork.",
+  "updated": "2026-11-09",
+  "original_files": "All assets in public/assets/original remain unchanged.",
+  "asset_policy": {
+    "direct_originals": 3,
+    "native_svg_canvas_extensions": 5,
+    "imagegen_outpainted_scenes": 6
+  },
+  "assets": [
+    {
+      "asset": "public/assets/original/fa92ea53-hero-full-v2.png",
+      "reference": "public/assets/original/fa92ea53-hero-full-v2.png",
+      "aspect_ratio": "1:1",
+      "method": "Original PNG; CSS hides transparent outer margins only.",
+      "original_size": [
+        1792,
+        2124
+      ],
+      "visible_original_region": {
+        "x": 174,
+        "y": 340,
+        "width": 1444,
+        "height": 1444
+      },
+      "invariants": "The complete original 1444×1444 scene, message card and Reply button remain unmodified."
+    },
+    {
+      "asset": "public/assets/overview/principles-expanded-3x2.svg",
+      "reference": "public/assets/original/1a71ad99-surfaces.svg",
+      "aspect_ratio": "3:2",
+      "method": "Native SVG canvas extension; original child elements, paths, clips and defs retained unchanged.",
+      "view_box": "-72.25 0 433.5 289",
+      "width": 867,
+      "height": 578,
+      "extended_background": "#EAEDDE"
+    },
+    {
+      "asset": "public/assets/overview/surfaces-expanded-3x2.svg",
+      "reference": "public/assets/original/b3304161-get-started-layout-content.svg",
+      "aspect_ratio": "3:2",
+      "method": "Native SVG canvas extension; original child elements, paths, clips and defs retained unchanged.",
+      "view_box": "-100 0 600 400",
+      "width": 600,
+      "height": 400,
+      "extended_background": "#4E4639"
+    },
+    {
+      "asset": "public/assets/overview/interactions-expanded-3x2.svg",
+      "reference": "public/assets/original/4ccc6fd5-get-started-patterns.svg",
+      "aspect_ratio": "3:2",
+      "method": "Native SVG canvas extension; original child elements, paths, clips and defs retained unchanged.",
+      "view_box": "-72.25 0 433.5 289",
+      "width": 867,
+      "height": 578,
+      "extended_background": "#D6F8A3"
+    },
+    {
+      "asset": "public/assets/overview/styles-expanded-3x2.svg",
+      "reference": "public/assets/original/a3dedd5f-get-started-styles.svg",
+      "aspect_ratio": "3:2",
+      "method": "Native SVG canvas extension; original child elements, paths, clips and defs retained unchanged.",
+      "view_box": "-100 0 600 400",
+      "width": 600,
+      "height": 400,
+      "extended_background": "#63CEAD"
+    },
+    {
+      "asset": "public/assets/overview/world-sensing-outpaint-3x2.webp",
+      "reference": "public/assets/original/c42a683b-glasses_landing_sensing.png",
+      "aspect_ratio": "3:2",
+      "method": "Original image edited by horizontal outpainting.",
+      "generation_mode": "built-in image_gen",
+      "format_conversion": "WebP quality 92; original generated dimensions retained, no pixel crop or resize.",
+      "prompt": "Use-case: precise-object-edit, canvas outpainting only. Image 1 is the ORIGINAL EDIT TARGET, not a loose style reference. Produce a landscape 3:2 version of this exact image by extending the canvas horizontally to left and right. The entire existing square image must remain in the central two-thirds of the new canvas at unchanged proportions and the same relative positions; preserve the original photograph and UI rather than redesigning them. Extend only the kitchen countertop, floor and peripheral environment already visible at the two sides. Preserve the same two hands, arms, dough, rolling pin edge and shaker, their exact positions, warm dim lighting, intentionally soft low-resolution video-frame appearance, colors and perspective. The white top overlay must remain exactly “3 more minutes to go. Keep kneading~” in the original rounded typography with its quote marks, the same size relative to the hands, top placement and original dark translucent backing. Do not add objects, people, UI, icons or new wording. Do not sharpen, relight, stylize, replace the shot or turn it into an illustration. Preserve every original content element without cropping top or bottom. Only fill in the small transparent rounded corner cutouts with the surrounding photo as part of the extension. Opaque edge-to-edge rectangular output, no external margin, no border, no rounded outside frame. Desired output 1536×1024, 3:2 landscape."
+    },
+    {
+      "asset": "public/assets/overview/comprehension-outpaint-3x2.webp",
+      "reference": "public/assets/original/071507e6-glasses_landing_comprehension.png",
+      "aspect_ratio": "3:2",
+      "method": "Original image edited by horizontal outpainting.",
+      "generation_mode": "built-in image_gen",
+      "format_conversion": "WebP quality 92; original generated dimensions retained, no pixel crop or resize.",
+      "prompt": "Use-case: precise-object-edit, canvas outpainting only. Image 1 is the ORIGINAL EDIT TARGET. Widen this exact original square to a 3:2 landscape canvas by outpainting the LEFT and RIGHT edges only. Preserve the complete original square in the central two-thirds with identical proportions, center alignment and vertical positions; do not crop the top, bottom, title or small blue orb. Extend only the subdued blurred olive-beige curtain/wall background naturally into the new side areas. Keep the exact original translucent glasses interface: “Hang floating shelves” in white rounded lettering above the pink-backed rounded image, the same pale wooden shelves, small plants, pots and bowls, the slim partial next-card preview on the right, and the small luminous blue oval below. Keep the existing UI elements the same scale relative to the full original height. The soft haze, low contrast, muted warm colors and blur are intentional and must be preserved. Do not reconstruct/rearrange the shelves, alter text, create a new panel, add new content, polish or modernize the UI. Preserve original content and visual design. Fill only the transparent rounded outer corner cutouts with background; output an opaque edge-to-edge rectangle with no inset frame or external margin. Desired output 1536×1024, exact 3:2 landscape."
+    },
+    {
+      "asset": "public/assets/overview/visual-assistance-outpaint-3x2.webp",
+      "reference": "public/assets/original/07dd917b-glasses_landing_assistance.png",
+      "aspect_ratio": "3:2",
+      "method": "Original image edited by horizontal outpainting.",
+      "generation_mode": "built-in image_gen",
+      "format_conversion": "WebP quality 92; original generated dimensions retained, no pixel crop or resize.",
+      "prompt": "Use-case: identity-preserve and canvas outpainting only. Image 1 is the exact ORIGINAL EDIT TARGET. Expand this original square cafe photo to an opaque 3:2 landscape image by extending only LEFT and RIGHT surroundings. Lock the entire existing central square: it must occupy the central two-thirds of the final width at the same proportions. Preserve the exact woman's face and identity, glasses, expression, hair, white t-shirt, arms, open right palm, held menu/tablet, position and pose. Preserve the original cafe counter, tables and chair, lighting, muted colors, photographic grain, depth of field and deliberately darkened background. Extend the existing interior plausibly at the sides without adding people, signage or new focal objects. Keep the original glasses UI at identical relative positions: the bold white heading “Translating Spanish”, the thin white pill outline with “Please sit anywhere you like.”, and the small pale blue scalloped pause button below. Retain typography, widths, heights, alignment and original background dimming. Do not redesign or enlarge the UI; do not crop any original subject or UI at top or bottom. Do not change the woman's face, clothing, pose, shot, style or color grade. The only edits allowed within the original footprint are filling the tiny transparent rounded outer corners with the continuing environment. Fully rectangular full-bleed output, no rounded external corners, no borders or added margins. Output desired 1536×1024, 3:2 landscape."
+    },
+    {
+      "asset": "public/assets/overview/hands-free-outpaint-3x2.webp",
+      "reference": "public/assets/original/0390597a-glasses_landing_handsfree.png",
+      "aspect_ratio": "3:2",
+      "method": "Original image edited by horizontal outpainting.",
+      "generation_mode": "built-in image_gen",
+      "format_conversion": "WebP quality 92; original generated dimensions retained, no pixel crop or resize.",
+      "prompt": "Use-case: identity-preserve and canvas outpainting only. Image 1 is the exact ORIGINAL EDIT TARGET. Extend this original square candid travel-video frame horizontally into a 3:2 landscape image. Keep the original image content in the central two-thirds at precisely the same proportions and vertical framing. Preserve both original people's identities and faces exactly, the foreground woman's joyful expression, dark windblown hair, straw hat, light blouse with dark buttons, raised arm holding the hat, her hand holding the viewer's hand at lower left, and the partially visible companion at the left. Keep the exact body poses, hand relationships, sunset lighting, horizon, sky, grass, original softness and imperfect handheld-video texture. Outpaint only the left and right edges of the existing landscape and the continuation of already partially visible body/clothing where needed, without inventing a new pose or new people. Do not substitute a different woman, beautify, relight, sharpen, turn this into an illustration, reframe the central original shot, crop the hat or hands, or add any interface/text/icons. Fill the small transparent rounded-corner cutouts with naturally continuing scene. Edge-to-edge opaque rectangular image, no external margin, frame or rounded border. Desired output 1536×1024, 3:2 landscape."
+    },
+    {
+      "asset": "public/assets/overview/audio-glasses-outpaint-16x9.webp",
+      "reference": "public/assets/original/318b7b98-glasses_landing_audio.png",
+      "aspect_ratio": "16:9",
+      "method": "Original image edited by horizontal outpainting.",
+      "generation_mode": "built-in image_gen",
+      "format_conversion": "WebP quality 92; original generated dimensions retained, no pixel crop or resize.",
+      "prompt": "Use-case: precise-object-edit, canvas outpainting only. Image 1 is the ORIGINAL EDIT TARGET. Expand this exact 1004×940 image horizontally into a 16:9 landscape canvas. Retain the full original image centered at unchanged proportions and height; it should occupy about 60% of the new width, with only the new 20% on either side outpainted. Do not crop the original top or bottom or resize/rearrange its UI independently. Continue the deliberately extremely blurred kayak/lake/forest background naturally across both added sides, with the same gray-blue water, dark green horizon, orange-tan kayak bow and dim soft lighting. Preserve the original blurred image, not a sharpened scenic remake. Preserve the exact white speech-caption pill at the top: its unique asymmetric rounded shape, small original illustrated circular avatar on the left, and large dark italic text exactly “Take a photo and send to group.”. Keep its dimensions and position relative to the original image height. Preserve the small luminous blue-purple response orb at the bottom center, its soft glasslike gradient and shape. No added people, devices, UI, text or icons. Do not change the caption into a redesigned notification or alter the perspective. Fill only the transparent outer rounded-corner cutouts with a continuation of nearby scenery. Opaque edge-to-edge rectangular image with no external margin, no border, no rounded outside frame. Desired output exact 16:9 landscape, 1792×1008 or equivalent."
+    },
+    {
+      "asset": "public/assets/overview/display-glasses-outpaint-16x9.webp",
+      "reference": "public/assets/original/536cd207-glasses_landing_displayglasses.png",
+      "aspect_ratio": "16:9",
+      "method": "Original image edited by horizontal outpainting.",
+      "generation_mode": "built-in image_gen",
+      "format_conversion": "WebP quality 92; original generated dimensions retained, no pixel crop or resize.",
+      "prompt": "Use-case: precise-object-edit, canvas outpainting only. Image 1 is the ORIGINAL EDIT TARGET. Widen this exact square original to 16:9 landscape by extending the left and right environment only. Keep the entire existing square centered and intact, occupying the central 56.25% of the final width at the same proportions, and preserve its full top-to-bottom content. Extend the existing olive-green hillside, blue sky and stony walking path into the added left and right 21.875% strips without inventing objects or people. Preserve the strong original intentional optical blur, muted colors, subtle video-frame noise, direction of the path, camera angle and lighting. Do not sharpen into a detailed landscape. Preserve the original low-set reminder UI precisely: thin white rounded rectangular capsule outline, pale lavender round icon with the same simple dark calendar glyph, and the exact two lines of white rounded text “Coffee with Francis” and “30 minutes”. Keep every UI element at the same proportions and vertical position within the original square; do not enlarge or redesign it to span the new landscape. No additional text, controls, symbols, headset frame or other overlays. Fill only the tiny transparent outer rounded-corner cutouts from the neighboring scene. Opaque full-bleed rectangular result, no border or external margins, no rounded outer frame. Desired output 1792×1008 or equivalent, exact 16:9 landscape."
+    },
+    {
+      "asset": "public/assets/original/064688a2-glasses_landing_figma.png",
+      "reference": "public/assets/original/064688a2-glasses_landing_figma.png",
+      "aspect_ratio": "16:9",
+      "method": "Direct original PNG; already matches target ratio.",
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "asset": "public/assets/original/d933c706-card-cover-wide_onboard-ae.png",
+      "reference": "public/assets/original/d933c706-card-cover-wide_onboard-ae.png",
+      "aspect_ratio": "16:9",
+      "method": "Direct original PNG; already matches target ratio.",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "asset": "public/assets/overview/development-expanded-4x3.svg",
+      "reference": "public/assets/original/8c9c89d6-develop.svg",
+      "aspect_ratio": "4:3",
+      "method": "Native SVG canvas extension; original child elements, paths, clips and defs retained unchanged.",
+      "view_box": "0 -28.75 610 457.5",
+      "width": 1220,
+      "height": 915,
+      "extended_background": "#D6F8A3"
+    }
+  ]
+}

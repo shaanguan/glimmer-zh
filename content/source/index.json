@@ -1,0 +1,274 @@
+[
+  {
+    "slug": "overview",
+    "group": "overview",
+    "englishTitle": "Intelligent eyewear",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses",
+    "sourceUpdated": null,
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "foundations-design-principles",
+    "group": "foundations",
+    "englishTitle": "Design principles",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/foundations/design-principles",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "foundations-made-for-glasses",
+    "group": "foundations",
+    "englishTitle": "UI made for display glasses",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/foundations/made-for-glasses",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "foundations-get-started",
+    "group": "foundations",
+    "englishTitle": "Get started",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/foundations/get-started",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "surfaces-overview",
+    "group": "surfaces",
+    "englishTitle": "Surfaces",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/overview",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "surfaces-sysui",
+    "group": "surfaces",
+    "englishTitle": "System UI",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/sysui",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "surfaces-app",
+    "group": "surfaces",
+    "englishTitle": "App View",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/app",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "surfaces-ai-in-your-app",
+    "group": "surfaces",
+    "englishTitle": "AI in your app",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/ai-in-your-app",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "interaction-inputs",
+    "group": "interaction",
+    "englishTitle": "Inputs",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/inputs",
+    "sourceUpdated": "2026-10-02",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "interaction-permissions",
+    "group": "interaction",
+    "englishTitle": "Permissions",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/permissions",
+    "sourceUpdated": "2026-01-07",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "interaction-navigation",
+    "group": "interaction",
+    "englishTitle": "Navigation",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/navigation",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "interaction-ai-patterns",
+    "group": "interaction",
+    "englishTitle": "AI patterns",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/ai-patterns",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "interaction-onboarding",
+    "group": "interaction",
+    "englishTitle": "Onboarding",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/onboarding",
+    "sourceUpdated": "2026-05-19",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "sound-overview",
+    "group": "sound",
+    "englishTitle": "Sound",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/overview",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "sound-earcons",
+    "group": "sound",
+    "englishTitle": "Earcons",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/earcons",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "sound-voice-alerts",
+    "group": "sound",
+    "englishTitle": "Voice alerts",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "sound-audio-input",
+    "group": "sound",
+    "englishTitle": "Audio focus and concurrency",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/audio-input",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "sound-bespoke-earcon",
+    "group": "sound",
+    "englishTitle": "Design custom sounds",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/bespoke-earcon",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "styles-overview",
+    "group": "styles",
+    "englishTitle": "Jetpack Compose Glimmer styles",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/overview",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "styles-color",
+    "group": "styles",
+    "englishTitle": "Color on glasses",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/color",
+    "sourceUpdated": "2026-05-19",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "styles-type",
+    "group": "styles",
+    "englishTitle": "Typography for glasses",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/type",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "styles-surfaces",
+    "group": "styles",
+    "englishTitle": "Surfaces & Depth",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/surfaces",
+    "sourceUpdated": "2026-01-07",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "styles-icons",
+    "group": "styles",
+    "englishTitle": "Icons on glasses",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/icons",
+    "sourceUpdated": "2026-01-07",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "components-overview",
+    "group": "components",
+    "englishTitle": "Components",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/overview",
+    "sourceUpdated": "2026-03-05",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "components-buttons",
+    "group": "components",
+    "englishTitle": "Buttons",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/buttons",
+    "sourceUpdated": "2026-05-19",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "components-button-group",
+    "group": "components",
+    "englishTitle": "Button Group",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/button-group",
+    "sourceUpdated": "2026-05-19",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "components-title-chip",
+    "group": "components",
+    "englishTitle": "Title chips",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/title-chip",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "components-cards",
+    "group": "components",
+    "englishTitle": "Cards",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/cards",
+    "sourceUpdated": "2026-05-19",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "components-icon-marker",
+    "group": "components",
+    "englishTitle": "Icon markers",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/icon-marker",
+    "sourceUpdated": "2026-10-28",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "components-lists",
+    "group": "components",
+    "englishTitle": "Lists",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/lists",
+    "sourceUpdated": "2026-05-19",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "components-pager",
+    "group": "components",
+    "englishTitle": "Pagers",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/pager",
+    "sourceUpdated": "2026-08-19",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "components-progress",
+    "group": "components",
+    "englishTitle": "Progress indicators",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/progress",
+    "sourceUpdated": "2026-05-19",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "components-stack",
+    "group": "components",
+    "englishTitle": "Stack",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/stack",
+    "sourceUpdated": "2026-05-19",
+    "fetchedAt": "2026-11-09"
+  },
+  {
+    "slug": "components-voice-indicator",
+    "group": "components",
+    "englishTitle": "Voice indicator",
+    "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/voice-indicator",
+    "sourceUpdated": "2026-05-19",
+    "fetchedAt": "2026-11-09"
+  }
+]

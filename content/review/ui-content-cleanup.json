@@ -1,0 +1,481 @@
+{
+  "reviewTitle": "正文术语与译者注精简",
+  "reviewedAt": "2026-11-09",
+  "request": "保留完整原文信息，仅留下会导致误读的原文疑义；Surfaces 主题统一为界面呈现，Onboarding 总称统一为使用引导。",
+  "scope": "仅译者注、指定主题术语及其适用范围；不修改原有三份忠实性审查计数。",
+  "semanticReviewSummaries": {
+    "faithfulness-foundations.json": {
+      "pagesReviewed": 13,
+      "pagesRevised": 12,
+      "pagesReviewedWithoutChange": 1,
+      "semanticCorrections": 43,
+      "clarityEdits": 1,
+      "sourceAmbiguitiesAnnotated": 4
+    },
+    "faithfulness-components.json": {
+      "pagesReviewed": 11,
+      "pagesRevised": 11,
+      "semanticCorrections": 26,
+      "annotationChanges": 1,
+      "sourceAmbiguitiesRecorded": 10
+    },
+    "faithfulness-sound-styles.json": {
+      "pagesReviewed": 10,
+      "semanticCorrections": 52,
+      "changes": 53,
+      "accessibilityTextRestorations": 1,
+      "status": "complete"
+    }
+  },
+  "semanticReviewAggregate": {
+    "pagesReviewed": 34,
+    "pagesRevised": 33,
+    "pagesReviewedWithoutChange": 1,
+    "semanticCorrectionItems": 121,
+    "additionalClarityEdits": 1,
+    "additionalAnnotationChanges": 1,
+    "additionalAccessibilityTextRestorations": 1
+  },
+  "summary": {
+    "translatorNotesReviewed": 18,
+    "translatorNotesRemoved": 8,
+    "translatorNotesShortened": 10,
+    "translatorNotesRemaining": 10,
+    "terminologyEditEntries": 11,
+    "pagesChanged": 15
+  },
+  "translatorNoteChanges": [
+    {
+      "slug": "components-button-group",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/button-group",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "shorten",
+      "noteIndexBeforeCleanup": 1,
+      "before": "<aside class=\"translator-note\">译者注：原句随后还有“and ramp up as they slide”（并在滑动时逐渐增强），但未说明具体是哪项属性发生变化。这里保留这段原文及其字面含义，未将它解释为速度、尺寸或深度等确定行为。</aside>",
+      "after": "<aside class=\"translator-note\">译者注：原文还有“and ramp up as they slide”（随滑动逐渐增强），但未说明哪项属性增强。</aside>",
+      "reason": "保留尚未说明变化属性的原文内容；删除对翻译过程及未采用解释的赘述。"
+    },
+    {
+      "slug": "components-buttons",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/buttons",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "remove",
+      "noteIndexBeforeCleanup": 1,
+      "before": "<aside class=\"translator-note\">译者注：原文在这一节再次使用“Icon”标题，此处保留这一重复标题。</aside>",
+      "after": "",
+      "reason": "重复标题已按原文保留；说明保留重复标题属于编辑过程，对理解规则没有帮助。"
+    },
+    {
+      "slug": "components-lists",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/lists",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "shorten",
+      "noteIndexBeforeCleanup": 1,
+      "before": "<aside class=\"translator-note\">译者注：原文内边距一项写作“2d dp, 20 dp”，其中“2d dp”疑为笔误。本译文保留原值，未擅自推定为其他数值；使用时应结合官方组件实现或设计套件核对。</aside>",
+      "after": "<aside class=\"translator-note\">译者注：原文内边距为“2d dp, 20 dp”；“2d dp”疑为笔误，此处保留原值。</aside>",
+      "reason": "异常数值会直接影响设计或实现，需保留疑义；删除原文未要求的实施建议。"
+    },
+    {
+      "slug": "components-pager",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/pager",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "shorten",
+      "noteIndexBeforeCleanup": 1,
+      "before": "<aside class=\"translator-note\">译者注：原文在此处写作“Stack（堆栈）属于容器组件，与卡片和列表共享设计原则”，疑为沿用其他页面的表述。以下三项原则描述的是本页的分页指示器。</aside>",
+      "after": "<aside class=\"translator-note\">译者注：原文此处写作“Stack（堆栈）是容器组件，与卡片和列表共享设计原则”，但本页介绍的是分页指示器。</aside>",
+      "reason": "保留原文本身的完整句意，并指出组件名称不一致；删除编辑推测。"
+    },
+    {
+      "slug": "components-pager",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/pager",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "remove",
+      "noteIndexBeforeCleanup": 2,
+      "before": "<aside class=\"translator-note\">译者注：这一节原文将可自定义的内容写作“content within the stacks pager”，其中“stacks pager”的指代不够清晰。此处保留内容可自定义的表述，未据此补充组件结构或具体的自定义范围。</aside>",
+      "after": "",
+      "reason": "正文已经只说明容器内容可自定义，没有扩展结构或范围；这一条主要复述翻译过程，且组件名称疑义已有上方注释。"
+    },
+    {
+      "slug": "components-voice-indicator",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/voice-indicator",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "shorten",
+      "noteIndexBeforeCleanup": 1,
+      "before": "<aside class=\"translator-note\">译者注：原文分别写了“1 或 2 行时垂直居中”和“2 行或更多时置于右上角”，两种规则在 2 行内容时重叠。此处保留原文，未自行修改分界。</aside>",
+      "after": "<aside class=\"translator-note\">译者注：原文两项位置规则在“2 行”时重叠，未说明应采用哪一项。</aside>",
+      "reason": "两项规则的边界冲突直接影响位置选择；正文保留两项完整规则，注释仅点明重叠。"
+    },
+    {
+      "slug": "components-voice-indicator",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/voice-indicator",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "shorten",
+      "noteIndexBeforeCleanup": 2,
+      "before": "<aside class=\"translator-note\">译者注：上句按原文字面翻译。原文以“Use red for voice input indicator”开头，却又称红色保留给系统级警告、品牌色为红色时除外，前后含义存在冲突。此处保留这一歧义，未自行补出“不要”或改写成“慎用”的配色规则。</aside>",
+      "after": "<aside class=\"translator-note\">译者注：原文要求“使用红色”，同时又将红色保留给系统级警告，前后含义冲突。</aside>",
+      "reason": "原文正反含义冲突会影响配色决策；保留澄清，删除未采用哪些改法的过程说明。"
+    },
+    {
+      "slug": "interaction-inputs",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/inputs",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "remove",
+      "noteIndexBeforeCleanup": 1,
+      "before": "<aside class=\"translator-note\">译者注：上表把相机键“双按”的对应操作标为 Camera，未进一步说明具体动作；此处保留为“相机操作”。</aside>",
+      "after": "",
+      "reason": "表内“相机操作”已经忠实保留 Camera 的泛称，没有额外规定双按行为；注释不补充理解所需信息。"
+    },
+    {
+      "slug": "interaction-navigation",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/navigation",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "remove",
+      "noteIndexBeforeCleanup": 1,
+      "before": "<aside class=\"translator-note\">译者注：原文既将通话列为适合立即结束的连续音频体验，也把结束通话列为可考虑二次确认的操作，未进一步细分两者的适用条件。这里保留两项表述。</aside>",
+      "after": "",
+      "reason": "正文分别使用“最合适”和“应考虑”，允许按场景取舍，并非互斥的硬性规则；全部原始建议已在正文保留。"
+    },
+    {
+      "slug": "interaction-onboarding",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/onboarding",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "remove",
+      "noteIndexBeforeCleanup": 1,
+      "before": "<aside class=\"translator-note\">译者注：原文使用 one modal summary，但未进一步说明其呈现形式；此处未把它限定为弹层或对话框。</aside>",
+      "after": "",
+      "reason": "正文已采用概括的集中说明，未断言为弹层或对话框；该注释主要说明没有采用哪种译法。"
+    },
+    {
+      "slug": "interaction-onboarding",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/onboarding",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "remove",
+      "noteIndexBeforeCleanup": 2,
+      "before": "<aside class=\"translator-note\">译者注：原文“使用教学”及“组件与模式”中有完全重复的条目，此处已合并，所有实质要求均保留。</aside>",
+      "after": "",
+      "reason": "完全重复的条目已合并且实质内容保留；合并过程无需显示给读者。"
+    },
+    {
+      "slug": "sound-audio-input",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/audio-input",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "shorten",
+      "noteIndexBeforeCleanup": 1,
+      "before": "<aside class=\"translator-note\">译者注：原文最后一项使用“will duck briefly to the incoming sound”，没有清楚说明具体压低哪一路声音。此处保留这一表述；实现时应结合下方 Android 音频焦点文档确认具体规则。</aside>",
+      "after": "<aside class=\"translator-note\">译者注：原文未说明这一步具体降低哪一路声音的音量。</aside>",
+      "reason": "主语不明会改变音频处理行为，保留必要疑义；删除额外的实现核对建议。"
+    },
+    {
+      "slug": "sound-voice-alerts",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "shorten",
+      "noteIndexBeforeCleanup": 1,
+      "before": "<aside class=\"translator-note\">译者注：原文在最后一句后接“instead of holding Gemini or agents”，但没有明确说明“holding”的含义。此处保留明确的轻点行为，不据此推导新的手势规则。</aside>",
+      "after": "<aside class=\"translator-note\">译者注：原文另有“instead of holding Gemini or agents”，但未说明 holding 的含义。</aside>",
+      "reason": "保留原文尚未解释的对照短语，不将其变成确定的手势规则；删除过程性表述。"
+    },
+    {
+      "slug": "sound-voice-alerts",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/sound/voice-alerts",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "shorten",
+      "noteIndexBeforeCleanup": 2,
+      "before": "<aside class=\"translator-note\">译者注：原文写作“to help avoid cognitive overload or to leave the user guessing a solution”。后半句按字面会成为“让用户猜测解决办法”，与本节上下文不一致。此处按其意在避免让用户猜测的语境理解；保留原句供对照，原文含义仍需澄清。</aside>",
+      "after": "<aside class=\"translator-note\">译者注：原文后半句为“or to leave the user guessing a solution”，与前文避免认知过载的意图不一致；此处按上下文译为“避免让用户猜测解决办法”。</aside>",
+      "reason": "译文对含混的否定关系作了上下文判断，必须透明标明；保留原文短语，压缩其他说明。"
+    },
+    {
+      "slug": "styles-color",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/color",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "shorten",
+      "noteIndexBeforeCleanup": 1,
+      "before": "<aside class=\"translator-note\">译者注：这里按原文保留“66%”。本页后文还出现“明度差 70（7:1）”和“明度差约 66”。HCT 明度差与对比度比值不是同一指标，不能直接视为数学等价关系；本译本保留各处原值，不将它们合并为一个阈值。</aside>",
+      "after": "<aside class=\"translator-note\">译者注：本页原文分别使用“66%”“明度差 70（7:1）”和“约 66”，表述不一致；这里保留各处原值。</aside>",
+      "reason": "数值及表示方式的不一致会影响理解，保留原值说明；删除非原文的度量关系扩展解释。"
+    },
+    {
+      "slug": "styles-color",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/color",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "shorten",
+      "noteIndexBeforeCleanup": 2,
+      "before": "<aside class=\"translator-note\">译者注：原文没有明确说明“约 20”在此处是建议差值还是反例数值，因此不将其扩写为确定的上下限。</aside>",
+      "after": "<aside class=\"translator-note\">译者注：原文未说明“约 20”是建议差值还是反例数值。</aside>",
+      "reason": "此数值可能被误读为阈值，保留必要疑义；删除翻译过程说明。"
+    },
+    {
+      "slug": "styles-type",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/type",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "remove",
+      "noteIndexBeforeCleanup": 1,
+      "before": "<aside class=\"translator-note\">译者注：PPD 表示每度视角对应的像素数。这里的 18 px 由 30 PPD 换算得出，不是适用于所有眼镜显示屏的固定字号；其他 PPD 应按相同视角重新换算。</aside>",
+      "after": "",
+      "reason": "这条是从原公式进一步推导的解释与设计建议，不是原文指引；正文的 0.6°、30 PPD、18 px 和完整公式均保留。"
+    },
+    {
+      "slug": "surfaces-sysui",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/sysui",
+      "field": "body",
+      "kind": "translator-note",
+      "action": "remove",
+      "noteIndexBeforeCleanup": 1,
+      "before": "<aside class=\"translator-note\">译者注：原文此句末尾另有“or other locations”，所指不明；此处保留悬浮通知可跨界面出现的表述。</aside>",
+      "after": "",
+      "reason": "原文残句未给出可理解的新规则，正文已保留悬浮通知可跨界面出现的含义；无需展示处理残句的编辑过程。"
+    }
+  ],
+  "terminologyChanges": [
+    {
+      "slug": "overview",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses",
+      "field": "body",
+      "kind": "terminology-and-scope",
+      "before": "界面层级",
+      "after": "界面呈现",
+      "occurrencesChanged": 1,
+      "sourceBasis": "Surfaces",
+      "reason": "Surfaces 在此为 Home/App view/system bar 等呈现形式的主题名，不等同于纵深或返回栈层级。"
+    },
+    {
+      "slug": "surfaces-overview",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/overview",
+      "field": "title",
+      "kind": "terminology-and-scope",
+      "before": "界面层级概览",
+      "after": "界面呈现概览",
+      "occurrencesChanged": 1,
+      "sourceBasis": "Design surfaces can be described in three states: Home, App view, and system bar.",
+      "reason": "使用与原文范围一致的主题名称。"
+    },
+    {
+      "slug": "surfaces-overview",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/overview",
+      "field": "body",
+      "kind": "terminology-and-scope",
+      "before": "不同的界面层级和使用情境",
+      "after": "不同的界面呈现形式和使用情境",
+      "occurrencesChanged": 1,
+      "sourceBasis": "When designing UI for display glasses, it's crucial to consider various surfaces and contexts.",
+      "reason": "去掉原文未表达的深度层级含义。"
+    },
+    {
+      "slug": "interaction-onboarding",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/onboarding",
+      "field": "title",
+      "kind": "terminology-and-scope",
+      "before": "新手引导",
+      "after": "使用引导",
+      "occurrencesChanged": 1,
+      "sourceBasis": "Onboarding",
+      "reason": "覆盖 contextual、upfront 和 returning users，不将主题限于新用户。"
+    },
+    {
+      "slug": "interaction-onboarding",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/onboarding",
+      "field": "body",
+      "kind": "terminology-and-scope",
+      "before": "新手引导",
+      "after": "使用引导",
+      "occurrencesChanged": 9,
+      "sourceBasis": "Onboarding related flows can happen contextually, upfront, on glasses, or within the companion app.",
+      "reason": "统一本页总称、链接文本及相关图片描述，保留原文明示的首次使用条件。"
+    },
+    {
+      "slug": "interaction-onboarding",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/onboarding",
+      "field": "body",
+      "kind": "terminology-and-scope",
+      "before": "整个新手流程",
+      "after": "整个使用引导流程",
+      "occurrencesChanged": 1,
+      "sourceBasis": "When included as part of a larger onboarding flow",
+      "reason": "总称不限定新用户。"
+    },
+    {
+      "slug": "interaction-onboarding",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/onboarding",
+      "field": "body",
+      "kind": "terminology-and-scope",
+      "before": "这些流程可以在用到功能时出现，也可以放在首次进入应用时；",
+      "after": "这些流程可以在用到功能时出现，也可以预先集中进行；",
+      "occurrencesChanged": 1,
+      "sourceBasis": "Onboarding related flows can happen contextually, upfront, on glasses, or within the companion app.",
+      "reason": "upfront 表示提前安排，原句没有将其限定为首次进入应用。"
+    },
+    {
+      "slug": "interaction-onboarding",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/onboarding",
+      "field": "body",
+      "kind": "terminology-and-scope",
+      "before": "首次进入时集中引导",
+      "after": "预先集中引导",
+      "occurrencesChanged": 1,
+      "sourceBasis": "Upfront onboarding",
+      "reason": "将 upfront 与 first-time 区分。"
+    },
+    {
+      "slug": "interaction-onboarding",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/onboarding",
+      "field": "body",
+      "kind": "terminology-and-scope",
+      "before": "功能教学和权限申请也可以放在应用首次启动或欢迎流程中。",
+      "after": "功能教学和权限申请也可以在应用的使用引导或欢迎流程中预先集中进行。",
+      "occurrencesChanged": 1,
+      "sourceBasis": "Education and permissions can also be a part of upfront app onboarding (or welcome placement).",
+      "reason": "去掉原句没有规定的首次启动限制。"
+    },
+    {
+      "slug": "interaction-onboarding",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/onboarding",
+      "field": "body",
+      "kind": "terminology-and-scope",
+      "before": "用户在完成首次引导后可能会忘记这些内容",
+      "after": "用户在完成引导后可能会忘记这些内容",
+      "occurrencesChanged": 1,
+      "sourceBasis": "During upfront onboarding, consider this a value proposition or informative moment, as they may forget after onboarding.",
+      "reason": "沿用使用引导的总体范围，不添加首次条件。"
+    },
+    {
+      "slug": "interaction-onboarding",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/onboarding",
+      "field": "body",
+      "kind": "terminology-and-scope",
+      "before": "向首次引导中增加步骤时，应控制流程长度。",
+      "after": "向使用引导中增加步骤时，应控制流程长度。",
+      "occurrencesChanged": 1,
+      "sourceBasis": "Adding too many steps to an onboarding process might deter users from completing onboarding.",
+      "reason": "图片替代文本中的过程不限定首次使用。"
+    }
+  ],
+  "validation": {
+    "originalMediaReferencesUnchanged": true,
+    "linksAndIdsUnchanged": true,
+    "sourceNotesUnchanged": true,
+    "originalNumericSequenceOutsideTranslatorNotesUnchanged": true,
+    "stylesTypeOriginalFormulaAnd18pxPreserved": true,
+    "navigationStackHierarchyPreserved": true,
+    "explicitFirstTimeAndFirstPairedConditionsPreserved": true
+  },
+  "files": [
+    {
+      "slug": "components-button-group",
+      "beforeSha256": "cfc5c6e6270110edbad96c275c7504cb2bf5ea5d79db03d80d6c09ebc679e184",
+      "afterSha256": "e35587524732abc1a4beef0427aa4bd20a98b56823a6fe19a8639732b9512276"
+    },
+    {
+      "slug": "surfaces-overview",
+      "beforeSha256": "97bc45dbaf4355bb4dcd34fed2f00a684fa754812377f0cd4ff26c054915a5ce",
+      "afterSha256": "f23c9d3a3ad908eebbcca0f286bed5297634578cb0e8b13cf9e2fa9b66b2696c"
+    },
+    {
+      "slug": "components-pager",
+      "beforeSha256": "a19ab79a4836dac6a1eefd550a183b34e6ca6c7c747a83ff5072fe3585bb7e57",
+      "afterSha256": "6acfeaf3359f8fd0d8b0cfe9ad2b3fe61e7f35076fcca97f2056ad04be4c8a18"
+    },
+    {
+      "slug": "sound-audio-input",
+      "beforeSha256": "7c555f6fb5a24f5ef67d5da40213384685ff721ae415a86429be3daa932b8035",
+      "afterSha256": "84605810aaa025342556ee590bc075056ca2ee1505ec4cb76fe5e58f2e88a5d1"
+    },
+    {
+      "slug": "overview",
+      "beforeSha256": "ca53ce5637fe7331dafcb9576fcc6858a182cf2eeb9da36e292c89a865a4ab75",
+      "afterSha256": "ba8865c4a546303aa673bd11dd6ea3c9bfc881594dbe72d0f61e4a90b3740dd9"
+    },
+    {
+      "slug": "styles-color",
+      "beforeSha256": "3dbe9b761cdfd5fde3a4b48667ed9188efe2e4e443acadd4479304a6864a3407",
+      "afterSha256": "4b112cc1143f0b1cf6f775733aabc1aa8eecb957a99f892da0e2ae7f0eb40eba"
+    },
+    {
+      "slug": "interaction-inputs",
+      "beforeSha256": "e84f68b4a63085ee09fe07d15599affae9715880445e543aee855afed6a094b5",
+      "afterSha256": "de6556f4e2d8bd6907205d38f0af5caef27612b1801c0cac4524d6a1388d0c79"
+    },
+    {
+      "slug": "components-lists",
+      "beforeSha256": "b611c520e44c6201364321a49b9252535c7457e520c9af2390d891b36c58959d",
+      "afterSha256": "e97cb357a8149dcbd75074d6d2e076d184c4e11b77bf866f966f00789126c39c"
+    },
+    {
+      "slug": "components-buttons",
+      "beforeSha256": "b8d9d5846423a0f51a65f20064c92d2b076c2356132f08a0f906160b5120bf70",
+      "afterSha256": "d262e21eea0e6ef1c1fc97c4e440a3eee5a653964f789bb0b7de9ec0121c4531"
+    },
+    {
+      "slug": "surfaces-sysui",
+      "beforeSha256": "84c16e76c208efb061ed3073b80220ea4f9a307a4a3552157fe15861c1785674",
+      "afterSha256": "90dd6ad7c3c48f3a18ee597f4bbef74e792811cce6c113aef5a002d31ba88884"
+    },
+    {
+      "slug": "sound-voice-alerts",
+      "beforeSha256": "40a711f40c5dac0180cb7c44f312bbb0e760516bff8f3e05cb5f03d47407e113",
+      "afterSha256": "b32c0ec0f3614d2425f4a436426027c5f8dac71de31b59da24a29654f912a935"
+    },
+    {
+      "slug": "interaction-navigation",
+      "beforeSha256": "4a252ec5ff658ce0e4efcc38a1b6c61af4e86f1412889873dd87c19624f755f3",
+      "afterSha256": "705eb76ec559a57f2350bff7f86b3401db16969a64c959bb0d65cca9a622da0a"
+    },
+    {
+      "slug": "interaction-onboarding",
+      "beforeSha256": "d22bcec179ecf70f87abd0db12a6713073d23bc7185b297e9f5796ca7d1d31f5",
+      "afterSha256": "cfc14ae17246fdd54b370d283f7fdbeb7ed3a31e4d31743ea62e51186a5f76e1"
+    },
+    {
+      "slug": "styles-type",
+      "beforeSha256": "e0af3a9526632ffbf5098584ebfac04bb9de39a047822e554c6e8e5e5d716342",
+      "afterSha256": "e06599c3a6c15287b05e777c1b3ed7bc9bbe69600a14cdf6b4fbdf79a6ae191e"
+    },
+    {
+      "slug": "components-voice-indicator",
+      "beforeSha256": "545a4ded9adc1b632d17ed4bada3aa16ce3c04ef0b5737896c064fc9bcfc7b43",
+      "afterSha256": "2f842e9988257a0083ca770506a48b6859b599d8f5e27644365e6bc367764290"
+    }
+  ],
+  "compilation": {
+    "command": "PYTHONPATH=/workspace/scratch/3e61fa5a8536/pydeps python scripts/compile-content.py",
+    "compiledPages": 34,
+    "missingPages": [],
+    "textCharacters": 29959,
+    "librarySha256": "43fed2e4d37cfff281879589f17eaf643f1cb7d0939cf050b42b418e51610449",
+    "scriptsChanged": false
+  },
+  "contentValidation": {
+    "command": "PYTHONPATH=/workspace/scratch/3e61fa5a8536/pydeps python scripts/validate-content.py",
+    "pages": 34,
+    "translatedCharacters": 29959,
+    "mediaReferences": 241,
+    "errors": [],
+    "reviewNotes": []
+  },
+  "supplementalChecks": {
+    "reviewPagesUniqueAndComplete": true,
+    "tocAnchorsChecked": 226,
+    "englishHeadingIdsChecked": 277,
+    "duplicateOrMissingAnchors": [],
+    "decimalReviewNotes": [],
+    "remainingTranslatorNotes": 10,
+    "sourceNotesAndOriginalNumericSequencePreserved": true
+  }
+}

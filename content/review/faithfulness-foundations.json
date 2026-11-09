@@ -1,0 +1,979 @@
+{
+  "reviewTitle": "基础、界面层级、交互与首页的译文忠实性复核",
+  "reviewedAt": "2026-11-09",
+  "sourceSnapshot": "content/source/*.json (bodyEn / textEn)",
+  "reviewerScope": [
+    "overview",
+    "foundations-design-principles",
+    "foundations-made-for-glasses",
+    "foundations-get-started",
+    "surfaces-overview",
+    "surfaces-sysui",
+    "surfaces-app",
+    "surfaces-ai-in-your-app",
+    "interaction-inputs",
+    "interaction-permissions",
+    "interaction-navigation",
+    "interaction-ai-patterns",
+    "interaction-onboarding"
+  ],
+  "method": [
+    "逐页完整对照官方英文快照和现有中文正文、图注、标题、简介。",
+    "仅将有原句依据的语义偏差计入 semanticCorrectionCount；忠实且通顺的现有译法保留。",
+    "将表达优化单列为 clarity；原文未说明或存在歧义之处以明确译者注标记，不自行补充规范。",
+    "修订后核验图像与资源引用、链接、标题锚点及来源元数据未变。"
+  ],
+  "limitations": [
+    "这是基于当前保存的官方英文快照的一轮人工复核，不构成无误保证。",
+    "未对网站代码、最新线上文档变化或硬件事实作独立推断。",
+    "原文重复条目已有合并译者注；导航用的 Previous / Next 不计入正文漏译。"
+  ],
+  "pages": [
+    {
+      "slug": "overview",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses",
+      "sourceUpdated": null,
+      "reviewed": true,
+      "reviewScope": [
+        "完整正文与图注",
+        "标题、简介与术语范围",
+        "主语、否定、条件、范围与因果",
+        "建议、要求与可能性的强弱",
+        "遗漏与未获原文支持的补充",
+        "数字、链接、图像与标题锚点"
+      ],
+      "changes": [
+        {
+          "id": "overview-01",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Intelligent eyewear is designed for all-day wear, providing convenient, hands-free access to information."
+          ],
+          "before": "智能眼镜适合全天佩戴，让用户无需手持设备，也能方便地获取信息。",
+          "after": "智能眼镜以全天佩戴为设计目标，让用户解放双手，便捷地获取信息。",
+          "reason": "保留 designed for 的设计目标含义；hands-free 不仅是不必手持设备。"
+        },
+        {
+          "id": "overview-02",
+          "location": "section heading",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Bring augmented experiences to your users"
+          ],
+          "before": "为日常生活增添帮助",
+          "after": "为用户带来增强体验",
+          "reason": "恢复原标题的增强体验主题，避免改写成泛指日常帮助。"
+        },
+        {
+          "id": "overview-03",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Apps designed for audio and display glasses should enrich daily life, providing hands-free utility and discreet access to digital services."
+          ],
+          "before": "为无屏眼镜和带屏眼镜设计的应用，应丰富日常生活，让用户无需手持操作，就能自然、低调地使用数字服务。",
+          "after": "为无屏眼镜和带屏眼镜设计的应用，应丰富日常生活，提供无需动手的实用功能，让用户能在不引人注意的情况下使用数字服务。",
+          "reason": "保留实用功能与不引人注意地访问数字服务两个并列含义；不将 hands-free 缩窄为不手持。"
+        },
+        {
+          "id": "overview-04",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Use AI agents for hands-free, natural language interactions, offering proactive and reactive audio guidance for tasks like media control and navigation."
+          ],
+          "before": "借助 AI 智能体，以自然语言进行免手持交互，为媒体控制、导航等任务提供主动或响应式的声音指引。",
+          "after": "借助 AI 智能体，以自然语言进行无需动手的交互，为媒体控制、导航等任务提供主动或响应式的声音指引。",
+          "reason": "hands-free 描述无需动手的交互，并非仅免手持。"
+        }
+      ],
+      "sourceAmbiguities": [],
+      "status": "revised",
+      "semanticCorrectionCount": 4,
+      "clarityEditCount": 0,
+      "sourceAmbiguityCount": 0,
+      "validation": {
+        "preservedAssetReferences": 14,
+        "preservedLinks": 22,
+        "preservedIds": 19,
+        "sourceSha256": "7e063b6275b6daa32573ef7e01d99265cd4e9fe9310b1880e72a4c0126357498",
+        "beforeTranslationSha256": "aa39fdc5d27c62434178f199ad86f855c9cb64f96268f01b9159d8566d1279db",
+        "afterTranslationSha256": "ca53ce5637fe7331dafcb9576fcc6858a182cf2eeb9da36e292c89a865a4ab75"
+      }
+    },
+    {
+      "slug": "foundations-design-principles",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/foundations/design-principles",
+      "sourceUpdated": "2026-10-28",
+      "reviewed": true,
+      "reviewScope": [
+        "完整正文与图注",
+        "标题、简介与术语范围",
+        "主语、否定、条件、范围与因果",
+        "建议、要求与可能性的强弱",
+        "遗漏与未获原文支持的补充",
+        "数字、链接、图像与标题锚点"
+      ],
+      "changes": [
+        {
+          "id": "foundations-design-principles-01",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Prioritize clear, concise communication and interactions that don't distract from real-world activities, especially when the user is in motion or requires full attention to their surroundings."
+          ],
+          "before": "表达和交互应清晰、简洁，尽量不分散用户对现实活动的注意力，尤其是在行走或需要全神贯注地观察周围环境时。",
+          "after": "优先采用清晰、简洁的表达与交互，避免分散用户对现实活动的注意力，尤其是在用户正在移动，或需要全神贯注地留意周围环境时。",
+          "reason": "恢复优先次序和避免分心的要求；in motion 不局限于行走，留意周围环境也不局限于视觉观察。"
+        },
+        {
+          "id": "foundations-design-principles-02",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Account for reading and legibility in a spectrum of possible environments by following Jetpack Compose Glimmer UI best practices."
+          ],
+          "before": "遵循 Jetpack Compose Glimmer 的界面最佳实践，确保内容在各种可能的环境中都清晰可辨、易于阅读。",
+          "after": "遵循 Jetpack Compose Glimmer 的界面最佳实践，兼顾各种可能环境下的阅读体验与清晰可辨性。",
+          "reason": "account for 是设计时考虑，并非保证所有环境下均可读。"
+        }
+      ],
+      "sourceAmbiguities": [],
+      "status": "revised",
+      "semanticCorrectionCount": 2,
+      "clarityEditCount": 0,
+      "sourceAmbiguityCount": 0,
+      "validation": {
+        "preservedAssetReferences": 4,
+        "preservedLinks": 0,
+        "preservedIds": 6,
+        "sourceSha256": "924652126311207080de9892298f00d54a39d392a9d19dc1c82ccc91e5d16c1e",
+        "beforeTranslationSha256": "4bd1526a87ba1e1d0e7180183215b4fc87c1df339d88065444fa53e705476492",
+        "afterTranslationSha256": "286e527c499ce6bdb6ba506fe09f82775fbfb07751adce0cbd3a9c2340dc57eb"
+      }
+    },
+    {
+      "slug": "foundations-made-for-glasses",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/foundations/made-for-glasses",
+      "sourceUpdated": "2026-10-28",
+      "reviewed": true,
+      "reviewScope": [
+        "完整正文与图注",
+        "标题、简介与术语范围",
+        "主语、否定、条件、范围与因果",
+        "建议、要求与可能性的强弱",
+        "遗漏与未获原文支持的补充",
+        "数字、链接、图像与标题锚点"
+      ],
+      "changes": [
+        {
+          "id": "foundations-made-for-glasses-01",
+          "location": "title",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "UI made for display glasses"
+          ],
+          "before": "为带屏眼镜而设计",
+          "after": "专为带屏眼镜打造的界面",
+          "reason": "标题明确指向 UI，恢复原有主题范围。"
+        },
+        {
+          "id": "foundations-made-for-glasses-02",
+          "location": "description",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Jetpack Compose Glimmer is optimized for transparent displays and user comfort."
+          ],
+          "before": "认识 Glimmer 如何围绕光学透视显示、硬件输入和佩戴舒适度构建界面。",
+          "after": "认识 Glimmer 如何围绕光学透视显示、硬件输入和使用舒适度构建界面。",
+          "reason": "user comfort 包括使用体验，不限于佩戴的身体舒适度。"
+        },
+        {
+          "id": "foundations-made-for-glasses-03",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "It provides a way for you to customize the focus highlights, in addition to type and color."
+          ],
+          "before": "除了字体和颜色，你还可以自定义焦点高亮",
+          "after": "除了文字样式和颜色，你还可以自定义焦点高亮",
+          "reason": "type 在此指文字排版样式，不限于字体家族。"
+        }
+      ],
+      "sourceAmbiguities": [],
+      "status": "revised",
+      "semanticCorrectionCount": 3,
+      "clarityEditCount": 0,
+      "sourceAmbiguityCount": 0,
+      "validation": {
+        "preservedAssetReferences": 3,
+        "preservedLinks": 4,
+        "preservedIds": 3,
+        "sourceSha256": "d956fec222a18ff42492f9d2f1cf31866443f6550b55266061a5f51dce3b9bdd",
+        "beforeTranslationSha256": "6bb2fed64b2dd5a891b3e434b1ec3fe48f374a58d5b9d4e64635311220dce8cf",
+        "afterTranslationSha256": "7adaf16458e83848af6a302e4d43384025f7d63f77750016b109df5f7f349f47"
+      }
+    },
+    {
+      "slug": "foundations-get-started",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/foundations/get-started",
+      "sourceUpdated": "2026-10-28",
+      "reviewed": true,
+      "reviewScope": [
+        "完整正文与图注",
+        "标题、简介与术语范围",
+        "主语、否定、条件、范围与因果",
+        "建议、要求与可能性的强弱",
+        "遗漏与未获原文支持的补充",
+        "数字、链接、图像与标题锚点"
+      ],
+      "changes": [
+        {
+          "id": "foundations-get-started-01",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "That could be expressed with minimal UI or audio only while allowing the user to stay present in their surroundings."
+          ],
+          "before": "这类任务应能通过极简界面或纯声音完成，让用户仍能关注周围环境。",
+          "after": "这类体验可以通过极简界面或纯声音呈现，同时让用户继续关注周围环境。",
+          "reason": "could be expressed 表达可能的呈现方式，不是要求任务必须能以此完成。"
+        },
+        {
+          "id": "foundations-get-started-02",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "For example, a user may benefit with hands-free, turn-by-turn walking directions to help them navigate to their destination."
+          ],
+          "before": "例如，步行导航可以通过免手持的逐向指引，帮助用户到达目的地。",
+          "after": "例如，无需手动操作、逐步提供转向提示的步行导航，可以帮助用户到达目的地。",
+          "reason": "明确 turn-by-turn 是逐步提供转向提示；hands-free 不限于免手持。"
+        },
+        {
+          "id": "foundations-get-started-03",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "The chosen user journey should also account for safety, comfort, and performance principles."
+          ],
+          "before": "所选旅程也应符合安全、舒适和性能原则。",
+          "after": "所选旅程也应考虑安全、舒适和性能原则。",
+          "reason": "account for 是纳入考量，未表述为合规或符合性保证。"
+        },
+        {
+          "id": "foundations-get-started-04",
+          "location": "figure 1 caption",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "The system bars are visually distinct because the UI on display glasses is usually empty."
+          ],
+          "before": "带屏眼镜的界面通常留有大量空白，因此系统栏在视觉上与应用内容区分明显。",
+          "after": "带屏眼镜上的界面通常为空，因此系统栏在视觉上较为突出。",
+          "reason": "usually empty 是界面通常为空，原文没有把它解释为布局中留有大量空白。"
+        },
+        {
+          "id": "foundations-get-started-05",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Notate interactions and feedback with audio cues and dialogue."
+          ],
+          "before": "用提示音和对话标注每一步交互及反馈。",
+          "after": "用声音提示和对话标注每一步交互及反馈。",
+          "reason": "audio cues 范围比 earcons 广，避免全部译成特定的提示音。"
+        },
+        {
+          "id": "foundations-get-started-06",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Make sure to ask for device feature permissions."
+          ],
+          "before": "使用设备功能前，务必申请相应权限。",
+          "after": "务必为所需的设备功能申请权限。",
+          "reason": "保留申请权限的要求，不补入原句未明确规定的时间条件。"
+        }
+      ],
+      "sourceAmbiguities": [],
+      "status": "revised",
+      "semanticCorrectionCount": 6,
+      "clarityEditCount": 0,
+      "sourceAmbiguityCount": 0,
+      "validation": {
+        "preservedAssetReferences": 7,
+        "preservedLinks": 6,
+        "preservedIds": 8,
+        "sourceSha256": "acf87a9f0b882cb45743f1533ac2d130bc9503615e22659913565c7bb9526dcd",
+        "beforeTranslationSha256": "99203a4910b5f09a4049fbb3526234fb8f384ce851e95a0811ded0dbbaabefcc",
+        "afterTranslationSha256": "e147c9e455d052bf6f898b9aab2d351ba68f88ebac21ec277f0bf183e4a26c2a"
+      }
+    },
+    {
+      "slug": "surfaces-overview",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/overview",
+      "sourceUpdated": "2026-10-28",
+      "reviewed": true,
+      "reviewScope": [
+        "完整正文与图注",
+        "标题、简介与术语范围",
+        "主语、否定、条件、范围与因果",
+        "建议、要求与可能性的强弱",
+        "遗漏与未获原文支持的补充",
+        "数字、链接、图像与标题锚点"
+      ],
+      "changes": [
+        {
+          "id": "surfaces-overview-01",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Customization is limited for interface surfaces, while system UI utilizes templated APIs for a visually cohesive and unobtrusive user experience in real-world settings and effortless developer experience."
+          ],
+          "before": "系统界面通过模板化 API，保证视觉统一、减少对现实活动的打扰，也让开发更直接。",
+          "after": "系统界面采用模板化 API，以保持视觉一致、减少用户在现实环境中受到的打扰，并简化开发。",
+          "reason": "原文说明设计目的，并未保证一定实现结果。"
+        }
+      ],
+      "sourceAmbiguities": [],
+      "status": "revised",
+      "semanticCorrectionCount": 1,
+      "clarityEditCount": 0,
+      "sourceAmbiguityCount": 0,
+      "validation": {
+        "preservedAssetReferences": 4,
+        "preservedLinks": 3,
+        "preservedIds": 4,
+        "sourceSha256": "600f33dd0e1dee551f4af1c42df261ba3966258106c8e26053c1a6be6f19fd6c",
+        "beforeTranslationSha256": "3d637a6844d1739973eda241937aa8d243342da05169716ea7b6ec702b423766",
+        "afterTranslationSha256": "97bc45dbaf4355bb4dcd34fed2f00a684fa754812377f0cd4ff26c054915a5ce"
+      }
+    },
+    {
+      "slug": "surfaces-sysui",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/sysui",
+      "sourceUpdated": "2026-10-28",
+      "reviewed": true,
+      "reviewScope": [
+        "完整正文与图注",
+        "标题、简介与术语范围",
+        "主语、否定、条件、范围与因果",
+        "建议、要求与可能性的强弱",
+        "遗漏与未获原文支持的补充",
+        "数字、链接、图像与标题锚点"
+      ],
+      "changes": [
+        {
+          "id": "surfaces-sysui-01",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "There are two LEDs on all display glasses, one for the wearer and one for bystanders."
+          ],
+          "before": "带屏眼镜配有两枚 LED 指示灯，一枚面向佩戴者，一枚面向周围的人。",
+          "after": "所有带屏眼镜均配有两枚 LED 指示灯，一枚面向佩戴者，一枚面向周围的人。",
+          "reason": "保留原文 all 的量词范围；此处仅如实转述指南所述设备。"
+        },
+        {
+          "id": "surfaces-sysui-02",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "These are system UI indicators and can't be changed."
+          ],
+          "before": "这些属于系统指示，应用不能更改。",
+          "after": "这些都是系统界面指示，无法更改。",
+          "reason": "原文没有将不可更改限定为应用这一行为主体。"
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "sourceQuotes": [
+            "Additionally, there are ephemeral items that can appear \"at any time\" across locations. For example: Heads-up Notifications (HUNs), or other locations."
+          ],
+          "translatorNote": "原文此句末尾另有“or other locations”，所指不明；此处保留悬浮通知可跨界面出现的表述。",
+          "handling": "不把原文未完成的短语补写成新的通知类型或新的位置规则。"
+        }
+      ],
+      "status": "revised",
+      "semanticCorrectionCount": 2,
+      "clarityEditCount": 0,
+      "sourceAmbiguityCount": 1,
+      "validation": {
+        "preservedAssetReferences": 5,
+        "preservedLinks": 1,
+        "preservedIds": 4,
+        "sourceSha256": "a347131d8817d91478f727061681fcf5fa8569bc61d19b07af7bd60d10471f9b",
+        "beforeTranslationSha256": "255ab69405598fe8d97d5f343723f97fb806747426c68cf008a9e9321223c484",
+        "afterTranslationSha256": "84c16e76c208efb061ed3073b80220ea4f9a307a4a3552157fe15861c1785674"
+      }
+    },
+    {
+      "slug": "surfaces-app",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/app",
+      "sourceUpdated": "2026-10-28",
+      "reviewed": true,
+      "reviewScope": [
+        "完整正文与图注",
+        "标题、简介与术语范围",
+        "主语、否定、条件、范围与因果",
+        "建议、要求与可能性的强弱",
+        "遗漏与未获原文支持的补充",
+        "数字、链接、图像与标题锚点"
+      ],
+      "changes": [
+        {
+          "id": "surfaces-app-01",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Augmented experiences on glasses are an extension of your existing mobile app, you can create handoff experiences from your mobile app to Glasses. Your app can run on both audio glasses and display glasses."
+          ],
+          "before": "你可以设计从手机接续到眼镜的体验，让应用同时运行于无屏眼镜和带屏眼镜。",
+          "after": "你可以设计从手机接续到眼镜的体验。应用可以在无屏眼镜和带屏眼镜上运行。",
+          "reason": "both 表示支持两种形态，不意味着同时在两台设备运行；两句也不存在因果关系。"
+        },
+        {
+          "id": "surfaces-app-02",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "For example, on displayless the user can't scroll through a list of options and multiple buttons, instead they will need an audio cue with a possible corresponding input."
+          ],
+          "before": "用户无法像在带屏界面上那样滚动选项列表或选择多个按钮，而需要声音提示及其对应的输入方式。",
+          "after": "用户无法像在带屏界面上那样浏览选项列表或逐个操作多个按钮，而需要声音提示，并可配合相应的输入方式。",
+          "reason": "保留 possible 的可选性，不把对应输入写成必需；避免“选择多个按钮”被误解为多选。"
+        },
+        {
+          "id": "surfaces-app-03",
+          "location": "app anatomy: vertical alignment",
+          "category": "clarity",
+          "semanticCorrection": false,
+          "sourceQuotes": [
+            "Content should avoid being centered vertically and remain minimal and thoughtful as to be less distracting in the user's vision."
+          ],
+          "before": "避免将内容在垂直方向居中。内容应精简、安排有度，尽量减少对用户视线的干扰。",
+          "after": "内容应避免上下居中。呈现的内容要精简，呈现方式也要经过仔细考虑，以减少对用户视野的干扰。",
+          "reason": "用自然中文表达 minimal 和 thoughtful，同时保留上下居中的位置限制及减少视野干扰的目的；未补写原文没有的额外布局因果。"
+        },
+        {
+          "id": "surfaces-app-04",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Apps can scroll, but try to keep the number of items minimal to reduce cognitive load and minimize on-frame interactions."
+          ],
+          "before": "降低认知负担和在镜腿上操作的次数。",
+          "after": "降低认知负担和在镜框上操作的次数。",
+          "reason": "on-frame 指镜框上的操作，原文没有限于镜腿。"
+        },
+        {
+          "id": "surfaces-app-05",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "You should expect future entry points from the system UI or AI capabilities as the glasses form factor matures."
+          ],
+          "before": "随着眼镜形态逐步成熟，未来还会有来自系统界面或 AI 能力的入口。",
+          "after": "随着眼镜形态逐步成熟，可以预期未来会出现来自系统界面或 AI 能力的入口。",
+          "reason": "保持预期语气，不将未来能力写成确定承诺。"
+        }
+      ],
+      "sourceAmbiguities": [],
+      "status": "revised",
+      "semanticCorrectionCount": 4,
+      "clarityEditCount": 1,
+      "sourceAmbiguityCount": 0,
+      "validation": {
+        "preservedAssetReferences": 8,
+        "preservedLinks": 8,
+        "preservedIds": 6,
+        "sourceSha256": "14c3c736d7cb7c395e7b475192af8e1ccd2d971d9e67b72f208a09c645662de0",
+        "beforeTranslationSha256": "f98d94d3d94d75a88184e674181dc8d3fba373c656374123c6988dfb705cbd1e",
+        "afterTranslationSha256": "9e8309aa091640740b78f246c93b9c7c088984c04a929aa995dba3573b2db60d"
+      }
+    },
+    {
+      "slug": "surfaces-ai-in-your-app",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/ai-in-your-app",
+      "sourceUpdated": "2026-10-28",
+      "reviewed": true,
+      "reviewScope": [
+        "完整正文与图注",
+        "标题、简介与术语范围",
+        "主语、否定、条件、范围与因果",
+        "建议、要求与可能性的强弱",
+        "遗漏与未获原文支持的补充",
+        "数字、链接、图像与标题锚点"
+      ],
+      "changes": [
+        {
+          "id": "surfaces-ai-in-your-app-01",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Audio and display glasses provide a first-person and muli-modal view of the user interacting with their environment. Combined with voice input and hardware sensors, this has the potential to provide an unprecedented level of contextual information to your app."
+          ],
+          "before": "无屏眼镜和带屏眼镜能够以第一人称、多模态的方式了解用户与环境的互动。结合语音输入和硬件传感器，应用有机会获得以往难以获取的丰富情境信息。",
+          "after": "无屏眼镜和带屏眼镜能以第一人称视角、多模态信息呈现用户与环境的互动。结合语音输入和硬件传感器，这有望为应用提供前所未有的丰富情境信息。",
+          "reason": "眼镜提供视角和信息，原文未断言眼镜本身理解互动；同时保留 has the potential 的可能性。"
+        }
+      ],
+      "sourceAmbiguities": [],
+      "status": "revised",
+      "semanticCorrectionCount": 1,
+      "clarityEditCount": 0,
+      "sourceAmbiguityCount": 0,
+      "validation": {
+        "preservedAssetReferences": 0,
+        "preservedLinks": 1,
+        "preservedIds": 2,
+        "sourceSha256": "b34eda6a456390ba28aedaf76cf15b97204a3c7be6adc43a587d36d34ad68d3f",
+        "beforeTranslationSha256": "867beee758632823b9d103aed5c2a6d9d512fa57a030cb8cf6f2a2256b05ae74",
+        "afterTranslationSha256": "30acb9cf8852eb86de48078784af787fe4da8e154a5bc27eea1105dd46bd7317"
+      }
+    },
+    {
+      "slug": "interaction-inputs",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/inputs",
+      "sourceUpdated": "2026-10-02",
+      "reviewed": true,
+      "reviewScope": [
+        "完整正文与图注",
+        "标题、简介与术语范围",
+        "主语、否定、条件、范围与因果",
+        "建议、要求与可能性的强弱",
+        "遗漏与未获原文支持的补充",
+        "数字、链接、图像与标题锚点"
+      ],
+      "changes": [
+        {
+          "id": "interaction-inputs-01",
+          "location": "focus figure caption",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "On display focus states have a visual affordances."
+          ],
+          "before": "带屏眼镜通过可见的状态变化，让用户识别当前焦点。",
+          "after": "带屏眼镜上的焦点态具有可辨认的视觉提示。",
+          "reason": "视觉可供性可以是静态提示，原文并未要求状态变化或动画。"
+        },
+        {
+          "id": "interaction-inputs-02",
+          "location": "feedback heading",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Provide immediate, clear feedback about detected gesture and action taken"
+          ],
+          "before": "立即、清楚地反馈已识别的手势与执行结果",
+          "after": "立即、清楚地反馈识别到的手势与执行的操作",
+          "reason": "action taken 指采取的操作，未必是操作结果。"
+        },
+        {
+          "id": "interaction-inputs-03",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Removing memory burdens"
+          ],
+          "before": "减少记忆负担。",
+          "after": "免去记忆负担。",
+          "reason": "保留 removing 而非仅减少的要求强度。"
+        },
+        {
+          "id": "interaction-inputs-04",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Accounting for possible accidental slips"
+          ],
+          "before": "考虑可能发生的无意误触。",
+          "after": "考虑可能发生的无意误操作。",
+          "reason": "slips 包括多种操作失误，不能限于触控误触。"
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "sourceQuotes": [
+            "Double press Camera"
+          ],
+          "translatorNote": "上表把相机键“双按”的对应操作标为 Camera，未进一步说明具体动作；此处保留为“相机操作”。",
+          "handling": "不擅自把相机键双按解释为拍照、启动相机或其他特定动作。"
+        }
+      ],
+      "status": "revised",
+      "semanticCorrectionCount": 4,
+      "clarityEditCount": 0,
+      "sourceAmbiguityCount": 1,
+      "validation": {
+        "preservedAssetReferences": 8,
+        "preservedLinks": 0,
+        "preservedIds": 15,
+        "sourceSha256": "93166903284ea33f8691a82461c82590e7d1fa53ed29ccf8204cc1e676ca36fb",
+        "beforeTranslationSha256": "8c15ce2583747b065ea495db5f32c0d022985c9ca91569981ddefeb59c69c4e5",
+        "afterTranslationSha256": "e84f68b4a63085ee09fe07d15599affae9715880445e543aee855afed6a094b5"
+      }
+    },
+    {
+      "slug": "interaction-permissions",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/permissions",
+      "sourceUpdated": "2026-01-07",
+      "reviewed": true,
+      "reviewScope": [
+        "完整正文与图注",
+        "标题、简介与术语范围",
+        "主语、否定、条件、范围与因果",
+        "建议、要求与可能性的强弱",
+        "遗漏与未获原文支持的补充",
+        "数字、链接、图像与标题锚点"
+      ],
+      "changes": [],
+      "sourceAmbiguities": [],
+      "status": "reviewed_no_change",
+      "semanticCorrectionCount": 0,
+      "clarityEditCount": 0,
+      "sourceAmbiguityCount": 0,
+      "validation": {
+        "preservedAssetReferences": 1,
+        "preservedLinks": 1,
+        "preservedIds": 0,
+        "sourceSha256": "5ac8cb92c60118f10fdb857b5e215d89f9d59fcf0a95c0c6ac786e74936c549b",
+        "beforeTranslationSha256": "e5e8e522b3477abc8fedf5b63194d07bd0e3f87016e23b5a4025307659597b93",
+        "afterTranslationSha256": "e5e8e522b3477abc8fedf5b63194d07bd0e3f87016e23b5a4025307659597b93"
+      }
+    },
+    {
+      "slug": "interaction-navigation",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/navigation",
+      "sourceUpdated": "2026-10-28",
+      "reviewed": true,
+      "reviewScope": [
+        "完整正文与图注",
+        "标题、简介与术语范围",
+        "主语、否定、条件、范围与因果",
+        "建议、要求与可能性的强弱",
+        "遗漏与未获原文支持的补充",
+        "数字、链接、图像与标题锚点"
+      ],
+      "changes": [
+        {
+          "id": "interaction-navigation-01",
+          "location": "description",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Due to the simplicity of Glasses apps, navigation should remain shallow.",
+            "Consider introducing a second confirmation step for longer activities where accidentally ending the session would lose progress."
+          ],
+          "before": "保持浅层导航，让用户清楚地返回、退出，并在可能丢失进度时得到确认。",
+          "after": "保持浅层导航，提供清楚的返回与退出方式，并考虑误退出造成的进度损失。",
+          "reason": "描述不得把“考虑增加确认”提升成必然会提供确认。"
+        },
+        {
+          "id": "interaction-navigation-02",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Due to the simplicity of Glasses apps, navigation should remain shallow."
+          ],
+          "before": "眼镜应用通常较简单，导航层级也应保持浅显。",
+          "after": "眼镜应用较为简单，导航层级也应尽量少。",
+          "reason": "shallow 指层级浅，而非内容浅显。"
+        },
+        {
+          "id": "interaction-navigation-03",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "On Audio glasses, media is content. On Display glasses, visual UI is content."
+          ],
+          "before": "对于无屏眼镜，内容主要是媒体；对于带屏眼镜，内容也包括可视界面。",
+          "after": "对无屏眼镜而言，这里的内容是媒体；对带屏眼镜而言，则是可视界面。",
+          "reason": "恢复原文的对照定义，不增加“主要”和“也包括”的范围修饰。"
+        },
+        {
+          "id": "interaction-navigation-04",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "For destructive actions like ending a call or stopping a workout, consider a secondary confirmation."
+          ],
+          "before": "对于结束通话、停止锻炼等会终止当前任务的操作，应考虑二次确认。",
+          "after": "对于结束通话、停止锻炼等破坏性操作，应考虑二次确认。",
+          "reason": "保留 destructive 的操作类别，避免扩大为所有任务终止操作。"
+        },
+        {
+          "id": "interaction-navigation-05",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Place a button in your interface to make a clear exit affordance."
+          ],
+          "before": "可在界面中放置按钮，清楚地提供退出入口。",
+          "after": "在界面中放置按钮，清楚地提供退出入口。",
+          "reason": "原文为设计指引，不应弱化为纯粹可选的实现。"
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "sourceQuotes": [
+            "Ending on swipe-back immediately is best for continuous audio streams like calls, translation, and Gemini.",
+            "For destructive actions like ending a call or stopping a workout, consider a secondary confirmation."
+          ],
+          "translatorNote": "原文既将通话列为适合立即结束的连续音频体验，也把结束通话列为可考虑二次确认的操作，未进一步细分两者的适用条件。这里保留两项表述。",
+          "handling": "不自行发明哪些通话必须确认或无需确认的规则。"
+        }
+      ],
+      "status": "revised",
+      "semanticCorrectionCount": 5,
+      "clarityEditCount": 0,
+      "sourceAmbiguityCount": 1,
+      "validation": {
+        "preservedAssetReferences": 2,
+        "preservedLinks": 0,
+        "preservedIds": 3,
+        "sourceSha256": "d299be0c74645aab2d14b7d4a0c4d95b25a54e54a79a0c3203242ef480b7c38d",
+        "beforeTranslationSha256": "925b54e25abdbd2a8f4bf7a68ed32419acaef9a02183f25fe1bf5e2b1743e63a",
+        "afterTranslationSha256": "4a252ec5ff658ce0e4efcc38a1b6c61af4e86f1412889873dd87c19624f755f3"
+      }
+    },
+    {
+      "slug": "interaction-ai-patterns",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/ai-patterns",
+      "sourceUpdated": "2026-10-28",
+      "reviewed": true,
+      "reviewScope": [
+        "完整正文与图注",
+        "标题、简介与术语范围",
+        "主语、否定、条件、范围与因果",
+        "建议、要求与可能性的强弱",
+        "遗漏与未获原文支持的补充",
+        "数字、链接、图像与标题锚点"
+      ],
+      "changes": [
+        {
+          "id": "interaction-ai-patterns-01",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "When designing these experiences, consider patterns that recognize AI as an assistant with glanceable visuals."
+          ],
+          "before": "设计时，应让 AI 以助手的角色提供帮助，并在适用时配合一眼可读的视觉信息。",
+          "after": "设计这类体验时，应考虑这样的交互模式：让 AI 作为助手，配合一眼可读的视觉信息提供帮助。",
+          "reason": "保留 consider patterns 的考量语气，不将其改写成确定的呈现要求。"
+        },
+        {
+          "id": "interaction-ai-patterns-02",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Your agent could continue to listen for additional interaction cues and establish a custom pattern to continue by learning from the user."
+          ],
+          "before": "智能体可以继续留意后续交互信号，并通过了解用户习惯，形成适合他们的续接方式。",
+          "after": "智能体可以继续监听后续交互信号，并通过向用户学习，形成适合用户的续接方式。",
+          "reason": "listen 保留声音相关动作；learning from the user 不限于观察用户习惯。"
+        }
+      ],
+      "sourceAmbiguities": [],
+      "status": "revised",
+      "semanticCorrectionCount": 2,
+      "clarityEditCount": 0,
+      "sourceAmbiguityCount": 0,
+      "validation": {
+        "preservedAssetReferences": 3,
+        "preservedLinks": 0,
+        "preservedIds": 4,
+        "sourceSha256": "4cc89160a645f8857430f446c359c22d4f781856b7e1ee690e4a6812fff6ea74",
+        "beforeTranslationSha256": "76efaa4a0dbfe779361c1ef611979f53495508a016ee9bb9f42555b74cb4652e",
+        "afterTranslationSha256": "65c619fb86fd3d8771387ed83481db35c300ba0a940f61cc7a9177177f0456d4"
+      }
+    },
+    {
+      "slug": "interaction-onboarding",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/onboarding",
+      "sourceUpdated": "2026-05-19",
+      "reviewed": true,
+      "reviewScope": [
+        "完整正文与图注",
+        "标题、简介与术语范围",
+        "主语、否定、条件、范围与因果",
+        "建议、要求与可能性的强弱",
+        "遗漏与未获原文支持的补充",
+        "数字、链接、图像与标题锚点"
+      ],
+      "changes": [
+        {
+          "id": "interaction-onboarding-01",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Introduce and educate users on your app's capabilities in the right moment so that their glasses feel like a seamless extension of your mobile app."
+          ],
+          "before": "在合适的时机介绍功能、教会用户使用，才能让眼镜自然地成为手机应用的一部分。",
+          "after": "在合适的时机介绍功能、教会用户使用，让眼镜自然地成为手机应用的一部分。",
+          "reason": "so that 表示目的，不表示只有这样才可能实现的必要条件。"
+        },
+        {
+          "id": "interaction-onboarding-02",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "This allows users to learn about features when they are more relevant and usable to them and less likely to forget. This is also preferred for returning users, as the discovery process can trigger when the user returns the first time glasses are paired."
+          ],
+          "before": "此时功能与用户的需求更相关，也能立即使用，因此更容易理解和记住。这种方式同样适合回访用户：例如，用户首次配对眼镜后重新进入应用，就可以触发功能介绍。",
+          "after": "这样，用户可以在功能与自己更相关、也更适合使用时了解它，不容易忘记。这也是更适合回访用户的方式：用户首次配对眼镜后重新进入应用时，就可以触发功能介绍。",
+          "reason": "usable 不等于保证立即使用；保留 preferred 对回访用户的优先倾向。"
+        },
+        {
+          "id": "interaction-onboarding-03",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "During upfront onboarding, consider this a value proposition or informative moment, as they may forget after onboarding."
+          ],
+          "before": "用户在完成首次引导后可能会忘记细节，因此应把这个阶段更多地用于说明功能价值或介绍基本信息。",
+          "after": "用户在完成首次引导后可能会忘记这些内容，因此可以从说明功能价值或提供信息的角度来设计这个阶段。",
+          "reason": "保留 consider 的建议语气，不添加仅提供基本信息的范围限制。"
+        },
+        {
+          "id": "interaction-onboarding-04",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Once complete, you can provide education within your app (for more visual walkthrough), or within the Glasses activity."
+          ],
+          "before": "完成后，可在手机应用内提供更直观的图文教学，也可以在眼镜端活动中继续引导。",
+          "after": "完成后，可在手机应用内提供更直观的使用演示，也可以在眼镜端活动中继续引导。",
+          "reason": "visual walkthrough 不限于图文，也可能使用其他视觉教学形式。"
+        },
+        {
+          "id": "interaction-onboarding-05",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "You can include user education within the Glasses activity by using audio queues, earcons, and gesture hints, but consider if one modal summary can better convey use."
+          ],
+          "before": "可以通过声音提示、提示音和手势说明，在眼镜端活动中进行教学；同时也应考虑，一个集中说明的弹层是否能更清楚地讲明用法。",
+          "after": "可以通过声音提示、提示音和手势提示，在眼镜端活动中进行教学；也应考虑，是否用一次集中的用法说明就能讲得更清楚。",
+          "reason": "原文未明确 modal summary 的具体形态，移除未经证实的弹层限制，并用译者注保留原词疑义。"
+        },
+        {
+          "id": "interaction-onboarding-06",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "If using the camera or microphone, remind users about this use, and explain why your app needs them."
+          ],
+          "before": "如需使用摄像头或麦克风，应提醒用户正在使用这些能力，并解释应用为什么需要它们。",
+          "after": "如需使用摄像头或麦克风，应提醒用户会用到这些功能，并解释应用为什么需要它们。",
+          "reason": "使用教学中的说明不等于要求声明传感器当时已经在运行；去掉未经原文支持的“正在”。"
+        },
+        {
+          "id": "interaction-onboarding-07",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "If they can access one or more features within the glasses activity at different times, point them out with a coachmark or tooltip."
+          ],
+          "before": "如果眼镜端活动在不同阶段提供不同功能，可以通过引导标记或提示说明，在合适的时机指出入口。",
+          "after": "如果用户能在不同时间使用眼镜端活动中的一个或多个功能，应通过引导标记或提示说明指出这些功能。",
+          "reason": "原文允许一个或多个功能在不同时间可用，不限于不同阶段必须提供不同功能；保留指示性语气。"
+        },
+        {
+          "id": "interaction-onboarding-08",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "If a user hasn't granted permissions, or they were previously denied, alert the user and deep link to settings where they can request them."
+          ],
+          "before": "让用户重新授权。",
+          "after": "让用户授予权限。",
+          "reason": "尚未授权的用户可能是首次授权，不能一概写成重新授权。"
+        },
+        {
+          "id": "interaction-onboarding-09",
+          "location": "body",
+          "category": "semantic",
+          "semanticCorrection": true,
+          "sourceQuotes": [
+            "Include user education within the Glasses activity using Jetpack Compose Glimmer components, earcons, and audio queues."
+          ],
+          "before": "可以使用 Jetpack Compose Glimmer 组件、",
+          "after": "使用 Jetpack Compose Glimmer 组件、",
+          "reason": "原文是纳入教学的设计指引，避免将其弱化为纯粹的实现可能性。"
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "sourceQuotes": [
+            "You can include user education within the Glasses activity by using audio queues, earcons, and gesture hints, but consider if one modal summary can better convey use."
+          ],
+          "translatorNote": "原文使用 one modal summary，但未进一步说明其呈现形式；此处未把它限定为弹层或对话框。",
+          "handling": "保留集中说明的语义，同时明确具体模态形式尚不明确。"
+        }
+      ],
+      "status": "revised",
+      "semanticCorrectionCount": 9,
+      "clarityEditCount": 0,
+      "sourceAmbiguityCount": 1,
+      "validation": {
+        "preservedAssetReferences": 11,
+        "preservedLinks": 11,
+        "preservedIds": 15,
+        "sourceSha256": "2c7a3def6ab6738be9b8905f851a397d2b2295ad92e4ff0c37d5c67a9852371d",
+        "beforeTranslationSha256": "3892103c1d371fc23f598b148c6a8d75555d9fdc7710665144203b7efbead442",
+        "afterTranslationSha256": "d22bcec179ecf70f87abd0db12a6713073d23bc7185b297e9f5796ca7d1d31f5"
+      }
+    }
+  ],
+  "totals": {
+    "pagesReviewed": 13,
+    "pagesRevised": 12,
+    "pagesReviewedWithoutChange": 1,
+    "semanticCorrections": 43,
+    "clarityEdits": 1,
+    "sourceAmbiguitiesAnnotated": 4
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "surfaces-overview",
+  "group": "surfaces",
+  "englishTitle": "Surfaces",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/surfaces/overview",
+  "sourceUpdated": "2026-10-28",
+  "fetchedAt": "2026-11-09",
+  "bodyEn": "<p>When designing UI for display glasses, it's crucial to consider various surfaces\nand contexts. These include the Glasses System UI (Home and Notifications), your\napp projected on Glasses, and the seamless handoff experience integrated within\nyour mobile application.</p>\n<p>Design surfaces can be described in three states: Home, App view, and system\nbar.</p>\n<h3 id=\"home\">Home</h3>\n<p>Inspired by the phone's lock screen, <a href=\"https://developer.android.com/design/ui/ai-glasses/guides/surfaces/sysui\" rel=\"noopener noreferrer\" target=\"_blank\">home</a> acts as a familiar base for your\nuser. It provides minimal, contextual information and actions.</p>\n<p><img alt=\"An existing mobile app that hasn't been modified to adapt to a large screen or\nany other form factor.\" loading=\"lazy\" src=\"/assets/original/1929ff9d-glasses_surfaces_overview_home.webp\"/></p>\n<h3 id=\"app-view\">App view</h3>\n<p>The <a href=\"https://developer.android.com/design/ui/ai-glasses/guides/surfaces/app\" rel=\"noopener noreferrer\" target=\"_blank\">app view</a> is the canvas for your app's UI. The system bar is empty by\ndefault to allow for system alerts to be less intrusive for the user's line of\nsight.</p>\n<p><img alt=\"A large screen Tier 1 or Tier 2 Android app that has implemented layout\noptimizations for all screen sizes and device configurat ions.\" loading=\"lazy\" src=\"/assets/original/4e8338ce-glasses_surfaces_overview_nonhome.png\"/></p>\n<h3 id=\"system-bar\">System bar</h3>\n<p><a href=\"https://developer.android.com/design/ui/ai-glasses/guides/surfaces/sysui\" rel=\"noopener noreferrer\" target=\"_blank\">System bar</a> elements temporarily display as needed. This can include Gemini,\nNotifications, system alerts, device controls, etc.</p>\n<p><img alt=\"Android Developers 原始示意图\" loading=\"lazy\" src=\"/assets/original/9940af45-glasses_surfaces_overview_anytime.png\"/></p>\n<h2 id=\"customize-surfaces\">Customize system surfaces</h2>\n<p>Customization is limited for interface surfaces, while system UI utilizes\ntemplated APIs for a visually cohesive and unobtrusive user experience in\nreal-world settings and effortless developer experience. Content on notification\nextensions must follow system-defined templates, allowing only minimal brand\naccents for consistency.</p>\n<p>System icons are a color branding opportunity.</p>\n<p><img alt=\"Android Developers 原始示意图\" loading=\"lazy\" src=\"/assets/original/783f43d8-glasses_surfaces_overview_customize.png\"/></p>\n\n\n\n\n<a href=\"https://developer.android.com/design/ui/ai-glasses/guides/foundations/get-started\" rel=\"noopener noreferrer\" target=\"_blank\">\nPrevious\n\n\n        Get started\n      \n</a>\n\n\n<a href=\"https://developer.android.com/design/ui/ai-glasses/guides/surfaces/sysui\" rel=\"noopener noreferrer\" target=\"_blank\">\nNext\n\n        System UI\n      \n\n</a>",
+  "textEn": "When designing UI for display glasses, it's crucial to consider various surfaces\nand contexts. These include the Glasses System UI (Home and Notifications), your\napp projected on Glasses, and the seamless handoff experience integrated within\nyour mobile application.\nDesign surfaces can be described in three states: Home, App view, and system\nbar.\nHome\nInspired by the phone's lock screen,\nhome\nacts as a familiar base for your\nuser. It provides minimal, contextual information and actions.\nApp view\nThe\napp view\nis the canvas for your app's UI. The system bar is empty by\ndefault to allow for system alerts to be less intrusive for the user's line of\nsight.\nSystem bar\nSystem bar\nelements temporarily display as needed. This can include Gemini,\nNotifications, system alerts, device controls, etc.\nCustomize system surfaces\nCustomization is limited for interface surfaces, while system UI utilizes\ntemplated APIs for a visually cohesive and unobtrusive user experience in\nreal-world settings and effortless developer experience. Content on notification\nextensions must follow system-defined templates, allowing only minimal brand\naccents for consistency.\nSystem icons are a color branding opportunity.\nPrevious\nGet started\nNext\nSystem UI",
+  "assets": [
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_surfaces_overview_home.webp",
+      "local": "/assets/original/1929ff9d-glasses_surfaces_overview_home.webp"
+    },
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_surfaces_overview_nonhome.png",
+      "local": "/assets/original/4e8338ce-glasses_surfaces_overview_nonhome.png"
+    },
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_surfaces_overview_anytime.png",
+      "local": "/assets/original/9940af45-glasses_surfaces_overview_anytime.png"
+    },
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_surfaces_overview_customize.png",
+      "local": "/assets/original/783f43d8-glasses_surfaces_overview_customize.png"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "interaction-permissions",
+  "group": "interaction",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/permissions",
+  "sourceUpdated": "2026-01-07",
+  "title": "权限申请",
+  "englishTitle": "Permissions",
+  "description": "将授权交给手机完成，并清楚解释用途、影响与后续修改方式。",
+  "body": "<p>当应用需要获得眼镜相关权限时，应引导用户前往手机，在手机上的权限对话框中完成授权。</p>\n<p>后续遵循手机应用的权限最佳实践：</p>\n<ul><li>先向用户说明为什么需要这些权限，以及授权情况可能如何影响功能。</li><li>提供之后修改权限偏好的入口。</li></ul>\n<figure><img src=\"/assets/original/5424912e-glasses_ixd_permissions.png\" alt=\"眼镜功能的权限申请流程。\" loading=\"lazy\"></figure>\n<p>进一步了解如何<a href=\"https://developer.android.com/develop/xr/jetpack-xr-sdk/request-hardware-permissions\">申请硬件权限</a>。</p>"
+}

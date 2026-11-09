@@ -1,0 +1,10 @@
+{
+  "slug": "foundations-made-for-glasses",
+  "group": "foundations",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/foundations/made-for-glasses",
+  "sourceUpdated": "2026-10-28",
+  "title": "专为带屏眼镜打造的界面",
+  "englishTitle": "UI made for display glasses",
+  "description": "认识 Glimmer 如何围绕光学透视显示、硬件输入和使用舒适度构建界面。",
+  "body": "<p>使用 Jetpack Compose Glimmer 界面框架，为带屏眼镜打造适用于光学透视显示的增强体验。Glimmer 是最早一批专门针对透明显示和眼镜形态优化的界面框架之一。</p>\n<h2 id=\"transparent-first\">从透明显示出发</h2>\n<p>以研究成果和色彩科学为依据，围绕透明显示与眼镜形态进行优化，让光学透视界面兼顾使用体验与视觉美感。</p>\n<figure><img src=\"/assets/original/d08d5686-glasses_foundation_mfg_transparent.png\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"></figure>\n<h2 id=\"hardware-input\">围绕硬件能力设计输入</h2>\n<p>交互输入方式围绕带屏眼镜的硬件能力设计。</p>\n<figure><img src=\"/assets/original/2a883ef8-glasses_foundation_mfg_hardware.png\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"></figure>\n<h2 id=\"purpose-built\">专为这种设备形态打造</h2>\n<p>样式和组件均为带屏眼镜及其他光学透视显示设备专门设计，可以直接使用。</p>\n<p>Jetpack Compose Glimmer 针对透明显示和用户舒适度做了优化，同时保留定制空间。除了文字样式和颜色，你还可以自定义焦点高亮，掌握应用的视觉表达，并定义符合品牌风格的 GlimmerTheme。</p>\n<figure><img src=\"/assets/original/f775a7a2-glasses_foundation_mfg_purposebuilt.png\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"></figure>\n<p>开始设计眼镜体验前，可进一步阅读<a href=\"https://developer.android.com/design/ui/ai-glasses/guides/styles/overview\">视觉样式</a>和<a href=\"https://developer.android.com/design/ui/ai-glasses/guides/components/overview\">组件</a>，或直接了解如何<a href=\"https://developer.android.com/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer\">开发增强体验</a>。</p>\n<aside class=\"source-note\"><strong>提示：</strong>可以从 Figma 中的 <a href=\"http://www.figma.com/@androiddesign\">Jetpack Compose Glimmer 设计套件</a>开始。</aside>"
+}

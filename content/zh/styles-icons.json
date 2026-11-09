@@ -1,0 +1,10 @@
+{
+  "slug": "styles-icons",
+  "group": "styles",
+  "englishTitle": "Icons on glasses",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/styles/icons",
+  "sourceUpdated": "2026-01-07",
+  "title": "图标",
+  "description": "用圆润、较粗的线性图标，让用户一眼识别，并减轻光晕影响。",
+  "body": "<p>眼镜上的图标必须一眼可读、容易辨认。使用圆润且笔画较粗的图标样式，避免光晕效应影响识别。</p>\n<aside class=\"source-note\"><strong>提示：</strong>如果不需要自定义图标，请使用 Material Symbols Rounded。</aside>\n<figure><img src=\"/assets/original/33544b1a-glasses_style_icon_unfilled.png\" alt=\"非填充图标示例\" loading=\"lazy\"/><figcaption><strong>使用非填充图标，</strong>避免光晕或“漏光”影响。</figcaption></figure>\n<figure><img src=\"/assets/original/33544b1a-glasses_style_icon_unfilled.png\" alt=\"较粗笔画与圆角图标示例\" loading=\"lazy\"/><figcaption><strong>使用较粗笔画和圆角版本，</strong>提高可读性，并与系统字体保持协调；避免细笔画。</figcaption></figure>\n<aside class=\"source-note\"><strong>提示：</strong>可以在 <a href=\"https://fonts.google.com/icons\" target=\"_blank\" rel=\"noopener noreferrer\">Google Fonts</a> 获取 Material Symbols 图标。</aside>"
+}

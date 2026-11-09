@@ -1,0 +1,146 @@
+[
+  {
+    "en": "AI glasses",
+    "zh": "AI 眼镜",
+    "meaning": "本指南讨论的眼镜设备，包含无屏眼镜与带屏眼镜。",
+    "page": "foundations-design-principles"
+  },
+  {
+    "en": "Display glasses",
+    "zh": "带屏眼镜",
+    "meaning": "在音频、相机和麦克风之外，还通过近眼显示呈现视觉信息的眼镜。Display 在这里指显示能力。",
+    "page": "foundations-made-for-glasses"
+  },
+  {
+    "en": "Audio glasses",
+    "zh": "无屏眼镜",
+    "meaning": "以声音作为主要输出的眼镜形态。本指南强调同时考虑无屏与带屏两种体验。",
+    "page": "foundations-design-principles"
+  },
+  {
+    "en": "Glanceable",
+    "zh": "一眼可读",
+    "meaning": "用户短暂看一眼就能抓住重点，不需要持续阅读或仔细寻找信息。",
+    "page": "foundations-design-principles"
+  },
+  {
+    "en": "Ephemeral",
+    "zh": "短暂呈现",
+    "meaning": "信息在需要时出现，任务结束或不再相关时退场，尽量减少对现实视野的持续占用。",
+    "page": "foundations-design-principles"
+  },
+  {
+    "en": "Indirect control",
+    "zh": "间接控制",
+    "meaning": "通过另一种输入方式控制眼前界面，输入动作与界面目标之间存在映射。例如滑动触控板进行界面导航，再轻点确认。",
+    "page": "foundations-design-principles"
+  },
+  {
+    "en": "Optical see-through · OST",
+    "zh": "光学透视",
+    "meaning": "用户透过光学系统直接看到真实环境，显示内容叠加在视野中。现实背景会影响界面的可见性。",
+    "page": "foundations-made-for-glasses"
+  },
+  {
+    "en": "Surfaces",
+    "zh": "界面呈现 / 界面底板",
+    "meaning": "需按上下文区分：Surfaces 章节讨论主页、应用视图、系统栏等界面呈现；视觉样式中的 surface 指承载内容或操作的界面底板。",
+    "page": "surfaces-overview"
+  },
+  {
+    "en": "Focus",
+    "zh": "焦点",
+    "meaning": "当前接收操作的界面目标。焦点高亮用来表明正在操作谁；它与用户的现实注意力是两个概念。",
+    "page": "interaction-inputs"
+  },
+  {
+    "en": "Focus highlight",
+    "zh": "焦点高亮",
+    "meaning": "用于标识当前焦点目标的视觉反馈。Glimmer 色彩指南展示了由两层轮廓线构成的焦点高亮，可在第二层着色，并需保持各状态的对比度。",
+    "page": "styles-color"
+  },
+  {
+    "en": "Purpose-built",
+    "zh": "为眼镜专门设计",
+    "meaning": "组件、视觉样式和输入方式围绕眼镜的显示特性与使用条件设计，同时保留合适的品牌定制能力。",
+    "page": "foundations-made-for-glasses"
+  },
+  {
+    "en": "Title chip",
+    "zh": "标题胶囊",
+    "meaning": "用于提供简短标题、名称或状态的只读标签，帮助说明相关内容。它默认不可交互、没有焦点态，可随内容滚动，也可固定在布局中。",
+    "page": "components-title-chip"
+  },
+  {
+    "en": "Icon marker",
+    "zh": "图标标记",
+    "meaning": "用于标注现实物体或空间点的空间标记，与真实环境中的目标关联。可单纯标识位置，也可提供交互入口，进一步显示卡片等信息。",
+    "page": "components-icon-marker"
+  },
+  {
+    "en": "Pager",
+    "zh": "分页指示器",
+    "meaning": "通过一排圆点表示当前页与总页数，帮助用户了解自己在横向内容序列中的位置。它位于内容区下方、系统栏上方。",
+    "page": "components-pager"
+  },
+  {
+    "en": "Stack",
+    "zh": "堆栈",
+    "meaning": "以堆叠形式呈现的收起列表，一次只显示一项内容。可承载卡片或通知，支持逐项切换；展开为列表时可显示多项。",
+    "page": "components-stack"
+  },
+  {
+    "en": "Earcon",
+    "zh": "提示音",
+    "meaning": "用简短的非语言声音传达状态、确认输入或提醒用户注意，例如拍照、低电量和通知的声音。",
+    "page": "sound-earcons"
+  },
+  {
+    "en": "Voice alert",
+    "zh": "语音提示",
+    "meaning": "用简洁的语音传达状态或操作反馈。当单靠提示音不足以清楚表达时，语音能补足明确的信息。",
+    "page": "sound-voice-alerts"
+  },
+  {
+    "en": "Audio focus",
+    "zh": "音频焦点",
+    "meaning": "协调应用、音乐、通话、导航和助手如何共享声音输出的系统机制。它决定何时继续、降低音量、暂停或让出声音。",
+    "page": "sound-audio-input"
+  },
+  {
+    "en": "Ducking",
+    "zh": "暂时降低音量",
+    "meaning": "在另一段音频需要被听见时，暂时降低当前音频的音量。具体由哪一路让声，应结合音频焦点规则判断。",
+    "page": "sound-audio-input"
+  },
+  {
+    "en": "HCT tone",
+    "zh": "HCT 明度",
+    "meaning": "HCT 色彩模型中的明暗尺度。原文的 tone 差与对比度数值需要分别理解，不能直接当作同一指标。",
+    "page": "styles-color"
+  },
+  {
+    "en": "PPD · Pixels per degree",
+    "zh": "每度像素数",
+    "meaning": "每一度视角对应的像素数量。视角与像素之间的换算取决于设备的 PPD；原文以 30 PPD × 0.6° 计算得到 18 px。",
+    "page": "styles-type"
+  },
+  {
+    "en": "Halation",
+    "zh": "光晕",
+    "meaning": "显示光扩散使文字或图形边缘变得模糊的现象。字体形状、字重和字距都需要考虑这类显示特性。",
+    "page": "styles-type"
+  },
+  {
+    "en": "Chromatic aberration",
+    "zh": "色差",
+    "meaning": "光学系统对不同颜色的成像存在差异，可能影响字符轮廓与阅读体验。",
+    "page": "styles-type"
+  },
+  {
+    "en": "Onboarding",
+    "zh": "使用引导",
+    "meaning": "帮助用户了解和启用应用的眼镜功能、学习操作并完成必要授权的过程。可在遇到相关功能时即时进行，也可预先进行，同样涵盖回访用户。",
+    "page": "interaction-onboarding"
+  }
+]

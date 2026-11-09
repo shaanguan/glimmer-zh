@@ -1,0 +1,10 @@
+{
+  "slug": "interaction-navigation",
+  "group": "interaction",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/navigation",
+  "sourceUpdated": "2026-10-28",
+  "title": "导航与退出",
+  "englishTitle": "Navigation",
+  "description": "保持浅层导航，提供清楚的返回与退出方式，并考虑误退出造成的进度损失。",
+  "body": "<p>眼镜上的导航应与其他 Android 设备一样熟悉。应用可以沿用许多常见模式，例如滑动浏览媒体内容，以及通过返回栈逐级返回。</p>\n<p>眼镜应用较为简单，导航层级也应尽量少。</p>\n<h2 id=\"swipes-navigate\">用滑动切换内容</h2>\n<p>让滑动在各类内容中保持一致的含义：横向切换。对无屏眼镜而言，这里的内容是媒体；对带屏眼镜而言，则是可视界面。</p>\n<h2 id=\"in-app-back\">在应用内返回</h2>\n<p>系统返回手势让用户在应用的界面层级中退回一步。到达应用最外层后，再返回就进入主界面。尽量减少层级，以降低认知负担，让用户快速回到主界面。</p>\n<p>无屏眼镜的返回由系统处理；带屏眼镜可定制返回行为。在带屏眼镜的触控板上向下滑动，会触发系统返回。</p>\n<figure><img src=\"/assets/original/9a3dea86-glasses_ixd_nav_back.png\" alt=\"逐层返回的用户流程。\" loading=\"lazy\"></figure>\n<h2 id=\"end-glasses-activity\">结束眼镜上的当前活动</h2>\n<p>让用户能够结束当前活动并退出应用。对于通话、翻译和 Gemini 等连续音频体验，向后滑动后立即结束通常最合适。对于持续时间较长、误退出会丢失进度的活动，应考虑增加一步确认。</p>\n<p>无屏眼镜使用向后滑动退出。应用不播放通用的退出提示音；如需退出反馈，仅使用可选的语音结束小结。</p>\n<p>对于结束通话、停止锻炼等破坏性操作，应考虑二次确认。例如：</p>\n<ol><li>用户向后滑动，应用播报：“结束徒步吗？再返回一次以确认。”</li><li>用户再次向后滑动，应用播报：“徒步已结束。你共走了 2.8 英里。”</li><li>播报结束后，再调用退出活动的操作。</li></ol>\n<p>带屏眼镜在结束活动的方式上有更大灵活性。在界面中放置按钮，清楚地提供退出入口。</p>\n\n<figure><img src=\"/assets/original/1cfe3d9a-glasses_ixd_audio_exit.png\" alt=\"通过声音反馈退出当前活动的导航模式。\" loading=\"lazy\"></figure>"
+}

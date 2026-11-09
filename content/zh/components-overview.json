@@ -1,0 +1,10 @@
+{
+  "slug": "components-overview",
+  "group": "components",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/overview",
+  "sourceUpdated": "2026-03-05",
+  "title": "组件概览",
+  "englishTitle": "Components",
+  "description": "为透明显示屏量身设计的界面组件，兼顾可读性、舒适度与一致的交互体验。",
+  "body": "<p>组件是为构建界面专门设计的基本单元。应用应采用 Jetpack Compose Glimmer 提供的组件；它们经过专门优化，适应 AI 眼镜显示屏特有的使用场景。</p>\n<figure><img src=\"/assets/original/6aa66621-glasses_components_overview.png\" alt=\"Glimmer 组件的视觉构成\" loading=\"lazy\"/></figure>\n<h2 id=\"optimized-components\">为透明显示屏优化</h2>\n<p>Glimmer 从多个方面优化了透明显示屏上的组件表现。</p>\n<p><strong>A. 底板颜色（Surface color）</strong>：界面底板需要具备透明效果，因此图中不透明的底色会改为黑色，使其呈现为透明。</p>\n<p><strong>B. 描边与高亮（Outline &amp; Highlight）</strong>：描边颜色经过对比度优化。高亮能形成视觉表达，也可能用于指示某些输入方式。</p>\n<p><strong>C. 形状（Shape）</strong>：采用更柔和的形状体系，减少尖锐边角，让内容更容易一眼读懂，也更舒适。底板上的内容颜色（On Surface）使用白色，以尽可能拉开内容与现实背景的对比。</p>\n<p><strong>D. 字体排印（Typography）</strong>：Glimmer 的字体样式体系采用少量精心调整的正文（Body）与标题（Title）样式，通过优化字偶间距、字号和字重，提升阅读与辨认的清晰度。</p>\n<p><strong>E. 图标（Iconography）</strong>：采用圆角风格的 Material Symbols，与圆润的字体风格保持一致。</p>\n<figure><img src=\"/assets/original/7edfe2c1-glasses_foundation_getstarted_step2_optimized.png\" alt=\"透明显示屏上的 Glimmer 组件优化示意\" loading=\"lazy\"/></figure>\n<h2 id=\"get-started\">开始实现</h2><p>准备在应用中使用这些组件？请参阅<a href=\"https://developer.android.com/develop/xr/jetpack-xr-sdk/jetpack-compose-glimmer\" target=\"_blank\" rel=\"noopener noreferrer\">Jetpack Compose Glimmer 开发文档</a>。</p>"
+}

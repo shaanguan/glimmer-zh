@@ -1,0 +1,16 @@
+{
+  "slug": "interaction-permissions",
+  "group": "interaction",
+  "englishTitle": "Permissions",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/permissions",
+  "sourceUpdated": "2026-01-07",
+  "fetchedAt": "2026-11-09",
+  "bodyEn": "<p>When an app needs permissions to be granted the glasses, it should direct the\nuser to the phone where a permissions dialog will display.</p>\n<p>From there, follow permissions best practices for mobile:</p>\n<ul>\n<li>Prime the user, so they know why the permissions are asked and possible\nimplications to features.</li>\n<li>Provide a way to update permissions preferences later.</li>\n</ul>\n<p><img alt=\"The permissions user flow for\nglasses.\" loading=\"lazy\" src=\"/assets/original/5424912e-glasses_ixd_permissions.png\"/></p>\n<p>Read more on how to <a href=\"https://developer.android.com/develop/xr/jetpack-xr-sdk/request-hardware-permissions\" rel=\"noopener noreferrer\" target=\"_blank\">request hardware permissions</a>.</p>\n\n\n\n\n<a href=\"https://developer.android.com/design/ui/ai-glasses/guides/interaction/inputs\" rel=\"noopener noreferrer\" target=\"_blank\">\nPrevious\n\n\n        Inputs\n      \n</a>\n\n\n<a href=\"https://developer.android.com/design/ui/ai-glasses/guides/interaction/navigation\" rel=\"noopener noreferrer\" target=\"_blank\">\nNext\n\n        Navigation\n      \n\n</a>",
+  "textEn": "When an app needs permissions to be granted the glasses, it should direct the\nuser to the phone where a permissions dialog will display.\nFrom there, follow permissions best practices for mobile:\nPrime the user, so they know why the permissions are asked and possible\nimplications to features.\nProvide a way to update permissions preferences later.\nRead more on how to\nrequest hardware permissions\n.\nPrevious\nInputs\nNext\nNavigation",
+  "assets": [
+    {
+      "url": "https://developer.android.com/static/images/design/ui/glasses/guides/glasses_ixd_permissions.png",
+      "local": "/assets/original/5424912e-glasses_ixd_permissions.png"
+    }
+  ]
+}

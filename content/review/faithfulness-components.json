@@ -1,0 +1,736 @@
+{
+  "reviewDate": "2026-11-09",
+  "sourceSnapshot": "content/source/components-*.json (bodyEn and textEn)",
+  "scope": "11 个组件页面的完整中英语义审查；仅修订 content/zh/components-*.json，未编译 library.json。",
+  "method": "逐页完整阅读英文正文、中文正文与摘要，对照规范强弱、条件与范围、否定、术语用途、遗漏和译者推断；保留原文表格、数值、媒体、链接和源文疑义。",
+  "summary": {
+    "pagesReviewed": 11,
+    "pagesRevised": 11,
+    "semanticCorrections": 26,
+    "annotationChanges": 1,
+    "sourceAmbiguitiesRecorded": 10
+  },
+  "pages": [
+    {
+      "slug": "components-overview",
+      "title": "组件概览",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/overview",
+      "sourceUpdated": "2026-03-05",
+      "checklist": {
+        "fullEnglishAndChineseRead": true,
+        "noSourceSectionOmitted": true,
+        "subjectNegationConditionsAndScopeReviewed": true,
+        "mustShouldCanAndDescriptiveStrengthReviewed": true,
+        "termsAndComponentPurposeReviewed": true,
+        "descriptionsReviewed": true,
+        "numbersUnitsAndTablesReviewed": true,
+        "originalMediaAndLinksRetained": true,
+        "interpretationsSeparatedFromOfficialText": true,
+        "sourceAmbiguitiesNotSilentlyCorrected": true
+      },
+      "validation": {
+        "mediaReferencesPreserved": true,
+        "linksPreserved": true,
+        "elementIdsPreserved": true,
+        "tableMarkupUnchanged": true,
+        "originalNumericSequencePreservedOutsideNotes": true,
+        "translatorNotesExplicitlyLabeled": true
+      },
+      "changes": [
+        {
+          "id": "components-overview-01",
+          "kind": "semantic",
+          "field": "body",
+          "category": "omission",
+          "englishOriginal": "Components are purpose-built building blocks for building your UI.",
+          "oldChinese": "组件是构建界面的基本单元。",
+          "newChinese": "组件是为构建界面专门设计的基本单元。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/overview",
+          "reason": "补回 purpose-built 的专门设计含义。",
+          "occurrencesChanged": 1
+        },
+        {
+          "id": "components-overview-02",
+          "kind": "semantic",
+          "field": "body",
+          "category": "scope",
+          "englishOriginal": "Surfaces need to have transparency, so the opaque surface color here would be changed to black to make it transparent.",
+          "oldChinese": "界面底板需要保持透明。图中的不透明底色会改为黑色，使这一部分在透明显示屏上呈现为透明。",
+          "newChinese": "界面底板需要具备透明效果，因此图中不透明的底色会改为黑色，使其呈现为透明。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/overview",
+          "reason": "have transparency 表示需要具备透明效果，不额外引入“保持”所暗示的持续状态。",
+          "occurrencesChanged": 1
+        },
+        {
+          "id": "components-overview-03",
+          "kind": "semantic",
+          "field": "body",
+          "category": "term-and-modality",
+          "englishOriginal": "The use of a highlight provides visual expression and might be used to indicate some types of input.",
+          "oldChinese": "高亮既能形成视觉表达，也可用于提示某些输入状态。",
+          "newChinese": "高亮能形成视觉表达，也可能用于指示某些输入方式。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/overview",
+          "reason": "将 types of input 还原为输入方式，并保留 might 的可能性。",
+          "occurrencesChanged": 1
+        },
+        {
+          "id": "components-overview-04",
+          "kind": "semantic",
+          "field": "body",
+          "category": "scope",
+          "englishOriginal": "Glimmer's typography scale uses a small set of refined Body and Title styles that optimize kerning, size and weight for optimal readability & legibility.",
+          "oldChinese": "Glimmer 的字号体系仅包含少量精心调整的正文（Body）与标题（Title）样式，通过优化字偶间距、字号和字重，提升阅读与辨认的清晰度。",
+          "newChinese": "Glimmer 的字体样式体系采用少量精心调整的正文（Body）与标题（Title）样式，通过优化字偶间距、字号和字重，提升阅读与辨认的清晰度。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/overview",
+          "reason": "typography scale 不仅指字号；uses 也不等于“仅包含”，删除无依据的排他限制。",
+          "occurrencesChanged": 1
+        }
+      ],
+      "sourceAmbiguities": [],
+      "result": "revised"
+    },
+    {
+      "slug": "components-buttons",
+      "title": "按钮",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/buttons",
+      "sourceUpdated": "2026-05-19",
+      "checklist": {
+        "fullEnglishAndChineseRead": true,
+        "noSourceSectionOmitted": true,
+        "subjectNegationConditionsAndScopeReviewed": true,
+        "mustShouldCanAndDescriptiveStrengthReviewed": true,
+        "termsAndComponentPurposeReviewed": true,
+        "descriptionsReviewed": true,
+        "numbersUnitsAndTablesReviewed": true,
+        "originalMediaAndLinksRetained": true,
+        "interpretationsSeparatedFromOfficialText": true,
+        "sourceAmbiguitiesNotSilentlyCorrected": true
+      },
+      "validation": {
+        "mediaReferencesPreserved": true,
+        "linksPreserved": true,
+        "elementIdsPreserved": true,
+        "tableMarkupUnchanged": true,
+        "originalNumericSequencePreservedOutsideNotes": true,
+        "translatorNotesExplicitlyLabeled": true
+      },
+      "changes": [
+        {
+          "id": "components-buttons-01",
+          "kind": "semantic",
+          "field": "body",
+          "category": "scope",
+          "englishOriginal": "Use progressive disclosure to reveal less relevant actions.",
+          "oldChinese": "通过渐进呈现，让次要操作在需要时再出现。",
+          "newChinese": "通过渐进呈现展示相关性较低的操作。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/buttons",
+          "reason": "less relevant 指相关性较低，不能直接改成优先级较低；删除原文未明确规定的出现时机。",
+          "occurrencesChanged": 2
+        },
+        {
+          "id": "components-buttons-02",
+          "kind": "semantic",
+          "field": "body",
+          "category": "condition",
+          "englishOriginal": "Overwhelm the user's view with too many buttons. Use a button group instead.",
+          "oldChinese": "在用户视野中堆放过多按钮；需要多个按钮时，应使用按钮组。",
+          "newChinese": "在用户视野中堆放过多按钮；应改用按钮组。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/buttons",
+          "reason": "去掉此句原文没有的“需要多个按钮时”条件，保留替代方案的指向。",
+          "occurrencesChanged": 2
+        },
+        {
+          "id": "components-buttons-03",
+          "kind": "semantic",
+          "field": "body",
+          "category": "unsupported-inference",
+          "englishOriginal": "Icon",
+          "oldChinese": "切换状态示例",
+          "newChinese": "图标按钮 译者注：原文在这一节再次使用“Icon”标题，此处保留这一重复标题。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/buttons",
+          "reason": "原文在组件构成中重复使用 Icon；旧译将其推断为切换状态示例。恢复原题并明确记录源文重复。",
+          "occurrencesChanged": 1
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "englishOriginal": "Icon",
+          "issue": "组件构成部分有两个连续的 Icon 小节。",
+          "handling": "保留重复标题，不依据配图文件名推定并改写官方标题；新增译者注。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/buttons"
+        }
+      ],
+      "result": "revised"
+    },
+    {
+      "slug": "components-button-group",
+      "title": "按钮组",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/button-group",
+      "sourceUpdated": "2026-05-19",
+      "checklist": {
+        "fullEnglishAndChineseRead": true,
+        "noSourceSectionOmitted": true,
+        "subjectNegationConditionsAndScopeReviewed": true,
+        "mustShouldCanAndDescriptiveStrengthReviewed": true,
+        "termsAndComponentPurposeReviewed": true,
+        "descriptionsReviewed": true,
+        "numbersUnitsAndTablesReviewed": true,
+        "originalMediaAndLinksRetained": true,
+        "interpretationsSeparatedFromOfficialText": true,
+        "sourceAmbiguitiesNotSilentlyCorrected": true
+      },
+      "validation": {
+        "mediaReferencesPreserved": true,
+        "linksPreserved": true,
+        "elementIdsPreserved": true,
+        "tableMarkupUnchanged": true,
+        "originalNumericSequencePreservedOutsideNotes": true,
+        "translatorNotesExplicitlyLabeled": true
+      },
+      "changes": [
+        {
+          "id": "components-button-group-01",
+          "kind": "semantic",
+          "field": "body",
+          "category": "scope",
+          "englishOriginal": "A button group provides a navigable container of buttons.",
+          "oldChinese": "按钮组为多个按钮提供一个可以在其中切换焦点的容器。",
+          "newChinese": "按钮组提供一个可在按钮之间导航的容器。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/button-group",
+          "reason": "去掉“多个”带来的至少两个按钮的隐含限制；源文后续明确允许 1 至 10 个。",
+          "occurrencesChanged": 1
+        },
+        {
+          "id": "components-button-group-02",
+          "kind": "semantic",
+          "field": "body",
+          "category": "normative-strength",
+          "englishOriginal": "Keep your buttons under 10 and essential only to minimize swipes.",
+          "oldChinese": "只保留必要的按钮，数量尽量少于 10 个，以减少用户滑动的次数。",
+          "newChinese": "只保留必要的按钮，并使数量少于 10 个，以减少用户滑动的次数。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/button-group",
+          "reason": "删除“尽量”造成的额外弱化；under 10 按严格少于 10 理解，不改成不超过 10。",
+          "occurrencesChanged": 2
+        },
+        {
+          "id": "components-button-group-03",
+          "kind": "semantic",
+          "field": "body",
+          "category": "unsupported-inference",
+          "englishOriginal": "A center aligned button group based on the initial focus element, that slides focus over per swipe.",
+          "oldChinese": "居中布局以初始焦点元素为中心排列；每次滑动，焦点向相邻按钮移动。",
+          "newChinese": "居中布局以初始焦点元素为中心排列；每次滑动时，焦点随之移动。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/button-group",
+          "reason": "原文未明确说明每次滑动只移动到相邻按钮，删除这一额外步长限定。",
+          "occurrencesChanged": 1
+        },
+        {
+          "id": "components-button-group-04",
+          "kind": "semantic",
+          "field": "body",
+          "category": "unsupported-inference",
+          "englishOriginal": "Left aligned button group layout include start and end margins of 44dp from edges. Buttons smoothly scroll over to the center over 3 steps on swipe and ramp up as they slide.",
+          "oldChinese": "左对齐布局在起始和结束两侧分别保留距边缘 44 dp 的外边距。滑动时，按钮分 3 步平滑移向中心，移动过程带有逐渐增强的动效（原文称 ramp up）。",
+          "newChinese": "左对齐布局在起始和结束两侧分别保留距边缘 44 dp 的外边距。滑动时，按钮分 3 步平滑移向中心。 译者注：原句随后还有“and ramp up as they slide”（并在滑动时逐渐增强），但未说明具体是哪项属性发生变化。这里保留这段原文及其字面含义，未将它解释为速度、尺寸或深度等确定行为。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/button-group",
+          "reason": "ramp up 未指明增强的对象，不应在正文中补成一项确定的动效规则；保留已明确的距离、步数，并在译者注保留歧义部分。",
+          "occurrencesChanged": 1
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "englishOriginal": "A button group layout can be contained or overflow, with 1 to 10 buttons. / Keep your buttons under 10 and essential only to minimize swipes. / Grow the button group past 10 buttons.",
+          "issue": "允许容量为 1 至 10，建议又使用 under 10；建议与上限的边界表述不同。",
+          "handling": "分别保留容量、建议和禁止超过 10 的表述，不把 under 10 改成不超过 10。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/button-group"
+        },
+        {
+          "englishOriginal": "and ramp up as they slide",
+          "issue": "没有指明 ramp up 所涉及的属性。",
+          "handling": "译者注保留原文及字面含义，不推断为加速、缩放或深度变化。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/button-group"
+        }
+      ],
+      "result": "revised"
+    },
+    {
+      "slug": "components-title-chip",
+      "title": "标题胶囊",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/title-chip",
+      "sourceUpdated": "2026-10-28",
+      "checklist": {
+        "fullEnglishAndChineseRead": true,
+        "noSourceSectionOmitted": true,
+        "subjectNegationConditionsAndScopeReviewed": true,
+        "mustShouldCanAndDescriptiveStrengthReviewed": true,
+        "termsAndComponentPurposeReviewed": true,
+        "descriptionsReviewed": true,
+        "numbersUnitsAndTablesReviewed": true,
+        "originalMediaAndLinksRetained": true,
+        "interpretationsSeparatedFromOfficialText": true,
+        "sourceAmbiguitiesNotSilentlyCorrected": true
+      },
+      "validation": {
+        "mediaReferencesPreserved": true,
+        "linksPreserved": true,
+        "elementIdsPreserved": true,
+        "tableMarkupUnchanged": true,
+        "originalNumericSequencePreservedOutsideNotes": true,
+        "translatorNotesExplicitlyLabeled": true
+      },
+      "changes": [
+        {
+          "id": "components-title-chip-01",
+          "kind": "semantic",
+          "field": "body",
+          "category": "scope",
+          "englishOriginal": "The primary purpose of a Title Chip is to provide clear and immediate context for the content it's associated with.",
+          "oldChinese": "标题胶囊的主要作用，是即时、明确地说明关联内容的背景或身份。",
+          "newChinese": "标题胶囊的主要作用，是为关联内容即时提供清晰的上下文信息。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/title-chip",
+          "reason": "context 不限定于背景或身份，删除未在该句限定的类别。",
+          "occurrencesChanged": 1
+        },
+        {
+          "id": "components-title-chip-02",
+          "kind": "semantic",
+          "field": "description",
+          "category": "condition",
+          "englishOriginal": "The title chip is a read-only component, by default.",
+          "oldChinese": "以紧凑的只读标签呈现标题、名称或状态，为关联内容交代上下文。",
+          "newChinese": "以默认只读的紧凑标签呈现标题、名称或状态，为关联内容交代上下文。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/title-chip",
+          "reason": "摘要同正文一样必须保留 by default，避免将默认行为写成无例外属性。",
+          "occurrencesChanged": 1
+        }
+      ],
+      "sourceAmbiguities": [],
+      "result": "revised"
+    },
+    {
+      "slug": "components-cards",
+      "title": "卡片",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/cards",
+      "sourceUpdated": "2026-05-19",
+      "checklist": {
+        "fullEnglishAndChineseRead": true,
+        "noSourceSectionOmitted": true,
+        "subjectNegationConditionsAndScopeReviewed": true,
+        "mustShouldCanAndDescriptiveStrengthReviewed": true,
+        "termsAndComponentPurposeReviewed": true,
+        "descriptionsReviewed": true,
+        "numbersUnitsAndTablesReviewed": true,
+        "originalMediaAndLinksRetained": true,
+        "interpretationsSeparatedFromOfficialText": true,
+        "sourceAmbiguitiesNotSilentlyCorrected": true
+      },
+      "validation": {
+        "mediaReferencesPreserved": true,
+        "linksPreserved": true,
+        "elementIdsPreserved": true,
+        "tableMarkupUnchanged": true,
+        "originalNumericSequencePreservedOutsideNotes": true,
+        "translatorNotesExplicitlyLabeled": true
+      },
+      "changes": [
+        {
+          "id": "components-cards-01",
+          "kind": "semantic",
+          "field": "body",
+          "category": "normative-strength",
+          "englishOriginal": "Use Jetpack Compose Glimmer card templates for content as they are come in many variations and optimized to follow glasses design principles out of the box.",
+          "oldChinese": "应优先使用 Jetpack Compose Glimmer 的卡片模板。",
+          "newChinese": "应使用 Jetpack Compose Glimmer 的卡片模板。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/cards",
+          "reason": "删除原文没有的“优先”限定，保留直接使用模板的建议；后文 if possible 的例外仍完整保留。",
+          "occurrencesChanged": 1
+        },
+        {
+          "id": "components-cards-02",
+          "kind": "semantic",
+          "field": "body",
+          "category": "condition-and-normative-strength",
+          "englishOriginal": "A card becomes focusable when it represents a single, navigable item, such as an entry in a list.",
+          "oldChinese": "只有当整张卡片代表一个可导航的独立项目，例如列表中的一项时，卡片本身才应能够获得焦点。",
+          "newChinese": "当一张卡片代表一个可导航的独立项目，例如列表中的一项时，卡片本身便可获得焦点。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/cards",
+          "reason": "when 不是 only when；删除“只有……才”添加的必要条件和“应”添加的规范强度。",
+          "occurrencesChanged": 1
+        },
+        {
+          "id": "components-cards-03",
+          "kind": "semantic",
+          "field": "body",
+          "category": "term",
+          "englishOriginal": "This provides a more direct and accessible user experience.",
+          "oldChinese": "这样可以让操作更直接，也更易于使用。",
+          "newChinese": "这样既能让操作更直接，也能改善可访问性。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/cards",
+          "reason": "明确保留 accessible 的可访问性含义，避免只剩一般易用性。",
+          "occurrencesChanged": 1
+        }
+      ],
+      "sourceAmbiguities": [],
+      "result": "revised"
+    },
+    {
+      "slug": "components-icon-marker",
+      "title": "图标标记",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/icon-marker",
+      "sourceUpdated": "2026-10-28",
+      "checklist": {
+        "fullEnglishAndChineseRead": true,
+        "noSourceSectionOmitted": true,
+        "subjectNegationConditionsAndScopeReviewed": true,
+        "mustShouldCanAndDescriptiveStrengthReviewed": true,
+        "termsAndComponentPurposeReviewed": true,
+        "descriptionsReviewed": true,
+        "numbersUnitsAndTablesReviewed": true,
+        "originalMediaAndLinksRetained": true,
+        "interpretationsSeparatedFromOfficialText": true,
+        "sourceAmbiguitiesNotSilentlyCorrected": true
+      },
+      "validation": {
+        "mediaReferencesPreserved": true,
+        "linksPreserved": true,
+        "elementIdsPreserved": true,
+        "tableMarkupUnchanged": true,
+        "originalNumericSequencePreservedOutsideNotes": true,
+        "translatorNotesExplicitlyLabeled": true
+      },
+      "changes": [
+        {
+          "id": "components-icon-marker-01",
+          "kind": "semantic",
+          "field": "body",
+          "category": "condition-and-normative-strength",
+          "englishOriginal": "Annotate the physical world with the non-interactive state, like marking a point of interest.",
+          "oldChinese": "只需要标注现实世界时，例如标出一个兴趣点，可以使用不可交互状态。",
+          "newChinese": "使用不可交互状态标注现实世界，例如标出一个兴趣点。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/icon-marker",
+          "reason": "删除原文没有的“只需要”条件，并恢复直接使用该状态的指引。",
+          "occurrencesChanged": 1
+        },
+        {
+          "id": "components-icon-marker-02",
+          "kind": "semantic",
+          "field": "body",
+          "category": "scope",
+          "englishOriginal": "To keep a consistent visual affordance, avoid customizing icon markers.",
+          "oldChinese": "为保持一致的操作暗示，应避免自定义图标标记本身的样式。",
+          "newChinese": "为保持一致的操作暗示，应避免自定义图标标记。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/icon-marker",
+          "reason": "原文避免自定义的对象是图标标记，不限于样式；附属界面朝向与对齐可自定义的例外照旧保留。",
+          "occurrencesChanged": 1
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "englishOriginal": "Markers, and any attached UI, should behave as spatial UI, meaning the actual distance of the marked object should be reflected in the size of the UI, using a constant angular DP size.",
+          "issue": "原文同时要求反映实际距离与使用 constant angular DP size，但没有给出数值换算方式。",
+          "handling": "完整保留两项要求，不补入距离与尺寸的换算公式或方向。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/icon-marker"
+        }
+      ],
+      "result": "revised"
+    },
+    {
+      "slug": "components-lists",
+      "title": "列表",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/lists",
+      "sourceUpdated": "2026-05-19",
+      "checklist": {
+        "fullEnglishAndChineseRead": true,
+        "noSourceSectionOmitted": true,
+        "subjectNegationConditionsAndScopeReviewed": true,
+        "mustShouldCanAndDescriptiveStrengthReviewed": true,
+        "termsAndComponentPurposeReviewed": true,
+        "descriptionsReviewed": true,
+        "numbersUnitsAndTablesReviewed": true,
+        "originalMediaAndLinksRetained": true,
+        "interpretationsSeparatedFromOfficialText": true,
+        "sourceAmbiguitiesNotSilentlyCorrected": true
+      },
+      "validation": {
+        "mediaReferencesPreserved": true,
+        "linksPreserved": true,
+        "elementIdsPreserved": true,
+        "tableMarkupUnchanged": true,
+        "originalNumericSequencePreservedOutsideNotes": true,
+        "translatorNotesExplicitlyLabeled": true
+      },
+      "changes": [
+        {
+          "id": "components-lists-01",
+          "kind": "semantic",
+          "field": "body",
+          "category": "unsupported-inference",
+          "englishOriginal": "When a list contains more items than will fit within a view, a black scrim is used near the list's bounds.",
+          "oldChinese": "当列表项目超过当前视图可容纳的范围时，在列表边缘使用黑色渐隐遮罩。",
+          "newChinese": "当列表项目超过当前视图可容纳的范围时，在列表边缘使用黑色遮罩。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/lists",
+          "reason": "原文只明确 black scrim，删除译文添加的渐隐实现限定。",
+          "occurrencesChanged": 1
+        },
+        {
+          "id": "components-lists-02",
+          "kind": "semantic",
+          "field": "body",
+          "category": "term",
+          "englishOriginal": "Only highlight the currently focused element, This allows users to discover focusable controls.",
+          "oldChinese": "只高亮当前获得焦点的元素，帮助用户辨认可操作的控件。",
+          "newChinese": "只高亮当前获得焦点的元素，帮助用户辨认可获得焦点的控件。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/lists",
+          "reason": "focusable 与 actionable 不应混用，恢复“可获得焦点”。",
+          "occurrencesChanged": 2
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "englishOriginal": "2d dp, 20 dp",
+          "issue": "2d dp 疑似源文数值笔误。",
+          "handling": "原值和既有译者注均保留，未推定为 20 dp 或其他数值。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/lists"
+        }
+      ],
+      "result": "revised"
+    },
+    {
+      "slug": "components-pager",
+      "title": "分页指示器",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/pager",
+      "sourceUpdated": "2026-08-19",
+      "checklist": {
+        "fullEnglishAndChineseRead": true,
+        "noSourceSectionOmitted": true,
+        "subjectNegationConditionsAndScopeReviewed": true,
+        "mustShouldCanAndDescriptiveStrengthReviewed": true,
+        "termsAndComponentPurposeReviewed": true,
+        "descriptionsReviewed": true,
+        "numbersUnitsAndTablesReviewed": true,
+        "originalMediaAndLinksRetained": true,
+        "interpretationsSeparatedFromOfficialText": true,
+        "sourceAmbiguitiesNotSilentlyCorrected": true
+      },
+      "validation": {
+        "mediaReferencesPreserved": true,
+        "linksPreserved": true,
+        "elementIdsPreserved": true,
+        "tableMarkupUnchanged": true,
+        "originalNumericSequencePreservedOutsideNotes": true,
+        "translatorNotesExplicitlyLabeled": true
+      },
+      "changes": [
+        {
+          "id": "components-pager-01",
+          "kind": "semantic",
+          "field": "body",
+          "category": "scope",
+          "englishOriginal": "The primary purpose of a pager is to provide clear and immediate context for the content it's associated with.",
+          "oldChinese": "分页指示器的主要作用，是即时、明确地交代关联内容所处的位置。",
+          "newChinese": "分页指示器的主要作用，是为关联内容即时提供清晰的上下文信息。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/pager",
+          "reason": "保留 context 的范围，不在此处将上下文限定为位置信息。",
+          "occurrencesChanged": 1
+        },
+        {
+          "id": "components-pager-02",
+          "kind": "semantic",
+          "field": "body",
+          "category": "normative-strength",
+          "englishOriginal": "Pagers are small and precise in visual language.",
+          "oldChinese": "分页指示器应小巧，视觉表达简洁准确。",
+          "newChinese": "分页指示器体积小巧，视觉表达简洁准确。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/pager",
+          "reason": "原文为描述性陈述，删除额外添加的“应”。",
+          "occurrencesChanged": 1
+        },
+        {
+          "id": "components-pager-03",
+          "kind": "annotation",
+          "field": "body",
+          "category": "source-ambiguity",
+          "englishOriginal": "Pagers have built-in scrim, paging, and animations that can't be customized. Rather the content within the stacks pager is customized.",
+          "oldChinese": "分页组件内置的遮罩、分页行为与动效不支持自定义；可以自定义的是容器内展示的内容。",
+          "newChinese": "分页组件内置的遮罩、分页行为与动效不支持自定义；可以自定义的是容器内展示的内容。 译者注：这一节原文将可自定义的内容写作“content within the stacks pager”，其中“stacks pager”的指代不够清晰。此处保留内容可自定义的表述，未据此补充组件结构或具体的自定义范围。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/pager",
+          "reason": "显式标出源文指代歧义，避免将现有概括译法理解成更具体的官方结构定义。",
+          "occurrencesChanged": 1
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "englishOriginal": "Stack are a container component, so they share design principles with cards and lists:",
+          "issue": "分页指示器页的设计原则导语突然使用 Stack。",
+          "handling": "既有译者注保留原文含义并说明可能沿用其他页面表述，不改成未经确认的 Pager 定义。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/pager"
+        },
+        {
+          "englishOriginal": "Rather the content within the stacks pager is customized.",
+          "issue": "stacks pager 指代不够清晰。",
+          "handling": "新增译者注说明歧义，未推导新的组件结构或自定义范围。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/pager"
+        }
+      ],
+      "result": "revised"
+    },
+    {
+      "slug": "components-progress",
+      "title": "进度指示器",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/progress",
+      "sourceUpdated": "2026-05-19",
+      "checklist": {
+        "fullEnglishAndChineseRead": true,
+        "noSourceSectionOmitted": true,
+        "subjectNegationConditionsAndScopeReviewed": true,
+        "mustShouldCanAndDescriptiveStrengthReviewed": true,
+        "termsAndComponentPurposeReviewed": true,
+        "descriptionsReviewed": true,
+        "numbersUnitsAndTablesReviewed": true,
+        "originalMediaAndLinksRetained": true,
+        "interpretationsSeparatedFromOfficialText": true,
+        "sourceAmbiguitiesNotSilentlyCorrected": true
+      },
+      "validation": {
+        "mediaReferencesPreserved": true,
+        "linksPreserved": true,
+        "elementIdsPreserved": true,
+        "tableMarkupUnchanged": true,
+        "originalNumericSequencePreservedOutsideNotes": true,
+        "translatorNotesExplicitlyLabeled": true
+      },
+      "changes": [
+        {
+          "id": "components-progress-01",
+          "kind": "semantic",
+          "field": "body",
+          "category": "scope",
+          "englishOriginal": "The progress indicator provides immediate feedback.",
+          "oldChinese": "及时反馈任务正在进行。",
+          "newChinese": "即时提供反馈。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/progress",
+          "reason": "原文没有把反馈范围限定为“任务正在进行”，恢复一般的即时反馈。",
+          "occurrencesChanged": 1
+        },
+        {
+          "id": "components-progress-02",
+          "kind": "semantic",
+          "field": "description",
+          "category": "scope",
+          "englishOriginal": "The progress indicator communicates the status of a known or unknown process time.",
+          "oldChinese": "根据进度是否可确定，恰当地反馈任务正在进行的状态。",
+          "newChinese": "以确定或不确定进度反馈过程状态，适用于耗时已知或未知的情况。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/progress",
+          "reason": "摘要明确区分的是过程耗时是否已知，并避免将状态反馈限定为正在进行。",
+          "occurrencesChanged": 1
+        }
+      ],
+      "sourceAmbiguities": [],
+      "result": "revised"
+    },
+    {
+      "slug": "components-stack",
+      "title": "堆栈",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/stack",
+      "sourceUpdated": "2026-05-19",
+      "checklist": {
+        "fullEnglishAndChineseRead": true,
+        "noSourceSectionOmitted": true,
+        "subjectNegationConditionsAndScopeReviewed": true,
+        "mustShouldCanAndDescriptiveStrengthReviewed": true,
+        "termsAndComponentPurposeReviewed": true,
+        "descriptionsReviewed": true,
+        "numbersUnitsAndTablesReviewed": true,
+        "originalMediaAndLinksRetained": true,
+        "interpretationsSeparatedFromOfficialText": true,
+        "sourceAmbiguitiesNotSilentlyCorrected": true
+      },
+      "validation": {
+        "mediaReferencesPreserved": true,
+        "linksPreserved": true,
+        "elementIdsPreserved": true,
+        "tableMarkupUnchanged": true,
+        "originalNumericSequencePreservedOutsideNotes": true,
+        "translatorNotesExplicitlyLabeled": true
+      },
+      "changes": [
+        {
+          "id": "components-stack-01",
+          "kind": "semantic",
+          "field": "description",
+          "category": "term",
+          "englishOriginal": "A stack is a collapsed list that only displays one piece of content at a time, in a stacked visual, such as a notification or card.",
+          "oldChinese": "将多条内容收起为层叠结构，每次聚焦一项，并通过滑动逐项浏览。",
+          "newChinese": "将多条内容收起为层叠结构，每次显示一项，并通过滑动逐项浏览。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/stack",
+          "reason": "只显示一项是内容呈现规则，不能替换成焦点规则；正文另有可用内嵌按钮获得焦点的例外。",
+          "occurrencesChanged": 1
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "englishOriginal": "Upon touch input, stacks are able to present one item at a time by moving vertically, and become lists to show more than one element at a time. / A stack is always collapsed as a pagination component.",
+          "issue": "原文分别描述触控后可变成列表与作为分页组件始终收起，未进一步交代状态边界。",
+          "handling": "两段分别完整保留，未额外规定展开手势或状态转换条件。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/stack"
+        }
+      ],
+      "result": "revised"
+    },
+    {
+      "slug": "components-voice-indicator",
+      "title": "语音状态指示器",
+      "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/voice-indicator",
+      "sourceUpdated": "2026-05-19",
+      "checklist": {
+        "fullEnglishAndChineseRead": true,
+        "noSourceSectionOmitted": true,
+        "subjectNegationConditionsAndScopeReviewed": true,
+        "mustShouldCanAndDescriptiveStrengthReviewed": true,
+        "termsAndComponentPurposeReviewed": true,
+        "descriptionsReviewed": true,
+        "numbersUnitsAndTablesReviewed": true,
+        "originalMediaAndLinksRetained": true,
+        "interpretationsSeparatedFromOfficialText": true,
+        "sourceAmbiguitiesNotSilentlyCorrected": true
+      },
+      "validation": {
+        "mediaReferencesPreserved": true,
+        "linksPreserved": true,
+        "elementIdsPreserved": true,
+        "tableMarkupUnchanged": true,
+        "originalNumericSequencePreservedOutsideNotes": true,
+        "translatorNotesExplicitlyLabeled": true
+      },
+      "changes": [
+        {
+          "id": "components-voice-indicator-01",
+          "kind": "semantic",
+          "field": "body",
+          "category": "unsupported-inference",
+          "englishOriginal": "Use red for voice input indicator, which is reserved for system-level warning, unless the branding color is red.",
+          "oldChinese": "注意： 慎用红色语音指示器。红色通常保留给系统级警告；品牌本身以红色为主色时例外。",
+          "newChinese": "注意： 将红色用于语音输入指示器；红色保留给系统级警告，除非品牌色为红色。 译者注：上句按原文字面翻译。原文以“Use red for voice input indicator”开头，却又称红色保留给系统级警告、品牌色为红色时除外，前后含义存在冲突。此处保留这一歧义，未自行补出“不要”或改写成“慎用”的配色规则。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/voice-indicator",
+          "reason": "旧译将肯定式 Use red 推定为“慎用”，并加入“通常”。恢复字面含义，冲突在明确标注的译者注中说明，不静默修正源文。",
+          "occurrencesChanged": 1
+        }
+      ],
+      "sourceAmbiguities": [
+        {
+          "englishOriginal": "Align the voice input indicator to the vertical center if there are 1 or 2 content rows. / Anchor the voice input indicator to the top right corner of the card if there are 2 or more content rows.",
+          "issue": "两行内容同时符合居中与右上角两条规则。",
+          "handling": "保持两个数值条件及既有译者注，不擅自改成 3 行或其他阈值。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/voice-indicator"
+        },
+        {
+          "englishOriginal": "Use red for voice input indicator, which is reserved for system-level warning, unless the branding color is red.",
+          "issue": "句首 Use red 与后文红色保留给系统警告及品牌色例外之间有冲突。",
+          "handling": "正文按字面译出；新增译者注说明冲突，删除旧译“慎用”的推断。",
+          "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/components/voice-indicator"
+        }
+      ],
+      "result": "revised"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "interaction-ai-patterns",
+  "group": "interaction",
+  "sourceUrl": "https://developer.android.com/design/ui/ai-glasses/guides/interaction/ai-patterns",
+  "sourceUpdated": "2026-10-28",
+  "title": "AI 交互模式",
+  "englishTitle": "AI patterns",
+  "description": "让对话、暂停、多模态输入和环境感知共同服务于自然、可控的 AI 体验。",
+  "body": "<p>无屏眼镜与带屏眼镜高度贴近个人和具体情境，与不断发展的 AI 交互方式结合，为新的交互设计带来独特机会。你可以使用摄像头、麦克风、触控板等设备能力，在舒适与用户安全的原则下，探索 AI、应用和眼镜之间的新交互。</p>\n<p>眼镜把 AI 带到用户的眼前和耳边。设计这类体验时，应考虑这样的交互模式：让 AI 作为助手，配合一眼可读的视觉信息提供帮助。</p>\n<h2 id=\"natural-conversation\">自然对话</h2>\n<p>AI 模型支持持续的自然语言交流，不必局限于短暂交接或固定的对话树。应优先设计实时、连续且有帮助的对话，而不是一段段短会话。</p>\n<h2 id=\"pause-stop\">暂停与停止</h2>\n<p>允许用户休息，随时打断对话或任务。用户可以通过触碰、手势或语音实现。智能体可以继续监听后续交互信号，并通过向用户学习，形成适合用户的续接方式。用户应能在无屏眼镜上向后滑动退出会话，在带屏眼镜上向下滑动退出。</p>\n<h2 id=\"multi-modal\">多模态协同</h2>\n<p>眼镜可以将多种硬件能力与 AI 配合使用，提供更丰富的体验。例如，在对话中允许用户启用摄像头，让 AI 了解周围环境并提供情境帮助。</p>\n<figure><img src=\"/assets/original/fcc90050-glasses_ixd_ai_example_camera.png\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"><figcaption>购物时，用户可以开启摄像头，向 Gemini 提问。</figcaption></figure>\n<p>不要让摄像头持续运行，这会影响续航；应由用户在需要额外输入时启用。</p>\n<figure><img src=\"/assets/original/8e328074-glasses_ixd_ai_example_multimodal.png\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"><figcaption>用户通过操作眼镜唤醒应用，再让智能体把物品加入购物清单。</figcaption></figure>\n<h2 id=\"environmental-awareness\">关注用户所处的环境</h2>\n<p>AI 声音交互可以按需补充信息或重复回答。有显示屏时，可提供与当前情境相关的视觉界面，并与声音输出配合。信息应清晰、一眼可读，让用户继续专注于真实世界。</p>\n<figure><img src=\"/assets/original/10120c47-glasses_ixd_ai_example_environmentalaware.png\" alt=\"Android Developers 原始示意图\" loading=\"lazy\"><figcaption>这个语言教练示例结合了上述模式：用户可以按自然的对话节奏交流，同时使用实体手势和摄像头互动，获得沉浸而自然的学习体验。</figcaption></figure>"
+}
