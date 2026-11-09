@@ -90,3 +90,46 @@ replacing text nodes. The overview switches as a whole to preserve its hero and 
 layout; tables use a local language selector and their own horizontal viewport.
 Image placeholders reserve intrinsic dimensions, respect reduced-motion settings,
 and offer a retry control after a failed request without adding bookmark text.
+
+## Traffic analytics
+
+The site records first-party page-view aggregates in its private Sites D1 database.
+Collection starts with the deployment that enables the `DB` binding and traffic
+migration; it cannot reconstruct visits before that deployment. The reader remains
+public and the statistics do not add controls or explanatory copy to guide pages.
+
+- **Metric:** one page view for each visible document load, reload, or actual
+  back/forward-cache restoration. In-page headings, language changes, font settings,
+  and browser visibility changes do not create extra views. A page view is not a
+  unique visitor or session; there is no persistent visitor identifier.
+- **Dimensions:** server-received day in `Asia/Shanghai`, canonical reader path,
+  referring hostname, and approximate device category. Queries, fragments, full
+  referrer URLs, raw user agents, IP addresses, accounts, search terms, and saved
+  passage contents are not stored by the application analytics.
+- **Source meaning:** `direct` means direct or unknown, including BFCache returns;
+  `internal` means another page on this origin. Other values are hostname-only
+  document referrers. These are page sources, not first-touch marketing attribution.
+- **Privacy and delivery:** the client uses no analytics cookies or browser storage,
+  respects DNT/GPC, and waits until a document is visible and no longer prerendered.
+  It sends the same random event ID for at most two attempts within ten minutes.
+  Privacy tools, offline visits, unsupported browsers, and JavaScript-disabled
+  visits can be missing; known crawler signatures are excluded, not every bot.
+
+`traffic_daily` contains the reportable aggregates. Sum `views` over the chosen days
+for total PV, or group by `day`, `path`, `referrer`, or `device` for trends and rankings.
+The table's primary key includes all four dimensions, so each row is one mutually
+exclusive slice and must be summed rather than counted as a visit. `first_seen_at`
+and `last_seen_at` are server timestamps in milliseconds. The short-lived
+`traffic_receipts` table deduplicates delivery; records older than 24 hours become
+eligible for deletion in batches of up to 100 on subsequent accepted requests.
+Daily totals remain after receipt cleanup.
+
+The owner can ask ChatGPT to read the site's database and analyze a chosen period,
+or inspect the database in Sites settings. Read `traffic_daily`, not raw receipts,
+and distinguish initial publication checks from organic traffic. There is no public
+report endpoint: `/api/traffic` only accepts validated same-origin page-view POSTs.
+Do not publish the database contents through a client-readable route.
+
+For maintenance, use the standard Sites migration and publication workflow. Never
+replay or rewrite an applied migration. Analytics validation is available through
+`node --experimental-strip-types --test tests/traffic-*.test.mjs`.
