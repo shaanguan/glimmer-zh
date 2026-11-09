@@ -9,7 +9,7 @@ AI-assisted translation, not an official Google translation.
 
 - `content/source/`: live English snapshots with source URLs and original update dates.
 - `content/zh/`: full Chinese translations. Extra interpretation is labeled `译者注`.
-- `content/glossary.json`: contextual English/Chinese terminology.
+- `content/glossary.json`: 64 contextual English/Chinese terms, each linked to its relevant guide chapter.
 - `content/library.json`: compiled reader/search content.
 - `content/parallel.json`: source-ordered bilingual groups and alignment checks.
 - `content/image-dimensions.json`: local image dimensions for stable loading placeholders.

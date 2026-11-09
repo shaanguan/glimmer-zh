@@ -142,5 +142,245 @@
     "zh": "使用引导",
     "meaning": "帮助用户了解和启用应用的眼镜功能、学习操作并完成必要授权的过程。可在遇到相关功能时即时进行，也可预先进行，同样涵盖回访用户。",
     "page": "interaction-onboarding"
+  },
+  {
+    "en": "Jetpack Compose Glimmer",
+    "zh": "Jetpack Compose Glimmer 界面框架",
+    "meaning": "面向带屏眼镜和光学透视显示优化的界面框架，提供专门的样式、组件和输入设计，并允许定制字体、颜色与焦点高亮。",
+    "page": "foundations-made-for-glasses"
+  },
+  {
+    "en": "Critical user journeys · CUJs",
+    "zh": "关键用户旅程",
+    "meaning": "用户为完成核心目标所经历的一系列关键步骤。本指南建议从现有应用中选择适合眼镜的旅程，以极简界面或纯声音完成，同时保持对周围环境的关注。",
+    "page": "foundations-get-started"
+  },
+  {
+    "en": "Multi-modal interactions",
+    "zh": "多模态交互",
+    "meaning": "结合语音、手势等多种交互方式完成任务。眼镜设计需要让这些方式协同，并考虑间接控制和部分输入方式精度有限的约束。",
+    "page": "foundations-design-principles"
+  },
+  {
+    "en": "Field of view",
+    "zh": "显示视野",
+    "meaning": "这里指眼镜显示内容在用户视野中所占的可见范围。它较小，界面需控制信息密度，并结合真实背景和对焦距离的变化保持文字清晰。",
+    "page": "foundations-design-principles"
+  },
+  {
+    "en": "System UI · SysUI",
+    "zh": "系统界面",
+    "meaning": "由系统提供、与应用界面和硬件共同构成体验的界面，包括主界面、系统栏、通知和设备状态指示。设计应用时，需要考虑与这些系统界面的配合。",
+    "page": "surfaces-sysui"
+  },
+  {
+    "en": "System bar",
+    "zh": "系统栏",
+    "meaning": "系统用于呈现 Gemini 视觉反馈、通知、提醒和时钟等信息的区域。应用只能通过通知胶囊使用该区域；除主界面外，不使用时会隐藏。",
+    "page": "surfaces-sysui"
+  },
+  {
+    "en": "Heads-up notifications · HUNs",
+    "zh": "悬浮通知",
+    "meaning": "可短暂浮现在当前界面上的通知。它可以跨主界面、应用界面等位置出现，用及时且简短的信息提醒用户关注事件。",
+    "page": "surfaces-sysui"
+  },
+  {
+    "en": "Handoff",
+    "zh": "跨设备接续",
+    "meaning": "让同一体验在手机与眼镜之间衔接。原文的手机接续可由用户明确操作触发，也可随现有流程自然发生，例如启动导航后在眼镜上显示逐向指引。",
+    "page": "surfaces-app"
+  },
+  {
+    "en": "Consent First",
+    "zh": "先征得同意",
+    "meaning": "开启录制或传感器前，应先取得用户同意并有明确触发；需要摄像头时由智能体询问。只收集完成任务必需的数据，处理后及时丢弃。",
+    "page": "surfaces-ai-in-your-app"
+  },
+  {
+    "en": "Touchpad",
+    "zh": "触控板",
+    "meaning": "眼镜上的触摸输入控件，可接收轻点、滑动和长按等手势。具体操作随设备形态和输入映射而变，例如带屏眼镜用单指滑动导航界面，无屏眼镜可切换媒体内容。",
+    "page": "interaction-inputs"
+  },
+  {
+    "en": "Input mapping",
+    "zh": "输入映射",
+    "meaning": "把硬件输入或手势对应到具体操作的规则，例如把触控板轻点对应为播放、暂停或确认。部分映射由系统处理，应用只能定制其可控制的部分。",
+    "page": "interaction-inputs"
+  },
+  {
+    "en": "Back stack",
+    "zh": "返回栈",
+    "meaning": "记录应用界面层级的返回顺序，用户通过系统返回逐步退回；到达应用最外层后，再返回进入主界面。指南建议减少层级，让退出和回到主界面更直接。",
+    "page": "interaction-navigation"
+  },
+  {
+    "en": "Companion app",
+    "zh": "配套应用",
+    "meaning": "管理眼镜配对、基础使用教学、设置、支持与偏好的配套手机应用。你的应用应聚焦自己的功能，避免重复配套应用已承担的基础教学。",
+    "page": "interaction-onboarding"
+  },
+  {
+    "en": "Permission priming",
+    "zh": "授权前说明",
+    "meaning": "在正式请求权限前，先向用户说明所需权限、用途和对功能的影响。眼镜端可先说明，再引导用户到手机完成授权。",
+    "page": "interaction-onboarding"
+  },
+  {
+    "en": "Open-ear experience",
+    "zh": "开放式聆听",
+    "meaning": "耳道不被封闭、仍能听见交通与交谈等环境声的聆听方式。提示音和语音应融入环境，保持可辨识，同时避免掩盖现实中的声音。",
+    "page": "sound-overview"
+  },
+  {
+    "en": "Generic earcons",
+    "zh": "通用提示音",
+    "meaning": "在不同应用间共用、表达常见操作或状态的标准提示音，如打开应用、加载和错误提示。应用采用这些声音资源，可帮助用户建立一致的声音语义。",
+    "page": "sound-earcons"
+  },
+  {
+    "en": "Bespoke earcons",
+    "zh": "自定义提示音",
+    "meaning": "为特定应用设计、由应用自行提供的独有提示音，例如品牌启动音或地图中的方向提示音。设计应简单易辨，并避免模仿系统声音造成混淆。",
+    "page": "sound-earcons"
+  },
+  {
+    "en": "Information readout",
+    "zh": "按需状态播报",
+    "meaning": "按需提供的当前状态播报，适用于应用暂停或较少输出声音时。用户可轻点眼镜获知状态，不必回想最近进展，也不易误以为应用已停止。",
+    "page": "sound-voice-alerts"
+  },
+  {
+    "en": "Mixing",
+    "zh": "混音叠加",
+    "meaning": "将提示音与正在播放的音频同时叠加播放，其他音频不因提示音而自动降低音量。用于确认用户操作的提示音常采用这种方式，因此需要清晰起音、紧凑时长和鲜明音色。",
+    "page": "sound-audio-input"
+  },
+  {
+    "en": "Text-to-speech",
+    "zh": "文字转语音",
+    "meaning": "把文字转换为可听语音的方式。本指南用它生成语音提示：通用提示可采用默认系统语音；只有在体验确有需要时，再使用定制或品牌声音。",
+    "page": "sound-voice-alerts"
+  },
+  {
+    "en": "Additive display",
+    "zh": "加色式显示",
+    "meaning": "将显示光叠加到现实视野中来呈现内容的显示方式。指南据此强调：黑色呈现为透明，深色可能暗淡或透明，配色需要结合现实背景判断。",
+    "page": "styles-color"
+  },
+  {
+    "en": "Contrast",
+    "zh": "对比度",
+    "meaning": "前景内容与背景之间的明暗差异，影响文字和控件能否清楚辨认。眼镜界面需要检查不同现实背景、光照条件和交互状态下的对比度。",
+    "page": "styles-color"
+  },
+  {
+    "en": "Color role",
+    "zh": "颜色角色",
+    "meaning": "配色体系中按用途分配的颜色，用来统一定义应用主题。Glimmer 的颜色角色包括强调色、界面底板色，以及各自对应的前景色。",
+    "page": "styles-color"
+  },
+  {
+    "en": "On Surface",
+    "zh": "底板上的内容颜色",
+    "meaning": "界面底板之上的文字、图标等内容所用的前景色。指南使用白色，以增加内容与现实背景之间的对比。",
+    "page": "components-overview"
+  },
+  {
+    "en": "Screen blend mode",
+    "zh": "滤色混合模式",
+    "meaning": "设计稿中用于预览透明显示叠加效果的混合模式。指南要求用它检查界面底板的显示效果；Normal（正常）混合模式无法呈现对应的真实观感。",
+    "page": "styles-surfaces"
+  },
+  {
+    "en": "Depth",
+    "zh": "深度",
+    "meaning": "由纵深方向（Z 轴）上的位置与阴影共同形成的纵深感，通过不同程度的视觉强调建立界面层次。列表和堆栈也利用深度变化表达焦点。",
+    "page": "styles-surfaces"
+  },
+  {
+    "en": "Typescale",
+    "zh": "字体层级",
+    "meaning": "按用途与信息层级组织的一组文字样式。Glimmer 的默认体系包含两种文字角色，每种角色各有三种样式，帮助正文与标题保持一致的层次。",
+    "page": "styles-type"
+  },
+  {
+    "en": "Angular degrees",
+    "zh": "视角",
+    "meaning": "以角度表示界面在用户视野中占据的大小。眼镜上的文字也用视角衡量；换算成像素时，还需要结合设备的每度像素数（PPD）。",
+    "page": "styles-type"
+  },
+  {
+    "en": "Variable font axes",
+    "zh": "可变字体轴",
+    "meaning": "可变字体中用于调整字形特征的参数。指南以 Google Sans Flex 为例，说明可以调节光学字号、圆润程度、字重和字宽，让眼镜上的阅读更舒适。",
+    "page": "styles-type"
+  },
+  {
+    "en": "Optical size",
+    "zh": "光学字号",
+    "meaning": "针对不同字号优化字形的字体参数。指南将它列为可变字体轴之一，用来调整相应字号下的字形，让阅读更舒适。",
+    "page": "styles-type"
+  },
+  {
+    "en": "Kerning",
+    "zh": "字偶间距",
+    "meaning": "针对特定字形组合调整字符之间的间距，让排印的疏密更均匀、字形更易辨认。Glimmer 将它与字号、字重一同优化，用于正文和标题样式。",
+    "page": "components-overview"
+  },
+  {
+    "en": "Button group",
+    "zh": "按钮组",
+    "meaning": "统一组织多个可操作按钮的容器，包含按钮之间的导航、动效与焦点行为。可以组合不同类型的按钮，但高度应一致；每个布局只使用一组。",
+    "page": "components-button-group"
+  },
+  {
+    "en": "Toggle button",
+    "zh": "切换按钮",
+    "meaning": "用于只有两种状态的操作，例如收藏或开始／停止。状态切换时可更换图标，使当前状态和操作反馈更容易被一眼辨认。",
+    "page": "components-buttons"
+  },
+  {
+    "en": "Card",
+    "zh": "卡片",
+    "meaning": "把相关信息与操作组织成一个单元的容器。内部最多包含一个操作，需要多个操作时搭配按钮组；焦点落在实际操作元素，或作为独立可导航项的卡片本身。",
+    "page": "components-cards"
+  },
+  {
+    "en": "Scrim",
+    "zh": "遮罩",
+    "meaning": "列表边缘使用的黑色遮罩，用来提示内容超出当前可见范围，帮助用户判断还有更多项目可以滚动查看。",
+    "page": "components-lists"
+  },
+  {
+    "en": "Determinate / indeterminate progress",
+    "zh": "确定进度 / 不确定进度",
+    "meaning": "确定进度用于耗时已知的过程，例如计时器；不确定进度用于耗时未知的过程，例如加载。耗时未知时使用确定进度，会向用户传递虚假的进展。",
+    "page": "components-progress"
+  },
+  {
+    "en": "Voice input indicator",
+    "zh": "语音输入指示器",
+    "meaning": "把用户的音频输入转化为可见反馈，显示应用是否正在使用麦克风的状态指示器。它不负责控制麦克风，可采用带底板或不带底板的形式。",
+    "page": "components-voice-indicator"
+  },
+  {
+    "en": "Non-interactive state",
+    "zh": "不可交互状态",
+    "meaning": "图标标记只用于标注现实物体或兴趣点、不提供操作入口时的状态。指南将它与按钮的禁用状态区分；有更多信息可供查看时，可使用可交互状态。",
+    "page": "components-icon-marker"
+  },
+  {
+    "en": "Visual affordance",
+    "zh": "操作暗示",
+    "meaning": "让用户从外观上看出元素可以被操作的视觉线索。图标标记的可交互状态带有按钮式的操作暗示，提示轻点后可以查看更多信息。",
+    "page": "components-icon-marker"
+  },
+  {
+    "en": "Selected state",
+    "zh": "选中状态",
+    "meaning": "表示切换按钮对应的选项是否被选中，取值为布尔值。可通过图标、圆角和底板颜色表达；选中所表示的选项状态，与当前接收操作的焦点不同。",
+    "page": "components-buttons"
   }
 ]

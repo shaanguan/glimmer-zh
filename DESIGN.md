@@ -1,6 +1,6 @@
 ---
 name: Android AI 眼镜设计指南
-version: 1.7
+version: 1.8
 updated: 2026-11-09
 reference: design/reference/lottiefiles.DESIGN.md
 reference_author: Sitepeel (sitepeel.dev)
@@ -102,7 +102,7 @@ reference_license: CC-BY-4.0
 
 ## 9. 内容与验证约束
 
-保持 34 篇指南、24 个术语、所有原始资源、站内路由及来源链接完整。新增或修改页面遵循同一套 tokens，不把展示性标签写进官方译文。
+保持 34 篇指南、64 个术语、所有原始资源、站内路由及来源链接完整。术语须在指南中有对应语境，中文译法与正文一致，并链接相关章节；保留已有词条顺序与锚点。新增或修改页面遵循同一套 tokens，不把展示性标签写进官方译文。
 
 主题修改后检查 TypeScript、生产构建、桌面和移动端的标题换行、文档溢出、搜索、深浅主题和中英对照。已存在的官方内容校验不因仅修改主题而重复抓取原站。
 
