@@ -303,15 +303,13 @@ small { font-size: 12px; }
 .article-pagination strong { display: block; font-size: 16px; font-weight: 500; color: var(--text); line-height: 1.5; }
 .article-pagination .next-page { text-align: right; }
 .article-pagination .next-page span { justify-content: flex-end; }
-.page-toc { position: sticky; top: calc(var(--header-height) + 48px); align-self: start; max-height: calc(100vh - 172px); overflow: auto; padding: 4px 0 24px; scrollbar-width: thin; font-family: var(--font-ui); }
-.toc-heading { display: block; font-size: 12px; color: var(--text); margin-bottom: 16px; }
+.page-toc { position: sticky; top: calc(var(--header-height) + 48px); align-self: start; max-height: calc(100vh - 172px); overflow: auto; padding: 4px 0 24px; scrollbar-width: thin; font-family: var(--font-ui); text-align: left; }
+.toc-heading { display: block; font-size: 12px; color: var(--text); margin-bottom: 16px; padding-left: 17px; }
 .page-toc nav { display: flex; flex-direction: column; border-left: 1px solid var(--line); }
-.page-toc nav a { font-size: 12px; line-height: 1.6; padding: 6px 0 6px 16px; color: var(--muted); position: relative; }
-.page-toc nav a.nested { padding-left: 24px; font-size: 11px; }
+.page-toc nav a { font-size: 12px; line-height: 1.6; padding: 6px 0 6px 16px; color: var(--muted); position: relative; text-align: left; }
+.page-toc nav a.nested { font-size: 11px; }
 .page-toc nav a:hover, .page-toc nav a.active { color: var(--accent-text); }
 .page-toc nav a.active::before { content: ""; position: absolute; width: 2px; background: var(--accent); left: -1px; top: 4px; bottom: 4px; }
-.is-comparing.reader-layout { display: block; max-width: 1440px; }
-.is-comparing .page-toc { display: none; }
 
 /* Glossary and editorial pages */
 .utility-page { max-width: 1152px; padding: 56px 48px 0; margin: auto; }
@@ -401,7 +399,6 @@ small { font-size: 12px; }
   .hero-actions .text-link { font-size: 13px; }
   .reader-layout { grid-template-columns: minmax(0, 1fr); max-width: 920px; padding: 40px; padding-bottom: 0; }
   .page-toc { display: none; }
-  .is-comparing.reader-layout { max-width: 1440px; padding-left: 32px; padding-right: 32px; }
   .chapter-section, .reading-path { padding-left: 0; padding-right: 0; }
   .glossary-invitation, .home-page > .site-footer { margin-left: 0; margin-right: 0; }
   .glossary-invitation { padding: 32px; gap: 24px; }
@@ -489,7 +486,7 @@ small { font-size: 12px; }
   .glossary-invitation { flex-wrap: wrap; padding: 28px; }
   .glossary-invitation > div:nth-child(2) { flex: 1; min-width: 0; }
   .glossary-invitation .button-secondary { margin-left: 84px; }
-  .reader-layout, .is-comparing.reader-layout { padding-left: 32px; padding-right: 32px; }
+  .reader-layout { padding-left: 32px; padding-right: 32px; }
   .term-grid { gap: 16px; }
   .term-card { padding: 24px; }
   .term-title h2 { font-size: 22px; }
@@ -558,7 +555,7 @@ small { font-size: 12px; }
   .site-footer > div { width: 100%; font-size: 11px; }
   .site-footer p { margin: 0; }
   .site-footer > a { margin-left: auto; }
-  .reader-layout, .is-comparing.reader-layout { padding: 28px 20px 0; }
+  .reader-layout { padding: 28px 20px 0; }
   .breadcrumb { font-size: 11px; margin-bottom: 24px; }
   .article-header h1 { font-size: 36px; line-height: 1.35; }
   .article-meta { font-size: 10px; gap: 12px; margin: 20px 0 28px; }
@@ -992,7 +989,6 @@ small { font-size: 12px; }
 }
 
 /* One language control has three reading modes on every screen size. */
-.reader-layout.is-english .reader-main { max-width: 800px; margin-inline: auto; }
 .parallel-article.is-parallel .parallel-text:not([data-caption]) { font-size: var(--pair-font-size, var(--reading-size)); line-height: var(--pair-line-height, 1.9); }
 .parallel-article.is-parallel .article-en > .parallel-text:not([data-caption]) { line-height: var(--pair-line-height, 1.8); }
 .parallel-article.is-parallel .parallel-text:not([data-caption]) h2 { font-size: clamp(22px, 1.5em, 30px); line-height: 1.45; }
