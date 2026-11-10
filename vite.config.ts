@@ -15,27 +15,33 @@ const { d1, r2 } = hostingConfig;
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 const managedLinux = readExecutionProfile() === "managed-linux";
 
-const localBindingConfig = {
-  main: "./worker/index.ts",
-  compatibility_flags: ["nodejs_compat"],
-  d1_databases: d1
-    ? [
-        {
-          binding: d1,
-          database_name: "site-creator-d1",
-          database_id: SITE_CREATOR_PLACEHOLDER_DATABASE_ID,
-        },
-      ]
-    : [],
-  r2_buckets: r2
-    ? [
-        {
-          binding: r2,
-          bucket_name: "site-creator-r2",
-        },
-      ]
-    : [],
-};
+// Local `vite dev` only. The placeholder D1 id is not a real database, so it must
+// not be copied into the production Worker config that `wrangler deploy` publishes.
+function localDevBindings() {
+  return {
+    ...(d1
+      ? {
+          d1_databases: [
+            {
+              binding: d1,
+              database_name: "site-creator-d1",
+              database_id: SITE_CREATOR_PLACEHOLDER_DATABASE_ID,
+            },
+          ],
+        }
+      : {}),
+    ...(r2
+      ? {
+          r2_buckets: [
+            {
+              binding: r2,
+              bucket_name: "site-creator-r2",
+            },
+          ],
+        }
+      : {}),
+  };
+}
 
 export default defineConfig(async ({ command }) => {
   configureToolEnvironment(process.cwd());
@@ -60,7 +66,7 @@ export default defineConfig(async ({ command }) => {
         viteEnvironment: { name: "rsc", childEnvironments: ["ssr"] },
         inspectorPort: false,
         config: {
-          ...localBindingConfig,
+          ...(command === "serve" ? localDevBindings() : {}),
           ...(command === "serve"
             ? {
                 services: [
