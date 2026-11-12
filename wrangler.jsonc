@@ -1,0 +1,34 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "glimmer-zh",
+  "account_id": "eb7fce27122df51033ed972d96ef5cbf",
+  "main": "./worker/index.ts",
+  // Keep the date this app already runs on (@cloudflare/workers-types 4.20260515.1
+  // and the Cloudflare Vite plugin default). Advancing it changes the Workers runtime.
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": ["nodejs_compat"],
+  // Publish only the custom domain. workers.dev and Preview URLs stay off, so a
+  // deploy does not attach any other hostname. Cloudflare creates the DNS record
+  // for glimmer.zhoub.xyz alone; apex, static, cf, and podcast are not in this config.
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "glimmer.zhoub.xyz",
+      "custom_domain": true
+    }
+  ],
+  // Workers Logs and Traces are included on the Free plan and stop at the free quota.
+  // Logpush is not enabled.
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 0.01
+    }
+  }
+}
