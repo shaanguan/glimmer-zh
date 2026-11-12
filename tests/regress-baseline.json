@@ -1,0 +1,3004 @@
+{
+  "version": 1,
+  "source": "https://glimmer.zhoub.xyz",
+  "generatedAt": "2026-11-12T12:20:51.178Z",
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/064688a2-glasses_landing_figma.png",
+        "/assets/original/d933c706-card-cover-wide_onboard-ae.png",
+        "/assets/overview/audio-glasses-outpaint-16x9.webp",
+        "/assets/overview/comprehension-outpaint-3x2.webp",
+        "/assets/overview/development-expanded-4x3.svg",
+        "/assets/overview/display-glasses-outpaint-16x9.webp",
+        "/assets/overview/hands-free-outpaint-3x2.webp",
+        "/assets/overview/hero-bridge.webp",
+        "/assets/overview/interactions-expanded-3x2.svg",
+        "/assets/overview/principles-expanded-3x2.svg",
+        "/assets/overview/styles-expanded-3x2.svg",
+        "/assets/overview/surfaces-expanded-3x2.svg",
+        "/assets/overview/visual-assistance-outpaint-3x2.webp",
+        "/assets/overview/world-sensing-outpaint-3x2.webp",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/foundations-design-principles",
+        "/guide/interaction-inputs",
+        "/guide/styles-overview",
+        "/guide/surfaces-overview",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/glossary",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/sound-audio-input",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/foundations-design-principles",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/147a8141-glasses_principle_optimize_focus.png",
+        "/assets/original/61046a59-glasses_principle_hands-free.png",
+        "/assets/original/7118334b-glasses_principle_optimize_depth.png",
+        "/assets/original/82e0230a-glasses_foundations_principle_glance.gif",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/foundations-made-for-glasses",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/2a883ef8-glasses_foundation_mfg_hardware.png",
+        "/assets/original/d08d5686-glasses_foundation_mfg_transparent.png",
+        "/assets/original/f775a7a2-glasses_foundation_mfg_purposebuilt.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/foundations-get-started",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/0a28fe4e-glasses_foundation_getstarted_step6.png",
+        "/assets/original/6945cf94-glasses_foundation_getstarted_step1_dont.png",
+        "/assets/original/82a04989-glasses_foundation_getstarted_step3.png",
+        "/assets/original/82c0f9a3-glasses_foundation_getstarted_step5.png",
+        "/assets/original/8c53c675-glasses_foundation_getstarted_step4.png",
+        "/assets/original/a307d8c1-glasses_foundation_getstarted_step1_do.png",
+        "/assets/original/a54b47b8-glasses_foundation_getstarted_step.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/surfaces-overview",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/1929ff9d-glasses_surfaces_overview_home.webp",
+        "/assets/original/4e8338ce-glasses_surfaces_overview_nonhome.png",
+        "/assets/original/783f43d8-glasses_surfaces_overview_customize.png",
+        "/assets/original/9940af45-glasses_surfaces_overview_anytime.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/surfaces-sysui",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/1397f658-glasses_surface_sysui_led.png",
+        "/assets/original/1f920a87-glasses_sysui_home.png",
+        "/assets/original/3971e738-glasses_surface_sysUI_notifications_expanded.png",
+        "/assets/original/5ff593b7-glasses_surface_sysUI_notifications.png",
+        "/assets/original/e8577088-glasses_sysui_systembar.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/surfaces-app",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/130c76d7-glasses_surfaces_app_entrypoint_explicit.png",
+        "/assets/original/1c35ffcc-glasses_surfaces_apps_displayon.png",
+        "/assets/original/279dc794-glasses_surfaces_app_anatomy.png",
+        "/assets/original/68e9dad4-glasses_surfaces_app_entrypoint_phone.png",
+        "/assets/original/7d371506-glasses_surfaces_app_customize_hike.png",
+        "/assets/original/8bd3241e-glasses_surfaces_app_displayless_input.png",
+        "/assets/original/da1b04b5-glasses_surfaces_app_entrypoint_implicit.png",
+        "/assets/original/f2f18a07-glasses_surfaces_app_displayless.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/surfaces-ai-in-your-app",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/interaction-inputs",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/0657ee1b-glasses_input_error_dont.webp",
+        "/assets/original/0f11d3d1-glasses_ixd_inputs_hardware.png",
+        "/assets/original/66421196-glasses_input_complex_do.webp",
+        "/assets/original/6724a6e9-glasses_input_error_do.webp",
+        "/assets/original/a008bec2-glasses_ixd_inputs_focus.png",
+        "/assets/original/c948022a-glasses_input_complex_dont.webp",
+        "/assets/original/e4a900cd-glasses_input_recognition_do.webp",
+        "/assets/original/ee018073-glasses_input_recognition_dont.webp",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/interaction-permissions",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/5424912e-glasses_ixd_permissions.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/interaction-navigation",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/1cfe3d9a-glasses_ixd_audio_exit.png",
+        "/assets/original/9a3dea86-glasses_ixd_nav_back.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/interaction-ai-patterns",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/10120c47-glasses_ixd_ai_example_environmentalaware.png",
+        "/assets/original/8e328074-glasses_ixd_ai_example_multimodal.png",
+        "/assets/original/fcc90050-glasses_ixd_ai_example_camera.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/interaction-onboarding",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/150c33ee-onboarding_flow_mobile-first.webp",
+        "/assets/original/1cd1b35c-onboarding_upfront_caution.webp",
+        "/assets/original/27e87e80-onboarding_on-glasses_do.png",
+        "/assets/original/3a327111-onboarding_discovery.png",
+        "/assets/original/3cf265ac-onboarding_edu_context.png",
+        "/assets/original/605d047a-onboarding_flow_glasses-to-mobile-first.png",
+        "/assets/original/7f961657-onboarding_in-app.png",
+        "/assets/original/84781011-onboarding_on-glasses_dont.png",
+        "/assets/original/9dce2d7e-onboarding_flow_glasses-edu.png",
+        "/assets/original/ceeca55a-glasses_onboarding_AE.png",
+        "/assets/original/dc761357-onboarding_edu_guess.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/sound-overview",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/013bfd82-glasses_earcon_notification.webp",
+        "/assets/original/1416e64b-hero_sound_overview.png",
+        "/assets/original/51fa14d9-glasses_earcon_volume.webp",
+        "/assets/original/5d020e4b-glasses_sound_focus.webp",
+        "/assets/original/ebe800dd-glasses_sound_use_communicate.webp",
+        "/assets/original/f2c18476-glasses_sound_exit.webp",
+        "/assets/original/fd68b531-glasses_sound_mute.webp",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/sound-earcons",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/013bfd82-glasses_earcon_notification.webp",
+        "/assets/original/04938d52-mute.ogg",
+        "/assets/original/1c221b41-app_loading.ogg",
+        "/assets/original/4d0a50c8-app_open.ogg",
+        "/assets/original/6670bfe7-glasses_earcon_touch.webp",
+        "/assets/original/b30daee9-unmute.ogg",
+        "/assets/original/deba2eb2-announcement_alert.ogg",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/sound-voice-alerts",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/0e1bb1b0-glasses_sound_principle_device_do.webp",
+        "/assets/original/155b5fd9-glasses_sound_block_dont.webp",
+        "/assets/original/177894f6-glasses_sound_principle_technical_do.webp",
+        "/assets/original/30b26635-glasses_sound_principle_direct_do.webp",
+        "/assets/original/476381ae-glasses_sound_use_educate.webp",
+        "/assets/original/4dd95786-glasses_sound_principle_info_dont.webp",
+        "/assets/original/59050acb-glasses_sound_principle_technical_dont.webp",
+        "/assets/original/5fcb6d88-glasses_sound_principle_infrequent.webp",
+        "/assets/original/66a46f5a-glasses_sound_principle_frequent.webp",
+        "/assets/original/6d98ddb3-glasses_sound_use_bespoke_translate.webp",
+        "/assets/original/76ff28ff-glasses_sound_principle_device_dont.webp",
+        "/assets/original/907eeb00-glasses_sound_use_resume.webp",
+        "/assets/original/9bb5c7ab-glasses_sound_use_start.webp",
+        "/assets/original/a1106e67-glasses_sound_principle_direct_dont.webp",
+        "/assets/original/ba3afcb4-glasses_sound_use_bespoke_meditation.webp",
+        "/assets/original/c3aaf25f-glasses_sound_principle_error.webp",
+        "/assets/original/ce771db4-glasses_sound_use_connect.webp",
+        "/assets/original/f0a7e40e-glasses_sound_principle_info_do.webp",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/sound-audio-input",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/169b6d1a-glasses_ixd_audio_override.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/sound-bespoke-earcon",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/429b75e3-hero_sound_bespoke.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/styles-overview",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/02e144eb-glasses_style_shape_dont.png",
+        "/assets/original/13ce7fdd-glasses_style_type.png",
+        "/assets/original/620ebe5b-glasses_style_color.png",
+        "/assets/original/63e1b1f2-glasses_style_visualdesign.png",
+        "/assets/original/73ded8db-glasses_style_shapes.webp",
+        "/assets/original/ba438304-glasses_style_shape_do.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/styles-color",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/024c78c0-glasses_styles_color_screen_dont.png",
+        "/assets/original/0fa6b156-glasses_styles_color_colorscheme.png",
+        "/assets/original/22534bb2-glasses_styles_color_states_dont.png",
+        "/assets/original/29f964e6-glasses_styles_color_surfacecontrast_dont.png",
+        "/assets/original/2a8ca009-glasses_styles_color_outline_focus.png",
+        "/assets/original/3bb2044c-glasses_styles_color_power.png",
+        "/assets/original/549026a0-glasses_styles_color_outline_dont.png",
+        "/assets/original/56e54f83-glasses_styles_color_screen_do.png",
+        "/assets/original/6140ec43-glasses_styles_color_font_dont.png",
+        "/assets/original/64cd718c-glasses_styles_color_outline_warning.png",
+        "/assets/original/783e7bf8-glasses_styles_color_surfacecontrast_do.png",
+        "/assets/original/786c9c31-glasses_styles_color_states_do.png",
+        "/assets/original/824bd3ec-glasses_styles_color_surfacevariant_do.png",
+        "/assets/original/8ca4c881-glasses_styles_color_surface_do.png",
+        "/assets/original/99612e2c-glasses_styles_color_surfacevariant_dont.png",
+        "/assets/original/a7adaace-glasses_styles_color_saturated_dont.png",
+        "/assets/original/b7fa2aa6-glasses_styles_color_font_do.png",
+        "/assets/original/bfa08f27-glasses_styles_color_outline_do.png",
+        "/assets/original/ccf52911-glasses_styles_color_surface_dont.png",
+        "/assets/original/db10db0e-glasses_styles_color_saturated_do.png",
+        "/assets/original/f72b3b6f-glasses_styles_color_container.png",
+        "/assets/original/ff572b19-glasses_styles_color_customize.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/styles-type",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/012a042c-glasses_style_type_rounded_dont.png",
+        "/assets/original/793c2b0f-glasses_styles_type_size.png",
+        "/assets/original/7d371506-glasses_surfaces_app_customize_hike.png",
+        "/assets/original/85970ced-glasses_style_type_rounded_do.png",
+        "/assets/original/99d84bce-glasses_styles_type_scale.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/styles-surfaces",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/024c78c0-glasses_styles_color_screen_dont.png",
+        "/assets/original/25cd7b12-glasses_styles_surface_depth.png",
+        "/assets/original/56e54f83-glasses_styles_color_screen_do.png",
+        "/assets/original/80d9e415-glasses_styles_surfaces.png",
+        "/assets/original/88785ee5-glasses_styles_surface_colors.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/styles-icons",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/33544b1a-glasses_style_icon_unfilled.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/components-overview",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/6aa66621-glasses_components_overview.png",
+        "/assets/original/7edfe2c1-glasses_foundation_getstarted_step2_optimized.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/components-buttons",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/0b70113f-glasses_components_buttons_action_do.png",
+        "/assets/original/19466b12-glasses_components_buttons_use_do.png",
+        "/assets/original/20c9e8c5-glasses_components_buttons_anatomy_toggle.png",
+        "/assets/original/27f3409d-glasses_components_buttons_use_dont.png",
+        "/assets/original/605fc190-glasses_components_buttons_icon_dont.png",
+        "/assets/original/7a9883ae-glasses_components_buttons_anatomy_default.png",
+        "/assets/original/acff875e-glasses_components_buttons_anatomy.png",
+        "/assets/original/afb94eb1-glasses_components_buttons.png",
+        "/assets/original/d0c60c6e-glasses_components_buttons_toggle_dont.png",
+        "/assets/original/d43c2ec3-glasses_components_buttons_action_dont.png",
+        "/assets/original/d4f4cdf4-glasses_components_buttons_large.png",
+        "/assets/original/def81615-glasses_components_buttons_anatomy_icon.png",
+        "/assets/original/ebed84fd-glasses_components_buttons_toggle_do.png",
+        "/assets/original/f8986ea3-glasses_components_buttons_icon_do.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/components-button-group",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/241a53d7-glasses_components_button-group_height_dont.png",
+        "/assets/original/479e85c0-glasses_components_button-group_focus_do.png",
+        "/assets/original/54c9c2db-glasses_components_button-group_anatomy-contained.png",
+        "/assets/original/566dc775-glasses_components_button-group_layout_do.png",
+        "/assets/original/8290798a-glasses_components_button-group_layouts.png",
+        "/assets/original/928e2df4-glasses_components_button-group_focus_dont.png",
+        "/assets/original/9f8a4bb2-glasses_components_button-group_anatomy.png",
+        "/assets/original/ab01b7af-glasses_components_button-group_height_do.png",
+        "/assets/original/adb37104-glasses_components_button-group_display.png",
+        "/assets/original/c2a5103c-glasses_components_button-group_layout_dont.png",
+        "/assets/original/c6cc66ea-glasses_components_button-group_amount_do.png",
+        "/assets/original/c88bbb88-glasses_components_button-group_anatomy-overflow.png",
+        "/assets/original/d86119d3-glasses_components_button-group.png",
+        "/assets/original/f00ec229-glasses_components_button-group_amount_dont.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/components-title-chip",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/261fe26a-glasses_components_titlechips.png",
+        "/assets/original/479e5590-glasses_components_titlechip_anatomy.png",
+        "/assets/original/c8f3c0b4-glasses_components_titlechips_equivalent.png",
+        "/assets/original/caa3e68e-glasses_components_titlechip_sticky.mp4",
+        "/assets/original/e26b4bc3-glasses_components_titlechips_use_static.png",
+        "/assets/original/e6d1f22f-glasses_components_titlechip_scroll.mp4",
+        "/assets/original/fe59e6c9-glasses_components_titlechips_use_action.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/components-cards",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/200fcadb-glasses_components_cards_content_dont.png",
+        "/assets/original/4f5fe9af-glasses_components_cards_buttons_dont.png",
+        "/assets/original/6e0a6ea8-glasses_components_cards_buttons_do.png",
+        "/assets/original/7e187152-glasses_components_cards.png",
+        "/assets/original/975f65bc-glasses_components_card_focus.png",
+        "/assets/original/99221981-glasses_components_card_buttons.png",
+        "/assets/original/a0e817dd-glasses_components_card_variants.png",
+        "/assets/original/a3ca4e72-glasses_components_cards_content_do.png",
+        "/assets/original/d7de8e2a-glasses_components_card_overview.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/components-icon-marker",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/3ca02ab7-glasses_components_ic_marker_overload_do.webp",
+        "/assets/original/3e61aacc-glasses_components_ic_marker_decor_dont.webp",
+        "/assets/original/411a8a2d-glasses_components_ic_marker_anatomy.webp",
+        "/assets/original/413ae0e0-glasses_components_ic_marker_overload_dont.webp",
+        "/assets/original/414906bc-glasses_components_ic_marker.webp",
+        "/assets/original/4731bea8-glasses_components_ic_marker_padding.webp",
+        "/assets/original/5a2cdb65-glasses_components_ic_marker_align.webp",
+        "/assets/original/8f947a02-spatial_anchor_marker_distance.webp",
+        "/assets/original/c881f8ee-glasses_components_ic_marker_decor_do.webp",
+        "/assets/original/c9059be7-anchor_iconmarker.mp4",
+        "/assets/original/f47e91b1-glasses_components_ic_marker_states.webp",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/components-lists",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/18ee1f07-glasses_components_lists_focus_dont.png",
+        "/assets/original/3c224d56-glasses_components_lists_item.png",
+        "/assets/original/44de5d7b-glasses_components_lists_title.png",
+        "/assets/original/626cb758-glasses_components_lists.png",
+        "/assets/original/6669c8ef-glasses_components_lists_selectable.png",
+        "/assets/original/8c695592-glasses_components_lists_scrim.png",
+        "/assets/original/9f582c93-glasses_components_lists_depth.png",
+        "/assets/original/ad4e08d8-glasses_components_lists_anatomy.png",
+        "/assets/original/ba8851b2-glasses_components_lists_dont.png",
+        "/assets/original/d8900a40-glasses_components_lists_focus_do.png",
+        "/assets/original/f77be65c-glasses_components_lists_actionable.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/components-pager",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/0355429a-glasses_components_pagers_placement.webp",
+        "/assets/original/3917952e-glasses_components_pagers.webp",
+        "/assets/original/453e4443-glasses_components_pagers.mp4",
+        "/assets/original/569cb869-glasses_components_pagers_anatomy.webp",
+        "/assets/original/959ebe41-glasses_components_pagers_wrong.mp4",
+        "/assets/original/c004624e-glasses_components_pagers_more.webp",
+        "/assets/original/c734819d-glasses_components_pagers_overlap_do.webp",
+        "/assets/original/de4c28e9-glasses_components_pagers_swipe.mp4",
+        "/assets/original/e5495d06-glasses_components_pagers_overlap_dont.webp",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/components-progress",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/01773b80-glasses_components_progress_dont.png",
+        "/assets/original/7866bfe4-glasses_components_progress_style.png",
+        "/assets/original/87fe151f-glasses_components_progress_do.png",
+        "/assets/original/a7348965-glasses_components_progress_use_dont.png",
+        "/assets/original/b6ac6b04-glasses_components_progress_use_do.png",
+        "/assets/original/f45c2570-glasses_components_progress.png",
+        "/assets/original/ffe5ebdb-glasses_components_progress_anatomy.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/components-stack",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/0d4126c1-glasses_components_stack_use_depth.png",
+        "/assets/original/13ef66f1-glasses_components_stack_opacity_dont.png",
+        "/assets/original/29d45cd9-glasses_components_stack_anatomy.png",
+        "/assets/original/b1ade120-glasses_components_stacks.png",
+        "/assets/original/c7ba19cc-glasses_components_stack_use_traversal.png",
+        "/assets/original/f42e0371-glasses_components_stack_opacity_do.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/guide/components-voice-indicator",
+      "status": 200,
+      "redirected": false,
+      "links": [
+        "/",
+        "/assets/original/0b1e2321-glasses_components_voice_anatomy.png",
+        "/assets/original/0f31d4fd-glasses_components_voice_container_do.png",
+        "/assets/original/13f0f260-glasses_components_voiceindicator.png",
+        "/assets/original/4aae89bd-glasses_components_voice-indicator_align-top.png",
+        "/assets/original/93f600a1-glasses_components_voice-indicator_align-center.png",
+        "/assets/original/a5434199-glasses_components_voice_color_warning.png",
+        "/assets/original/b4b6d003-glasses_components_voice_container_dont.png",
+        "/assets/original/b74e65c1-glasses_components_voice_color_do.png",
+        "/favicon.svg",
+        "/glossary",
+        "/guide/components-button-group",
+        "/guide/components-buttons",
+        "/guide/components-cards",
+        "/guide/components-icon-marker",
+        "/guide/components-lists",
+        "/guide/components-overview",
+        "/guide/components-pager",
+        "/guide/components-progress",
+        "/guide/components-stack",
+        "/guide/components-title-chip",
+        "/guide/components-voice-indicator",
+        "/guide/foundations-design-principles",
+        "/guide/foundations-get-started",
+        "/guide/foundations-made-for-glasses",
+        "/guide/interaction-ai-patterns",
+        "/guide/interaction-inputs",
+        "/guide/interaction-navigation",
+        "/guide/interaction-onboarding",
+        "/guide/interaction-permissions",
+        "/guide/sound-audio-input",
+        "/guide/sound-bespoke-earcon",
+        "/guide/sound-earcons",
+        "/guide/sound-overview",
+        "/guide/sound-voice-alerts",
+        "/guide/styles-color",
+        "/guide/styles-icons",
+        "/guide/styles-overview",
+        "/guide/styles-surfaces",
+        "/guide/styles-type",
+        "/guide/surfaces-ai-in-your-app",
+        "/guide/surfaces-app",
+        "/guide/surfaces-overview",
+        "/guide/surfaces-sysui",
+        "/og.png",
+        "/saved"
+      ]
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "redirected": false,
+      "links": []
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "redirected": false,
+      "links": []
+    },
+    {
+      "path": "/og.png",
+      "status": 200,
+      "redirected": false,
+      "links": []
+    }
+  ],
+  "resources": [
+    {
+      "path": "/assets/original/012a042c-glasses_style_type_rounded_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/013bfd82-glasses_earcon_notification.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/01773b80-glasses_components_progress_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/024c78c0-glasses_styles_color_screen_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/02e144eb-glasses_style_shape_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/0355429a-glasses_components_pagers_placement.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/04938d52-mute.ogg",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/064688a2-glasses_landing_figma.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/0657ee1b-glasses_input_error_dont.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/0a28fe4e-glasses_foundation_getstarted_step6.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/0b1e2321-glasses_components_voice_anatomy.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/0b70113f-glasses_components_buttons_action_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/0d4126c1-glasses_components_stack_use_depth.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/0e1bb1b0-glasses_sound_principle_device_do.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/0f11d3d1-glasses_ixd_inputs_hardware.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/0f31d4fd-glasses_components_voice_container_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/0fa6b156-glasses_styles_color_colorscheme.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/10120c47-glasses_ixd_ai_example_environmentalaware.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/130c76d7-glasses_surfaces_app_entrypoint_explicit.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/1397f658-glasses_surface_sysui_led.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/13ce7fdd-glasses_style_type.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/13ef66f1-glasses_components_stack_opacity_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/13f0f260-glasses_components_voiceindicator.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/1416e64b-hero_sound_overview.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/147a8141-glasses_principle_optimize_focus.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/150c33ee-onboarding_flow_mobile-first.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/155b5fd9-glasses_sound_block_dont.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/169b6d1a-glasses_ixd_audio_override.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/177894f6-glasses_sound_principle_technical_do.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/18ee1f07-glasses_components_lists_focus_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/1929ff9d-glasses_surfaces_overview_home.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/19466b12-glasses_components_buttons_use_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/1c221b41-app_loading.ogg",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/1c35ffcc-glasses_surfaces_apps_displayon.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/1cd1b35c-onboarding_upfront_caution.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/1cfe3d9a-glasses_ixd_audio_exit.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/1f920a87-glasses_sysui_home.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/200fcadb-glasses_components_cards_content_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/20c9e8c5-glasses_components_buttons_anatomy_toggle.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/22534bb2-glasses_styles_color_states_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/241a53d7-glasses_components_button-group_height_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/25cd7b12-glasses_styles_surface_depth.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/261fe26a-glasses_components_titlechips.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/279dc794-glasses_surfaces_app_anatomy.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/27e87e80-onboarding_on-glasses_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/27f3409d-glasses_components_buttons_use_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/29d45cd9-glasses_components_stack_anatomy.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/29f964e6-glasses_styles_color_surfacecontrast_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/2a883ef8-glasses_foundation_mfg_hardware.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/2a8ca009-glasses_styles_color_outline_focus.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/30b26635-glasses_sound_principle_direct_do.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/33544b1a-glasses_style_icon_unfilled.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/3917952e-glasses_components_pagers.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/3971e738-glasses_surface_sysUI_notifications_expanded.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/3a327111-onboarding_discovery.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/3bb2044c-glasses_styles_color_power.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/3c224d56-glasses_components_lists_item.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/3ca02ab7-glasses_components_ic_marker_overload_do.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/3cf265ac-onboarding_edu_context.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/3e61aacc-glasses_components_ic_marker_decor_dont.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/411a8a2d-glasses_components_ic_marker_anatomy.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/413ae0e0-glasses_components_ic_marker_overload_dont.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/414906bc-glasses_components_ic_marker.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/429b75e3-hero_sound_bespoke.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/44de5d7b-glasses_components_lists_title.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/453e4443-glasses_components_pagers.mp4",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/4731bea8-glasses_components_ic_marker_padding.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/476381ae-glasses_sound_use_educate.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/479e5590-glasses_components_titlechip_anatomy.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/479e85c0-glasses_components_button-group_focus_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/4aae89bd-glasses_components_voice-indicator_align-top.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/4d0a50c8-app_open.ogg",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/4dd95786-glasses_sound_principle_info_dont.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/4e8338ce-glasses_surfaces_overview_nonhome.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/4f5fe9af-glasses_components_cards_buttons_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/51fa14d9-glasses_earcon_volume.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/5424912e-glasses_ixd_permissions.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/549026a0-glasses_styles_color_outline_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/54c9c2db-glasses_components_button-group_anatomy-contained.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/566dc775-glasses_components_button-group_layout_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/569cb869-glasses_components_pagers_anatomy.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/56e54f83-glasses_styles_color_screen_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/59050acb-glasses_sound_principle_technical_dont.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/5a2cdb65-glasses_components_ic_marker_align.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/5d020e4b-glasses_sound_focus.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/5fcb6d88-glasses_sound_principle_infrequent.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/5ff593b7-glasses_surface_sysUI_notifications.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/605d047a-onboarding_flow_glasses-to-mobile-first.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/605fc190-glasses_components_buttons_icon_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/61046a59-glasses_principle_hands-free.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/6140ec43-glasses_styles_color_font_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/620ebe5b-glasses_style_color.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/626cb758-glasses_components_lists.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/63e1b1f2-glasses_style_visualdesign.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/64cd718c-glasses_styles_color_outline_warning.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/66421196-glasses_input_complex_do.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/6669c8ef-glasses_components_lists_selectable.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/6670bfe7-glasses_earcon_touch.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/66a46f5a-glasses_sound_principle_frequent.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/6724a6e9-glasses_input_error_do.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/68e9dad4-glasses_surfaces_app_entrypoint_phone.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/6945cf94-glasses_foundation_getstarted_step1_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/6aa66621-glasses_components_overview.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/6d98ddb3-glasses_sound_use_bespoke_translate.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/6e0a6ea8-glasses_components_cards_buttons_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/7118334b-glasses_principle_optimize_depth.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/73ded8db-glasses_style_shapes.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/76ff28ff-glasses_sound_principle_device_dont.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/783e7bf8-glasses_styles_color_surfacecontrast_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/783f43d8-glasses_surfaces_overview_customize.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/7866bfe4-glasses_components_progress_style.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/786c9c31-glasses_styles_color_states_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/793c2b0f-glasses_styles_type_size.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/7a9883ae-glasses_components_buttons_anatomy_default.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/7d371506-glasses_surfaces_app_customize_hike.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/7e187152-glasses_components_cards.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/7edfe2c1-glasses_foundation_getstarted_step2_optimized.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/7f961657-onboarding_in-app.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/80d9e415-glasses_styles_surfaces.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/824bd3ec-glasses_styles_color_surfacevariant_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/8290798a-glasses_components_button-group_layouts.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/82a04989-glasses_foundation_getstarted_step3.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/82c0f9a3-glasses_foundation_getstarted_step5.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/82e0230a-glasses_foundations_principle_glance.gif",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/84781011-onboarding_on-glasses_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/85970ced-glasses_style_type_rounded_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/87fe151f-glasses_components_progress_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/88785ee5-glasses_styles_surface_colors.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/8bd3241e-glasses_surfaces_app_displayless_input.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/8c53c675-glasses_foundation_getstarted_step4.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/8c695592-glasses_components_lists_scrim.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/8ca4c881-glasses_styles_color_surface_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/8e328074-glasses_ixd_ai_example_multimodal.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/8f947a02-spatial_anchor_marker_distance.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/907eeb00-glasses_sound_use_resume.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/928e2df4-glasses_components_button-group_focus_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/93f600a1-glasses_components_voice-indicator_align-center.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/959ebe41-glasses_components_pagers_wrong.mp4",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/975f65bc-glasses_components_card_focus.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/99221981-glasses_components_card_buttons.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/9940af45-glasses_surfaces_overview_anytime.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/99612e2c-glasses_styles_color_surfacevariant_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/99d84bce-glasses_styles_type_scale.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/9a3dea86-glasses_ixd_nav_back.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/9bb5c7ab-glasses_sound_use_start.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/9dce2d7e-onboarding_flow_glasses-edu.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/9f582c93-glasses_components_lists_depth.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/9f8a4bb2-glasses_components_button-group_anatomy.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/a008bec2-glasses_ixd_inputs_focus.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/a0e817dd-glasses_components_card_variants.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/a1106e67-glasses_sound_principle_direct_dont.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/a307d8c1-glasses_foundation_getstarted_step1_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/a3ca4e72-glasses_components_cards_content_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/a5434199-glasses_components_voice_color_warning.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/a54b47b8-glasses_foundation_getstarted_step.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/a7348965-glasses_components_progress_use_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/a7adaace-glasses_styles_color_saturated_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/ab01b7af-glasses_components_button-group_height_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/acff875e-glasses_components_buttons_anatomy.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/ad4e08d8-glasses_components_lists_anatomy.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/adb37104-glasses_components_button-group_display.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/afb94eb1-glasses_components_buttons.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/b1ade120-glasses_components_stacks.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/b30daee9-unmute.ogg",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/b4b6d003-glasses_components_voice_container_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/b6ac6b04-glasses_components_progress_use_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/b74e65c1-glasses_components_voice_color_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/b7fa2aa6-glasses_styles_color_font_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/ba3afcb4-glasses_sound_use_bespoke_meditation.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/ba438304-glasses_style_shape_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/ba8851b2-glasses_components_lists_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/bfa08f27-glasses_styles_color_outline_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/c004624e-glasses_components_pagers_more.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/c2a5103c-glasses_components_button-group_layout_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/c3aaf25f-glasses_sound_principle_error.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/c6cc66ea-glasses_components_button-group_amount_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/c734819d-glasses_components_pagers_overlap_do.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/c7ba19cc-glasses_components_stack_use_traversal.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/c881f8ee-glasses_components_ic_marker_decor_do.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/c88bbb88-glasses_components_button-group_anatomy-overflow.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/c8f3c0b4-glasses_components_titlechips_equivalent.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/c9059be7-anchor_iconmarker.mp4",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/c948022a-glasses_input_complex_dont.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/caa3e68e-glasses_components_titlechip_sticky.mp4",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/ccf52911-glasses_styles_color_surface_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/ce771db4-glasses_sound_use_connect.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/ceeca55a-glasses_onboarding_AE.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/d08d5686-glasses_foundation_mfg_transparent.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/d0c60c6e-glasses_components_buttons_toggle_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/d43c2ec3-glasses_components_buttons_action_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/d4f4cdf4-glasses_components_buttons_large.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/d7de8e2a-glasses_components_card_overview.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/d86119d3-glasses_components_button-group.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/d8900a40-glasses_components_lists_focus_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/d933c706-card-cover-wide_onboard-ae.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/da1b04b5-glasses_surfaces_app_entrypoint_implicit.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/db10db0e-glasses_styles_color_saturated_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/dc761357-onboarding_edu_guess.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/de4c28e9-glasses_components_pagers_swipe.mp4",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/deba2eb2-announcement_alert.ogg",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/def81615-glasses_components_buttons_anatomy_icon.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/e26b4bc3-glasses_components_titlechips_use_static.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/e4a900cd-glasses_input_recognition_do.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/e5495d06-glasses_components_pagers_overlap_dont.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/e6d1f22f-glasses_components_titlechip_scroll.mp4",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/e8577088-glasses_sysui_systembar.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/ebe800dd-glasses_sound_use_communicate.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/ebed84fd-glasses_components_buttons_toggle_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/ee018073-glasses_input_recognition_dont.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/f00ec229-glasses_components_button-group_amount_dont.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/f0a7e40e-glasses_sound_principle_info_do.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/f2c18476-glasses_sound_exit.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/f2f18a07-glasses_surfaces_app_displayless.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/f42e0371-glasses_components_stack_opacity_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/f45c2570-glasses_components_progress.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/f47e91b1-glasses_components_ic_marker_states.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/f72b3b6f-glasses_styles_color_container.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/f775a7a2-glasses_foundation_mfg_purposebuilt.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/f77be65c-glasses_components_lists_actionable.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/f8986ea3-glasses_components_buttons_icon_do.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/fcc90050-glasses_ixd_ai_example_camera.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/fd68b531-glasses_sound_mute.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/fe59e6c9-glasses_components_titlechips_use_action.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/ff572b19-glasses_styles_color_customize.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/original/ffe5ebdb-glasses_components_progress_anatomy.png",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/overview/audio-glasses-outpaint-16x9.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/overview/comprehension-outpaint-3x2.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/overview/development-expanded-4x3.svg",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/overview/display-glasses-outpaint-16x9.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/overview/hands-free-outpaint-3x2.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/overview/hero-bridge.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/overview/interactions-expanded-3x2.svg",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/overview/principles-expanded-3x2.svg",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/overview/styles-expanded-3x2.svg",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/overview/surfaces-expanded-3x2.svg",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/overview/visual-assistance-outpaint-3x2.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/assets/overview/world-sensing-outpaint-3x2.webp",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "redirected": false
+    },
+    {
+      "path": "/saved",
+      "status": 200,
+      "redirected": false
+    }
+  ]
+}
