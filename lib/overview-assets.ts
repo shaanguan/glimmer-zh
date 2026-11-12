@@ -8,7 +8,7 @@ type OverviewAsset = {
 /** Original artwork with canvas extensions; source snapshots and text stay intact. */
 export const OVERVIEW_ASSETS: Readonly<Record<string, OverviewAsset>> = {
   "/assets/original/fa92ea53-hero-full-v2.png": {
-    src: "/assets/original/fa92ea53-hero-full-v2.png",
+    src: "/assets/overview/hero-bridge.webp",
     alt: {zh: "虚化的金门大桥暮色背景上，显示 Leyla 的消息卡和 Reply 回复按钮。", en: "A message from Leyla and a Reply button over a blurred Golden Gate Bridge at dusk."},
     hero: true,
   },
